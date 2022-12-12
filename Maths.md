@@ -1,1 +1,2 @@
-[Calculus](Calculus.html)
+[Differential Equation](Differential.md)
+[Calculus](Calculus.md)

@@ -1,2 +1,4 @@
-[Derivative](file://D:/Notes/Derivative.md)
-[Integrale](file://D:/Notes/Integrale.md)
+[Derivative](Derivative.md)
+[Integrale](Integral.md)
+<a href="Multivariable Function.md">Multivariable Function</a>
+

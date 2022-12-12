@@ -28,7 +28,10 @@ $=f'(g(x)).g'(x)$
 
 Example:
 
-$f(x)= sin(x)$
-$g(x)=x^3$
-$f(g(x)) = sin(x^3)$
-$f'(g(x)) = 3cos(x^3)x^2$
+$f(x)= sin(x)$ \
+$g(x)=x^3$ \
+$f(g(x)) = sin(x^3)$ \
+$f'(g(x)) = 3cos(x^3)x^2$ 
+
+## Links
+- [Identities](https://tutorial.math.lamar.edu/getfile.aspx?file=B,44,N)
