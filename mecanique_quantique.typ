@@ -37,6 +37,14 @@ Ce cours propose une introduction aux concepts de base de la mécanique quantiqu
 
 = Histoire
 
+== Quanta 
+Un quanta est la plus petite unité d'énergie pouvant être absorbée ou émise. C'est la particule fondamentale de la lumière, et c'est aussi l'énergie transportée par d'autres particules, telles que les électrons et les protons.
+
+L'histoire de la découverte des quanta est longue et sinueuse. Le premier soupçon d'existence d'un quanta est apparu au début des années 1900, lorsque les physiciens étudiaient le comportement de la lumière. Ils ont découvert que la lumière pouvait être émise en unités discrètes et que ces unités étaient proportionnelles à la fréquence de la lumière. Cette découverte a conduit au développement de la théorie quantique, qui est la branche de la physique qui traite du comportement de la matière et de l'énergie au niveau atomique et subatomique.
+
+La théorie quantique a révolutionné notre compréhension de l'univers et a conduit au développement de nombreuses nouvelles technologies, telles que les lasers et l'énergie nucléaire. Il s'agit toujours d'un domaine de recherche actif, et les scientifiques apprennent constamment de nouvelles choses sur le fonctionnement des quanta.
+
+Le terme "quanta" a été utilisé pour la première fois en 1905 par Max Planck, un physicien allemand. Planck essayait d'expliquer le spectre de rayonnement du corps noir, c'est-à-dire la distribution de l'énergie émise par un corps noir à différentes longueurs d'onde. Il a découvert qu'il ne pouvait expliquer le spectre que s'il supposait que la lumière était émise en unités discrètes, qu'il a appelées quanta.
 == Dualité onde-corpuscule
 La dualité onde-particule est le concept de la mécanique quantique selon lequel toute particule ou entité quantique peut être décrite soit comme une onde, soit comme une particule. Elle exprime l'incapacité des concepts classiques de "particule" ou d'"onde" à décrire pleinement le comportement des objets à l'échelle quantique. Comme l'a écrit Albert Einstein : "Il semble que nous devions utiliser tantôt l'une, tantôt l'autre théorie, et tantôt l'une ou l'autre. Nous sommes confrontés à un nouveau type de difficulté. Nous avons deux images contradictoires de la réalité ; séparément, aucune d'entre elles n'explique totalement les phénomènes lumineux, mais ensemble, elles le font.
 
@@ -250,6 +258,32 @@ En substituant ceci à la formule de la probabilité, nous obtenons :
 
 Ceci montre que la probabilité de trouver le système dans l'état propre $|E_i angle.r$ est égale à la somme des carrés des coefficients des états propres.
 
+=== Matrice densité et Espérance mathématique
+
+Une matrice densité est une matrice qui décrit l'état quantique d'un système physique. Elle permet de calculer les probabilités des résultats de toute mesure effectuée sur ce système, en utilisant la règle de Born. Il s'agit d'une généralisation des vecteurs d'état ou des fonctions d'onde plus habituels : alors que ceux-ci ne peuvent représenter que des états purs, les matrices de densité peuvent également représenter des états mixtes.
+
+L'espérance mathématique d'un opérateur $accent(A, hat)$ dans un système quantique décrit par une matrice densité $rho$ est donnée par la formule suivante :
+
+#align(center,$angle.l accent(A, hat) angle.r = "Tr"(rho accent(A, hat))$)
+
+où $"Tr"$ est la fonction trace. La fonction trace d'une matrice est la somme de ses éléments diagonaux.
+
+La fonction trace possède les propriétés suivantes :
+
+- C'est une fonction linéaire.
+- Elle est invariante sous les transformations unitaires.
+- Elle est définie positive.
+
+La fonction trace peut être utilisée pour calculer la valeur d'espérance de tout opérateur dans un système quantique.
+
+La matrice densité peut être utilisée pour calculer les probabilités des résultats de toute mesure effectuée sur un système quantique. La règle de Born stipule que la probabilité d'obtenir un résultat $a$ lors de la mesure d'une observable $accent(A, hat)$ est donnée par la formule suivante :
+
+#align(center,$P(a) = frac(angle.l a | rho | a angle.r,sum_i angle.l i | rho | i angle.r)$)
+
+où $|a angle.r$ est l'état propre de $accent(A, hat)$ correspondant au résultat $a$.
+
+La matrice densité est un outil très important en mécanique quantique. Elle peut être utilisée pour calculer les valeurs d'espérance des opérateurs, les probabilités des résultats des mesures et la fonction d'onde d'un système quantique.
+
 == Opérateurs Hermitien <BG>
 
 === L'adjoint Hermitien <BGA>
@@ -382,7 +416,6 @@ La densité de probabilité est définie comme $|psi|^2$, et c'est une mesure de
 
 La constante de Planck donne les unités de l'opérateur hamiltonien. L'opérateur hamiltonien est le générateur de translations temporelles, et l'énergie est la quantité conservée sous l'effet des translations temporelles.
 
-
 === Exemple d'un puits de potentiel fini 
 
 L'équation de Schrödinger pour une particule dans un puits de potentiel fini est la suivante :
@@ -446,3 +479,63 @@ où $H_n$ est le $n$ème polynôme d'Hermite. Les niveaux d'énergie de l'oscill
 #align(center,$E_n = planck.reduce omega (n + frac(1,2))$)
 
 Les polynômes d'Hermite représentent les états possibles de l'oscillateur. L'oscillateur ne peut exister que dans ces états, et il ne peut avoir d'autre énergie que les niveaux d'énergie donnés par l'équation de Schrödinger.
+
+== Moment quantique
+L'opérateur de quantité de mouvement est noté $accent(P,hat)$, et la fonction d'onde d'une particule est notée $psi$. L'opérateur de quantité de mouvement agit sur la fonction d'onde comme suit :
+
+#align(center,$accent(P,hat) psi (x) = -i planck.reduce frac(d psi (x),d x)$)
+
+où $planck.reduce$ est la constante de Planck réduite.
+
+L'opérateur de quantité de mouvement peut être utilisé pour calculer la quantité de mouvement d'une particule. La quantité de mouvement d'une particule est donnée par la formule suivante :
+
+#align(center,$p = angle.l psi | accent(P,hat) psi angle.r$)
+
+où $angle.l psi | accent(P,hat) psi angle.r$ est la valeur d'espérance de l'opérateur de quantité de mouvement.
+
+= Effet Tunnel
+L'effet tunnel quantique est un phénomène dans lequel un objet tel qu'un électron ou un atome traverse une barrière d'énergie potentielle que, selon la mécanique classique, l'objet n'a pas suffisamment d'énergie pour franchir.
+
+L'effet tunnel est une conséquence de la nature ondulatoire de la matière, où la fonction d'onde quantique décrit l'état d'une particule ou d'un autre système physique, et où les équations d'onde telles que l'équation de Schrödinger décrivent leur comportement.
+
+L'équation de Schrödinger peut être résolue pour trouver la fonction d'onde d'une particule dans une barrière d'énergie potentielle. La fonction d'onde pourra avoir une valeur non nulle de l'autre côté de la barrière, même si la particule n'a pas assez d'énergie pour atteindre ce côté selon la mécanique classique.
+
+La probabilité d'un effet tunnel est proportionnelle au carré de la fonction d'onde. Cela signifie que les particules ayant une fonction d'onde plus grande auront plus de chances de traverser une barrière que les particules ayant une fonction d'onde plus petite.
+
+= Spin
+
+Le spin est une forme intrinsèque de moment angulaire porté par les particules élémentaires. Il s'agit d'une propriété quantifiée exprimée par un nombre quantique de spin, noté "s". Par exemple, les électrons ont un spin 1/2, ce qui signifie qu'ils ont deux états de spin possibles. Le spin d'une particule détermine un grand nombre de ses propriétés, comme son moment magnétique et son comportement statistique. Le spin est une propriété fondamentale des particules, comme la masse et la charge, et il ne peut pas être expliqué par d'autres propriétés.
+
+Une conséquence importante du spin des particules est le couplage spin-orbite, qui résulte de l'interaction entre le spin d'une particule et son mouvement dans un champ magnétique. Le couplage spin-orbite peut provoquer la division des niveaux d'énergie dans les atomes, ce qui affecte les propriétés des électrons et peut conduire à des phénomènes tels que la structure fine des lignes spectrales.
+
+Le spin d'une particule la fait agir comme un petit aimant. Cela signifie que les particules peuvent interagir par l'intermédiaire de la force magnétique et que l'interaction du moment magnétique de spin entraîne également l'alignement des particules dans les champs magnétiques. Les propriétés magnétiques d'une particule sont déterminées par son spin, qui détermine l'intensité et la direction de son moment magnétique. Le moment magnétique μ d'une particule est proportionnel à son moment angulaire de spin :
+
+#align(center,$μ = g * (e / 2m) * S$)
+
+où g est le facteur g, e est la charge élémentaire et m est la masse de la particule.
+
+La direction du spin d'une particule peut être décrite par son vecteur spin, qui est une quantité vectorielle pointant dans la direction du moment angulaire de spin de la particule. L'ampleur du moment angulaire de spin peut être calculée à l'aide de la formule suivante :
+
+#align(center,$|S| = sqrt(s(s + 1)) * ħ$)
+
+où ħ (h-bar) est la constante de Planck réduite.
+
+Le moment angulaire du spin a des composantes quantifiées le long d'un axe donné (généralement l'axe z). La composante le long de l'axe z, notée Sz, peut prendre des valeurs discrètes données par :
+
+#align(center,$S z = m_s * ħ$)
+
+où $m_s$ est le nombre quantique magnétique, qui varie de -s à s par pas entiers. Par exemple, un électron, qui est un fermion de spin 1/2, peut avoir deux valeurs possibles pour $S z$ : $+ħ/2$ et $-ħ/2$, correspondant respectivement à $m_s = +1/2$ et $m_s = -1/2$.
+
+La rotation du vecteur spin sous l'effet des rotations de la particule est décrite par l'opérateur de moment angulaire de spin, noté S. L'algèbre de spin régit les relations de commutation entre les composantes du vecteur spin :
+
+#align(center,$[S x, S y] = i ħ S z, [S y, S z] = i ħ S x, [S z, S x] = i ħ S y$)
+
+Les valeurs propres de $S z$ sont $m_s = s, s-1, ...,-s$, ce qui signifie que la projection du spin est quantifiée le long de l'axe z. Cette quantification a des implications pour le comportement des particules dans les champs magnétiques, ainsi que pour la distribution des particules dans les systèmes. Cette quantification a des implications sur le comportement des particules dans les champs magnétiques, ainsi que sur la distribution des particules dans les systèmes.
+
+La force du couplage spin-orbite est proportionnelle au numéro atomique du noyau et au spin électronique, et joue un rôle important dans des phénomènes tels que la division de la structure fine dans les spectres atomiques et l'effet Hall de spin dans les systèmes à l'état solide.
+
+La direction du moment angulaire du spin est déterminée par la direction du moment magnétique. Le moment magnétique d'une particule est une quantité vectorielle qui pointe dans la direction du moment angulaire de spin. L'orientation du moment magnétique est affectée par les champs magnétiques externes et peut entraîner la précession du moment angulaire du spin autour de la direction du champ magnétique, un phénomène connu sous le nom de précession de Larmor.
+
+Le comportement du spin sous l'effet des rotations est régi par les transformations de Lorentz, qui relient les coordonnées d'un événement mesurées par des observateurs situés dans des cadres de référence inertiels différents. Sous l'effet d'une transformation de Lorentz, les composantes du spin le long de différentes directions se mélangent, ce qui conduit au phénomène de couplage spin-orbite.
+
+Le principe d'exclusion de Pauli stipule que deux fermions ne peuvent pas occuper simultanément le même état quantique, ce qui inclut l'état de spin.

@@ -25,7 +25,7 @@ Ce cours abordera aussi le modèle standard de la physique des particules. Le mo
 = Cours associés
 - #link("mecanique_quantique.pdf", "Mécanique Quantique")
 
-// Plan of the course:
+Plan of the course:
 
 Here is a possible course plan for a quantum field theory course that integrates things about field restraint relativity and how why made it to this model of the world:
 
@@ -93,14 +93,13 @@ $nabla dot.op bold(F) = frac(diff F_x,diff x) + frac(diff F_y,diff y) + frac(dif
 
 où $bold(F)$ est le champ de vecteurs et $(x, y, z)$ les coordonnées d'un point dans l'espace.
 
-== Curl
+== Rotationnel
 
-Le curl d'un champ de vecteurs est un champ de vecteurs qui donne le taux de variation du champ de vecteurs dans une direction particulière.
+Le rotationnel d'un champ de vecteurs est un champ de vecteurs qui donne le taux de variation du champ de vecteurs dans une direction particulière.
 
-Le curl est défini comme suit :
 #set math.mat(delim: "|");
 
-
+Le rotationnel est défini comme suit :
 $nabla times bold(F) = mat(
   accent(i, hat), accent(j, hat), accent(k, hat); 
   frac(diff F_x, diff y), frac(diff F_y, diff z), -frac(diff F_z, diff x);
@@ -108,5 +107,3 @@ $nabla times bold(F) = mat(
 )$
 
 où $bold(F)$ est le champ de vecteurs et $(x, y, z)$ les coordonnées d'un point dans l'espace.
-
-Ce ne sont là que quelques-uns des concepts nécessaires à la compréhension des champs. Les champs sont un concept très important en physique, car ils sont utilisés pour décrire une grande variété de phénomènes.
