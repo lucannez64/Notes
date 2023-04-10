@@ -40,4 +40,4 @@ $$\nabla f(1,2) = \begin{pmatrix} \frac{\partial f}{\partial x}(1,2) \ \frac{\pa
 Therefore, the gradient vector at the point $(1,2)$ is $\begin{pmatrix} 6 \ 4 \end{pmatrix}$.
 
 ## Link
-- <a href="Partial Derivative.md">Partial Derivative</a>
+- [Partial Derivative](Partial Derivative.md)

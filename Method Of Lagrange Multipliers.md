@@ -22,4 +22,4 @@ Solving this system of equations, we find that the maximum and minimum values of
 Lagrange multipliers are a useful tool in multivariable calculus, as they allow us to find the maximum and minimum values of a function subject to one or more constraints. They can be applied to a wide range of problems in mathematics and physics, including optimization problems and the study of equilibrium points in dynamical systems.
 
 ## Links
-- <a href="Extrema Multivariable function.md">Extrema Multivariable function</a>
+- [Extrema Multivariable function](Extrema Multivariable function.md)

@@ -10,13 +10,13 @@ In order to find the value of a multivariable function at a given point, we need
 
 Multivariable functions can be analyzed using the tools of multivariable calculus, such as partial derivatives, gradient vectors, and tangent planes. These allow us to study the behavior of the function near a given point, and to find maximum and minimum values of the function.
 
-<img src="Multivariable Function Countour plot.png">
-<img src="Multivariable Function 3D.png">
+![Countour Plot](Multivariable Function Countour plot.png)
+![3D Plot](Multivariable Function 3D.png)
 
 ## Links
-- <a href="Partial Derivative.md">Partial Derivative</a>
-- <a href="Gradient Vector.md">Gradient Vector</a>
-- <a href="Tangent plane.md">Tangent Plane</a>
-- <a href="Directional Derivative.md">Directional Derivative</a>
-- <a href="Extrema Multivariable function.md">Extrema Multivariable function</a>
-- <a href="Method Of Lagrange Multipliers.md">Method Of Lagrange Multipliers</a>
+- [Partial Derivative](Partial Derivative.md)
+- [Gradient Vector](Gradient Vector.md)
+- [Tangent Plane](Tangent plane.md)
+- [Directional Derivative](Directional Derivative.md)
+- [Extrema Multivariable function](Extrema Multivariable function.md)
+- [Method Of Lagrange Multipliers](Method Of Lagrange Multipliers.md)

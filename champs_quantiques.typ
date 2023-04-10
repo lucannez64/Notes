@@ -107,3 +107,20 @@ $nabla times bold(F) = mat(
 )$
 
 où $bold(F)$ est le champ de vecteurs et $(x, y, z)$ les coordonnées d'un point dans l'espace.
+
+== Lagrangien 
+
+Le lagrangien est une fonction qui décrit l'état d'un système physique. Il s'écrit généralement en fonction des positions et des vitesses des particules du système, ainsi que du temps. Le lagrangien est utilisé pour dériver les équations de mouvement du système, qui décrivent comment les positions et les vitesses des particules évoluent dans le temps.
+
+Le lagrangien de Klein-Gordon est un lagrangien pour un champ scalaire. Il est donné par l'expression suivante :
+
+$L = frac(1,2) diff_mu phi diff^mu phi - frac(1,2) m^2 phi^2$
+
+où $phi$ est le champ scalaire, $m$ sa masse et $diff_mu$ est la dérivée partielle par rapport à la coordonnée spatiale $x^mu$. Le lagrangien de Klein-Gordon est utilisé pour dériver l'équation de Klein-Gordon, qui est l'équation du mouvement d'un champ scalaire.
+
+Le lagrangien de Maxwell est un lagrangien pour un champ électromagnétique. Il est donné par l'expression suivante :
+
+$L = -frac(1,4) F_(mu nu) F^(mu nu)$
+
+où $F_(mu nu)$ est le tenseur du champ électromagnétique. Le lagrangien de Maxwell est utilisé pour dériver les équations de Maxwell, qui sont les équations du mouvement d'un champ électromagnétique.
+

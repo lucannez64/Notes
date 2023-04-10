@@ -41,4 +41,4 @@ $$z = 4x + 4y - 4$$
 So the equation of the tangent plane at the point $(2,2)$ on the surface $z = x^2 + y^2$ is $z = 4x + 4y - 4$.
 
 ## Link
-- <a href="Partial Derivative.md">Partial Derivative</a>
+- [Partial Derivative](Partial Derivative.md)

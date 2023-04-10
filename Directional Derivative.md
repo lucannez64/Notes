@@ -8,7 +8,7 @@ The directional derivative of a function $f(x,y)$ at a point $(x_0,y_0)$ in the 
 
 $$\frac{\partial f}{\partial \mathbf{u}}(x_0,y_0) = \nabla f(x_0,y_0) \cdot \mathbf{u} = \begin{pmatrix} \frac{\partial f}{\partial x}(x_0,y_0) \ \frac{\partial f}{\partial y}(x_0,y_0) \end{pmatrix} \cdot \begin{pmatrix} a \ b \end{pmatrix}$$
 
-Where $\nabla f(x_0,y_0)$ is the <a href="Gradient Vector.md">gradient vector</a> of the function at the point $(x_0,y_0)$, and $\frac{\partial f}{\partial x}(x_0,y_0)$ and $\frac{\partial f}{\partial y}(x_0,y_0)$ are the partial derivatives of the function with respect to $x$ and $y$ respectively.
+Where $\nabla f(x_0,y_0)$ is the [gradient vector](Gradient Vector.md) of the function at the point $(x_0,y_0)$, and $\frac{\partial f}{\partial x}(x_0,y_0)$ and $\frac{\partial f}{\partial y}(x_0,y_0)$ are the partial derivatives of the function with respect to $x$ and $y$ respectively.
 
 The directional derivative can be thought of as the projection of the gradient vector onto the direction specified by the unit vector $\mathbf{u}$. It tells us the rate of change of the function in the direction of $\mathbf{u}$ at the point $(x_0,y_0)$.
 
@@ -34,6 +34,6 @@ We can evaluate this expression to find the directional derivative. For example,
 $$\frac{\partial f}{\partial \mathbf{u}}(1,1) = \begin{pmatrix} 2 \cdot 1 \cdot \sin 2 \cdot 1 \ 2 \cdot 1^2 \cos 2 \cdot 1 \end{pmatrix} \cdot \begin{pmatrix} \cos \ \sin \end{pmatrix} = \begin{pmatrix} \sin 2 \ \cos 2 \end{pmatrix} \cdot \begin{pmatrix} \cos \ \sin \end{pmatrix} = \sin^2 2 + \cos^2 2 = 1$$
 
 ## Link
-- <a href="Gradient Vector.md">Gradient Vector</a>
-- <a href="Partial Derivative.md">Partial Derivative</a>
+- [Gradient Vector](Gradient Vector.md)
+- [Partial Derivative](Partial Derivative.md)
 

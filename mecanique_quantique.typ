@@ -501,7 +501,7 @@ L'effet tunnel est une conséquence de la nature ondulatoire de la matière, où
 L'équation de Schrödinger peut être résolue pour trouver la fonction d'onde d'une particule dans une barrière d'énergie potentielle. La fonction d'onde pourra avoir une valeur non nulle de l'autre côté de la barrière, même si la particule n'a pas assez d'énergie pour atteindre ce côté selon la mécanique classique.
 
 La probabilité d'un effet tunnel est proportionnelle au carré de la fonction d'onde. Cela signifie que les particules ayant une fonction d'onde plus grande auront plus de chances de traverser une barrière que les particules ayant une fonction d'onde plus petite.
-
+#link("tunnel.html", "Tunnel Effect Video")
 = Spin
 
 Le spin est une forme intrinsèque de moment angulaire porté par les particules élémentaires. Il s'agit d'une propriété quantifiée exprimée par un nombre quantique de spin, noté "s". Par exemple, les électrons ont un spin 1/2, ce qui signifie qu'ils ont deux états de spin possibles. Le spin d'une particule détermine un grand nombre de ses propriétés, comme son moment magnétique et son comportement statistique. Le spin est une propriété fondamentale des particules, comme la masse et la charge, et il ne peut pas être expliqué par d'autres propriétés.

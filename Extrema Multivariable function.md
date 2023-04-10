@@ -16,5 +16,5 @@ The critical points of the function are the points where the partial derivatives
 In general, finding the extrema of a multivariable function can be more complex than in the one-dimensional case, as the function may have multiple critical points and the extrema may not be unique. However, the tools of multivariable calculus can be used to analyze the behavior of the function near these critical points and to determine the maximum and minimum values.
 
 ## Links
-- <a href="Partial Derivative.md">Partial Derivative</a>
-- <a href="Critical Points.md">Critical Points</a>
+- [Partial Derivative](Partial Derivative.md)
+- [Critical Points](Critical Points.md)

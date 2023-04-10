@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Looping Video Example</title>
+  </head>
+  <body>
+    <video id="video" width="640" height="360" loop muted autoplay>
+      <source src="barrier.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </body>
+  <script>
+    var myVideo = document.getElementById("video");
+    myVideo.addEventListener('canplay', function() {
+      myVideo.play();
+    });
+  </script>
+</html>

@@ -18,4 +18,4 @@ Setting these partial derivatives equal to zero, we get the equations $2x = 0$ a
 In general, finding the critical points of a multivariable function can be more complex than in the one-dimensional case, as the function may have multiple partial derivatives and the critical points may not be unique. However, the tools of multivariable calculus can be used to analyze the behavior of the function near these critical points and to determine their importance.
 
 ## Links
-- <a href="Partial Derivative.md">Partial Derivative</a>
+- [Partial Derivative](Partial Derivative.md)

@@ -1,12 +1,13 @@
 // The project function defines how your document looks.
 // It takes your content and some metadata and formats it.
 // Go ahead and customize it to your liking!
+#import "physics.typ"
 #let project(title: "", authors: (), date: none, body) = {
   // Set the document's basic properties.
   set document(author: authors, title: title)
   set page(numbering: "1", number-align: center)
-  set text(font: "Linux Libertine", lang: "fr") 
-
+  set text(font: "Linux Libertine", lang: "fr")
+  show link: underline
   // Title row.
   align(center)[
     #block(text(weight: 700, 1.75em, title))
