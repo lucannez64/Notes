@@ -32,3 +32,9 @@
 
   body
 }
+
+
+#let blockquote(body) = [
+  #set text( size: 0.92em )
+  #block(inset: (left: 1.5em, top: 0.2em, bottom: 0.2em))[#body]
+]

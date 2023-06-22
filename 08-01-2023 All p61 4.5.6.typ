@@ -7,7 +7,7 @@
   authors: (
     "Lucas",
   ),
-  date: "10 Avril, 2023",
+  date: "22 Juin, 2023",
 )
 
 #set heading(numbering: "1.1.")
