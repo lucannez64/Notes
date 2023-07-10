@@ -6,11 +6,11 @@
   // Set the document's basic properties.
   set document(author: authors, title: title)
   set page(numbering: "1", number-align: center)
-  set text(font: "Linux Libertine", lang: "fr")
+  set text(font: "Zilla Slab", lang: "fr")
   show link: underline
   // Title row.
   align(center)[
-    #block(text(weight: 700, 1.75em, title))
+    #block(text(font: "Playfair Display",weight: 700, 1.75em, title))
     #v(1em, weak: true)
     #date
   ]
@@ -29,9 +29,15 @@
 
   // Main body.
   set par(justify: true)
+  show heading: it => [
+    #set text(font: "Playfair Display")
+    #block(it.body)
+  ]
 
+  show math.equation: set text(font: "STIX Two Math", 12pt)
   body
 }
+
 
 
 #let blockquote(body) = [
