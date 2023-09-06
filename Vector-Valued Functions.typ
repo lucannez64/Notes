@@ -7,15 +7,15 @@
   authors: (
     "Lucas",
   ),
-  date: "12 Juillet, 2023",
+  date: "6 Septembre, 2023",
 )
 
 #set heading(numbering: "1.1.")
 
 = Vector-Valued functions
-#label("vector-valued-functions")
+<vector-valued-functions>
 == Definition
-#label("definition")
+<definition>
 Tangent vectors and normal vectors are two types of vectors that are
 associated with vector-valued functions. A tangent vector is a vector
 that is tangent to the curve or surface defined by the vector-valued
@@ -38,7 +38,7 @@ then be used to study the properties of the function at that point, such
 as its curvature or its rate of change.
 
 === Formula
-#label("formula")
+<formula>
 The main formula for vector-valued functions is:
 
 f(t) \= x(t)i + y(t)j + z(t)k
@@ -63,7 +63,7 @@ depending on the specific problem being considered and the tools and
 techniques being used to study the function.
 
 == Tangent and Normal Vector
-#label("tangent-and-normal-vector")
+<tangent-and-normal-vector>
 Tangent vectors and normal vectors are two types of vectors that are
 associated with vector-valued functions. A tangent vector is a vector
 that is tangent to the curve or surface defined by the vector-valued
@@ -86,9 +86,9 @@ then be used to study the properties of the function at that point, such
 as its curvature or its rate of change.
 
 === Formula
-#label("formula-1")
+<formula-1>
 ===== Tangent Vector
-#label("tangent-vector")
+<tangent-vector>
 The main formula for calculating the tangent vector at a point on a
 curve defined by a vector-valued function is:
 
@@ -101,7 +101,7 @@ provides information about the local slope or rate of change of the
 function at the point in question.
 
 ==== Normal Vector
-#label("normal-vector")
+<normal-vector>
 The main formula for calculating the normal vector at a point on a
 surface defined by a vector-valued function is:
 
@@ -123,7 +123,7 @@ considered and the tools and techniques being used to study the
 function.
 
 ===== Gradient
-#label("gradient")
+<gradient>
 The main formula for calculating the gradient of a vector-valued
 function is:
 
@@ -150,7 +150,7 @@ depending on the specific problem being considered and the tools and
 techniques being used to study the function.
 
 === Arc Length and Curvature
-#label("arc-length-and-curvature")
+<arc-length-and-curvature>
 The arc length of a vector-valued function is a measure of the distance
 along the curve defined by the function. It is calculated by dividing
 the length of the curve by the number of intervals into which the curve

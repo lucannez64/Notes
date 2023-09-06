@@ -33,7 +33,7 @@
     #set text(font: "Playfair Display")
     #block(it.body)
   ]
-
+  show image: set image(width: 70%)
   show math.equation: set text(font: "STIX Two Math", 12pt)
   body
 }

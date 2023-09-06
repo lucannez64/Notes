@@ -7,26 +7,26 @@
   authors: (
     "Lucas",
   ),
-  date: "12 Juillet, 2023",
+  date: "6 Septembre, 2023",
 )
 
 #set heading(numbering: "1.1.")
 
 == Ex 4
-#label("ex-4")
+<ex-4>
 #block[
 #set enum(numbering: "a.", start: 1)
-+  ein Foto teilen
-+  eine SMS schicken
-+  sich ein Video anschauen
-+  eine App benutzen
-+  Seine Daten schützen
-+  das Privatleben respektieren
-+  ein Posting kommentieren
++ ein Foto teilen
++ eine SMS schicken
++ sich ein Video anschauen
++ eine App benutzen
++ Seine Daten schützen
++ das Privatleben respektieren
++ ein Posting kommentieren
 ]
 
 == Ex 5
-#label("ex-5")
+<ex-5>
 ich schicke ein Foto -\> ich poste ein Bild ich empfehle dir -\> ich rat
 dir ich kommentiere -\> ich habe etwas zu sagen ich bin ab und zu
 offline -\> manchmall schalte ich mein Handy aus ich habe seinen Namen
@@ -34,7 +34,7 @@ gegoogelt -\> ich habe im Internet über ihn recherchiert ich benutze ein
 Passwort -\> ich schütze meine Daten
 
 == Ex 6
-#label("ex-6")
+<ex-6>
 Mein Bruder benutzt immer sein Smartphone. Er muss immer eine Nachricht
 schicken, ein Foto teilen oder ein Posting kommentieren. Er liest nur
 E-Books und hat ein Profil in jedem sozialen Netzwerk. Aber er schützt

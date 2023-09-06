@@ -7,15 +7,15 @@
   authors: (
     "Lucas",
   ),
-  date: "12 Juillet, 2023",
+  date: "6 Septembre, 2023",
 )
 
 #set heading(numbering: "1.1.")
 
 = Partial Derivative
-#label("partial-derivative")
+<partial-derivative>
 == Definition
-#label("definition")
+<definition>
 In calculus, a partial derivative of a function of several variables is
 the derivative of the function with respect to one of the variables,
 with the others treated as constants. For example, if
@@ -45,7 +45,7 @@ function by directly computing the limits, or by using the rules of
 calculus to simplify the expressions.
 
 == Example
-#label("example")
+<example>
 To find the partial derivatives of the function
 $f lr((x comma y)) eq sin x cos y^2$, we need to use the rules of
 calculus to take the derivatives with respect to $x$ and $y$ while
@@ -60,5 +60,5 @@ The partial derivative of $f$ with respect to $y$ is given by:
 $ frac(diff f, diff y) eq frac(diff, diff y) lr((sin x cos y^2)) eq frac(diff, diff y) lr((sin x)) cos y^2 plus sin x frac(diff, diff y) lr((cos y^2)) eq minus 2 y sin x sin y^2 $
 
 == Links
-#label("links")
--  #link("Derivative.pdf")[Derivative]
+<links>
+- #link("Derivative.pdf")[Derivative]

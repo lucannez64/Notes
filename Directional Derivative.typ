@@ -7,15 +7,15 @@
   authors: (
     "Lucas",
   ),
-  date: "12 Juillet, 2023",
+  date: "6 Septembre, 2023",
 )
 
 #set heading(numbering: "1.1.")
 
 = Directional Derivative
-#label("directional-derivative")
+<directional-derivative>
 == Definition
-#label("definition")
+<definition>
 The directional derivative of a multivariable function at a given point
 is a measure of the rate of change of the function in a particular
 direction at that point. It is a generalization of the concept of the
@@ -41,7 +41,7 @@ $bold(u)$. It tells us the rate of change of the function in the
 direction of $bold(u)$ at the point $lr((x_0 comma y_0))$.
 
 == Example
-#label("example")
+<example>
 To find the directional derivative of the function
 $f lr((x comma y)) eq x^2 sin 2 y$ in the direction of the vector
 $bold(u) eq vec(cos med sin)$, we need to first find the gradient vector
@@ -69,6 +69,6 @@ directional derivative is:
 $ frac(diff f, diff bold(u)) lr((1 comma 1)) eq vec(2 dot.op 1 dot.op sin 2 dot.op 1 med 2 dot.op 1^2 cos 2 dot.op 1) dot.op vec(cos med sin) eq vec(sin 2 med cos 2) dot.op vec(cos med sin) eq sin^2 2 plus cos^2 2 eq 1 $
 
 == Link
-#label("link")
--  #link("Gradient Vector.pdf")[Gradient Vector]
--  #link("Partial Derivative.pdf")[Partial Derivative]
+<link>
+- #link("Gradient Vector.pdf")[Gradient Vector]
+- #link("Partial Derivative.pdf")[Partial Derivative]

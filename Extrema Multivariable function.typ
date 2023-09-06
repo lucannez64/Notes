@@ -7,15 +7,15 @@
   authors: (
     "Lucas",
   ),
-  date: "12 Juillet, 2023",
+  date: "6 Septembre, 2023",
 )
 
 #set heading(numbering: "1.1.")
 
 = Extrema Multivariable function
-#label("extrema-multivariable-function")
+<extrema-multivariable-function>
 == Definition
-#label("definition")
+<definition>
 The extrema of a multivariable function are the maximum and minimum
 values of the function over a given domain. In other words, they are the
 points at which the function takes on its highest and lowest values.
@@ -45,6 +45,6 @@ the function near these critical points and to determine the maximum and
 minimum values.
 
 == Links
-#label("links")
--  #link("Partial Derivative.pdf")[Partial Derivative]
--  #link("Critical Points.pdf")[Critical Points]
+<links>
+- #link("Partial Derivative.pdf")[Partial Derivative]
+- #link("Critical Points.pdf")[Critical Points]

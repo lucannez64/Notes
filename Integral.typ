@@ -7,21 +7,21 @@
   authors: (
     "Lucas",
   ),
-  date: "12 Juillet, 2023",
+  date: "6 Septembre, 2023",
 )
 
 #set heading(numbering: "1.1.")
 
 = The Integral (AntiDerivative)
-#label("the-integral-antiderivative")
+<the-integral-antiderivative>
 == Definition
-#label("definition")
+<definition>
 Theorem: \
 If F a antiderivative of f then F+C is the most general antiderivative
 
 Ex: \
-$f lr((x)) eq c o space lr((x))$ \
-$F lr((x)) eq space i n x plus c$ \
+$f lr((x)) eq c o s lr((x))$ \
+$F lr((x)) eq s i n x plus c$ \
 Ex: \
 $f lr((x)) eq x^n comma n eq.not minus 1$ \
 Power Chain Rule : \
@@ -31,7 +31,7 @@ n\=-1 : $f lr((x)) eq 1 / x$ \
 $F lr((x)) eq l n lr(|x|) plus c$
 
 == Links
-#label("links")
--  #link("http://www.lrcb.ch/litterature/integrales.pdf")[Identities]
--  #link("https://tutorial.math.lamar.edu/Classes/CalcII/IntTechIntro.aspx")[Techniques]
--  #link("https://tutorial.math.lamar.edu/Problems/CalcII/IntTechIntro.aspx")[Nice Exercices]
+<links>
+- #link("http://www.lrcb.ch/litterature/integrales.pdf")[Identities]
+- #link("https://tutorial.math.lamar.edu/Classes/CalcII/IntTechIntro.aspx")[Techniques]
+- #link("https://tutorial.math.lamar.edu/Problems/CalcII/IntTechIntro.aspx")[Nice Exercices]

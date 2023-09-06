@@ -7,15 +7,15 @@
   authors: (
     "Lucas",
   ),
-  date: "12 Juillet, 2023",
+  date: "6 Septembre, 2023",
 )
 
 #set heading(numbering: "1.1.")
 
 = Critical Points
-#label("critical-points")
+<critical-points>
 == Definition
-#label("definition")
+<definition>
 A critical point of a multivariable function is a point at which the
 partial derivatives of the function are either zero or undefined. In
 other words, it is a point at which the function is not changing along
@@ -47,5 +47,5 @@ analyze the behavior of the function near these critical points and to
 determine their importance.
 
 == Links
-#label("links")
--  #link("Partial Derivative.pdf")[Partial Derivative]
+<links>
+- #link("Partial Derivative.pdf")[Partial Derivative]

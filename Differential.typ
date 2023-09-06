@@ -7,19 +7,19 @@
   authors: (
     "Lucas",
   ),
-  date: "12 Juillet, 2023",
+  date: "6 Septembre, 2023",
 )
 
 #set heading(numbering: "1.1.")
 
 = Differential Equations
-#label("differential-equations")
+<differential-equations>
 == Definition
-#label("definition")
-#link("SimpleOrdinaryDE.pdf")[Simple $x^̇ eq lambda x$]
+<definition>
+#link("SimpleOrdinaryDE.pdf")[Simple $dot(x) eq lambda x$]
 
 == Links
-#label("links")
--  #link("https://tutorial.math.lamar.edu/Classes/DE/DE.aspx")[Paul’s Online Notes]
--  #link("https://www.youtube.com/playlist?list=PLMrJAkhIeNNTYaOnVI3QpH7jgULnAmvPA")[Steve Brunton’s Playlist]
--  #link("https://www.youtube.com/playlist?list=PLZHQObOWTQDNPOjrT6KVlfJuKtYTftqH6")[3Blue1Brown’s Playlist]
+<links>
+- #link("https://tutorial.math.lamar.edu/Classes/DE/DE.aspx")[Paul’s Online Notes]
+- #link("https://www.youtube.com/playlist?list=PLMrJAkhIeNNTYaOnVI3QpH7jgULnAmvPA")[Steve Brunton’s Playlist]
+- #link("https://www.youtube.com/playlist?list=PLZHQObOWTQDNPOjrT6KVlfJuKtYTftqH6")[3Blue1Brown’s Playlist]

@@ -7,15 +7,15 @@
   authors: (
     "Lucas",
   ),
-  date: "12 Juillet, 2023",
+  date: "6 Septembre, 2023",
 )
 
 #set heading(numbering: "1.1.")
 
 = Multivariable Function
-#label("multivariable-function")
+<multivariable-function>
 == Definition
-#label("definition")
+<definition>
 A multivariable function is a function of more than one variable. For
 example, if $f lr((x comma y))$ is a function of two variables $x$ and
 $y$, then it is a multivariable function.
@@ -41,10 +41,10 @@ given point, and to find maximum and minimum values of the function.
 #image("Multivariable Function 3D.png")
 
 == Links
-#label("links")
--  #link("Partial Derivative.pdf")[Partial Derivative]
--  #link("Gradient Vector.pdf")[Gradient Vector]
--  #link("Tangent plane.pdf")[Tangent Plane]
--  #link("Directional Derivative.pdf")[Directional Derivative]
--  #link("Extrema Multivariable function.pdf")[Extrema Multivariable function]
--  #link("Method Of Lagrange Multipliers.pdf")[Method Of Lagrange Multipliers]
+<links>
+- #link("Partial Derivative.pdf")[Partial Derivative]
+- #link("Gradient Vector.pdf")[Gradient Vector]
+- #link("Tangent plane.pdf")[Tangent Plane]
+- #link("Directional Derivative.pdf")[Directional Derivative]
+- #link("Extrema Multivariable function.pdf")[Extrema Multivariable function]
+- #link("Method Of Lagrange Multipliers.pdf")[Method Of Lagrange Multipliers]

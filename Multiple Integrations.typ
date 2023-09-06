@@ -7,15 +7,15 @@
   authors: (
     "Lucas",
   ),
-  date: "12 Juillet, 2023",
+  date: "6 Septembre, 2023",
 )
 
 #set heading(numbering: "1.1.")
 
 = Multiple Integrations
-#label("multiple-integrations")
+<multiple-integrations>
 == Definition
-#label("definition")
+<definition>
 Multiple integrals are a way of extending the concept of a single
 integral to integrate functions with more than one variable. In other
 words, a multiple integral is a mathematical operation that calculates

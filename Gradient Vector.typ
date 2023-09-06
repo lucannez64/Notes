@@ -7,15 +7,15 @@
   authors: (
     "Lucas",
   ),
-  date: "12 Juillet, 2023",
+  date: "6 Septembre, 2023",
 )
 
 #set heading(numbering: "1.1.")
 
 = Gradient Vector
-#label("gradient-vector")
+<gradient-vector>
 == Definition
-#label("definition")
+<definition>
 In multivariable calculus, the gradient vector of a scalar-valued
 function is a vector-valued function that points in the direction of the
 greatest rate of increase of the function at a given point. It is a
@@ -38,7 +38,7 @@ given point, and to calculate the directional derivative of a function
 in a particular direction.
 
 == Example
-#label("example")
+<example>
 To find the gradient vector of the function
 $f lr((x comma y)) eq y ln x plus x y^2$ at a point
 $lr((x_0 comma y_0))$, we need to take the partial derivatives of the
@@ -74,5 +74,5 @@ Therefore, the gradient vector at the point $lr((1 comma 2))$ is
 $vec(6 med 4)$.
 
 == Link
-#label("link")
--  #link("Partial Derivative.pdf")[Partial Derivative]
+<link>
+- #link("Partial Derivative.pdf")[Partial Derivative]

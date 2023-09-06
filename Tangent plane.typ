@@ -7,15 +7,15 @@
   authors: (
     "Lucas",
   ),
-  date: "12 Juillet, 2023",
+  date: "6 Septembre, 2023",
 )
 
 #set heading(numbering: "1.1.")
 
 = Tangent Plane
-#label("tangent-plane")
+<tangent-plane>
 == Definition
-#label("definition")
+<definition>
 A tangent plane is a plane that touches a surface at a single point, and
 is tangent to the surface at that point. In other words, the tangent
 plane is the plane that "just touches" the surface at the given point,
@@ -32,7 +32,7 @@ approximate the behavior of a surface near a given point. It can also be
 used to find the maximum and minimum values of a multivariable function.
 
 == Method
-#label("method")
+<method>
 To find the tangent plane of a multivariable function at a given point,
 we can take the partial derivatives of the function with respect to each
 variable, and evaluate them at the given point. These partial
@@ -78,5 +78,5 @@ So the equation of the tangent plane at the point $lr((2 comma 2))$ on
 the surface $z eq x^2 plus y^2$ is $z eq 4 x plus 4 y minus 4$.
 
 == Link
-#label("link")
--  #link("Partial Derivative.pdf")[Partial Derivative]
+<link>
+- #link("Partial Derivative.pdf")[Partial Derivative]

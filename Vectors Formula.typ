@@ -7,13 +7,13 @@
   authors: (
     "Lucas",
   ),
-  date: "12 Juillet, 2023",
+  date: "6 Septembre, 2023",
 )
 
 #set heading(numbering: "1.1.")
 
 = Vectors Formula
-#label("vectors-formula")
+<vectors-formula>
 Here are some of the main formulas associated with vectors:
 
 Vector addition: v + w \= (v1 + w1)i + (v2 + w2)j + (v3 + w3)k Scalar

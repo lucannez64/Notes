@@ -28,14 +28,29 @@ int find_n(fraction f, int n) {
   }
   return n;
 }
+void print_tree(int n) {
+  if (n == 1) {
+    printf("graph TD\n"); 
+    printf("  1-->1\n");
+    return;
+  }
 
+  print_tree(n/2);
+
+  fraction x = F(n/2);
+
+  if (n%2 == 0) {
+    printf("  %d/%d-->%d/%d\n", x.num, x.den, x.num, x.num+x.den); 
+  } else {
+    printf("  %d/%d-->%d/%d\n", x.num, x.den, x.num+x.den, x.den);
+  }
+}
 int main() {
-  fraction f = F(406);
+  fraction f = F(2023);
   printf("%d/%d\n", f.num, f.den);
-
-  f = (fraction){31, 43};
+  f = (fraction){5, 7};
   int n = find_n(f, 1);
   printf("%d\n", n);
-
+  print_tree(2023);
   return 0;
 }

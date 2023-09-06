@@ -7,15 +7,15 @@
   authors: (
     "Lucas",
   ),
-  date: "12 Juillet, 2023",
+  date: "6 Septembre, 2023",
 )
 
 #set heading(numbering: "1.1.")
 
 = Lagrand Multipliers
-#label("lagrand-multipliers")
+<lagrand-multipliers>
 == Definition
-#label("definition")
+<definition>
 Lagrange multipliers is a method for finding the maximum and minimum
 values of a multivariable function subject to one or more constraints.
 The method is named after Joseph-Louis Lagrange, who introduced it in
@@ -59,5 +59,5 @@ of problems in mathematics and physics, including optimization problems
 and the study of equilibrium points in dynamical systems.
 
 == Links
-#label("links")
--  #link("Extrema Multivariable function.pdf")[Extrema Multivariable function]
+<links>
+- #link("Extrema Multivariable function.pdf")[Extrema Multivariable function]

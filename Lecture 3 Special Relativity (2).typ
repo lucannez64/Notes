@@ -7,24 +7,24 @@
   authors: (
     "Lucas",
   ),
-  date: "12 Juillet, 2023",
+  date: "6 Septembre, 2023",
 )
 
 #set heading(numbering: "1.1.")
 
 = Invariance of the Laws of Nature
-#label("invariance-of-the-laws-of-nature")
+<invariance-of-the-laws-of-nature>
 Laws take the same form in every reference frame. Definition of a
 straight line for example is the "shortest distance between two points"
 does not reference a coordinate system. Apply the Pythagorean Theorem at
-the infinitesimal level. $ d space eq sqrt(d x^2 plus d y^2) $ The
-distance between two points is
-$ space eq integral d space eq integral d x sqrt(1 plus lr((frac(d y, d x)))^2) $
-find the curve that minimizes the distance $space$. Find quantities
-which are invariant under coordinate transformations The vector
+the infinitesimal level. $ d s eq sqrt(d x^2 plus d y^2) $ The distance
+between two points is
+$ s eq integral d s eq integral d x sqrt(1 plus lr((frac(d y, d x)))^2) $
+find the curve that minimizes the distance $s$. Find quantities which
+are invariant under coordinate transformations The vector
 $lr((d x comma d y))$ for example is not invariant under a rotation, but
-$d space^2$ is invariant. For example, a vector (tensor) rotation
-(transformation): $  & A_space eq A_x cos theta minus A_y sin theta\
+$d s^2$ is invariant. For example, a vector (tensor) rotation
+(transformation): $  & A_s eq A_x cos theta minus A_y sin theta\
  & A_y eq A_x sin theta plus A_y cos theta $ Compare to a Lorentz
 transformation: $  & x^prime eq x cosh omega minus T sinh omega\
  & T^prime eq minus x sinh omega plus T cosh omega\
@@ -42,20 +42,20 @@ the product between these two vectors is invariant. Use the summation
 convention.
 $ d tau^2 eq d x^4 d x_mu eq minus d T^2 plus d x^2 plus d y^2 plus d z^2 $
 In general, given the contravariant vector $A^mu$ and the covariant
-vector $()^B_mu$, then $()^(A^mu B_mu)$ is invariant by construction
+vector $zws^(B_mu)$, then $zws^(A^mu B_mu)$ is invariant by construction
 under the Lorentz Transformation.
 $ A^mu B_mu eq minus A_T B_T plus A_x B_x plus A_y B_y plus A_z B_z $
 The inertial reference frame implies Cartesian coordinates and that
 Newton’s Laws are satisfied.
 
 === Transformation rule
-#label("transformation-rule")
-If $A^mu$ is a 4-vector and $()^B_mu$ has unknown transformation
-properties, then if $()^(A^mu B_mu)$ is a scalar then $()^B_mu$ is a
+<transformation-rule>
+If $A^mu$ is a 4-vector and $zws^(B_mu)$ has unknown transformation
+properties, then if $zws^(A^mu B_mu)$ is a scalar then $zws^(B_mu)$ is a
 4-vector.
 
 == Field Theory
-#label("field-theory")
+<field-theory>
 Fields in nature: \* Higgs field is a scalar. \* 4-vector
 electromagnetic field is a 4-vector. \* Energy and momentum are parts of
 a 4-vector. \* Temperature field in a room is a scalar field.
@@ -74,7 +74,7 @@ then $phi.alt_(mu mu) phi.alt^mu$ is a scalar.
 $ phi.alt_(mu mu) phi.alt^mu lr((minus lr((frac(diff phi.alt, diff t)))^2 comma lr((frac(diff phi.alt, diff x)))^2 comma lr((frac(diff phi.alt, diff y)))^2 comma lr((frac(diff phi.alt, diff z)))^2)) $
 
 === The four-dimensional Lagrangian
-#label("the-four-dimensional-lagrangian")
+<the-four-dimensional-lagrangian>
 Generalize the action from
 $ upright(" Action ") eq integral d t cal(L) $ to a four-dimensional
 integration.

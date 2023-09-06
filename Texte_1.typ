@@ -7,13 +7,13 @@
   authors: (
     "Lucas",
   ),
-  date: "12 Juillet, 2023",
+  date: "6 Septembre, 2023",
 )
 
 #set heading(numbering: "1.1.")
 
 = Quelle image du poète est donnée ici ?
-#label("quelle-image-du-poète-est-donnée-ici")
+<quelle-image-du-poète-est-donnée-ici>
 \
 Le poète s’en va dans les #emph[champs] ; #emph[il admire],
 (Poète\<-\>Nature Beauté Ressourcer) (PVéGé) \
