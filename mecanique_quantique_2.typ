@@ -7,7 +7,7 @@
   authors: (
     "Lucas",
   ),
-  date: "10 Septembre, 2023",
+  date: "11 Septembre, 2023",
 )
 
 #set heading(numbering: "1.1.")
@@ -219,8 +219,10 @@ comprendre le comportement des systèmes quantiques.
 
 Voici un exemple de fonction d’onde pour une particule dans une boîte :
 
+#block[
 $psi lr((x)) eq sqrt(2 / L) sin lr((frac(pi n x, L)))$
 
+]
 où $n$ est un entier et $L$ la longueur de la boîte. La longueur d’onde
 de cette fonction d’onde est $lambda eq 2 L / n$, et l’amplitude est
 $A eq sqrt(2 / L)$. Le carré de cette fonction d’onde donne la
@@ -247,8 +249,10 @@ $u^arrow.r vec(x_1, x_2, dot.basic dot.basic, x_n) x_i in bb(C)$ et
 $v^arrow.r vec(y_1, x_2, dot.basic dot.basic, y_n) y_i in bb(C) med thin$
 à
 
+#block[
 $angle.l u bar.v v angle.r eq sum_(i eq 1)^n x_i^ast.basic y_i in bb(C)$
 
+]
 avec \* le conjugué
 
 ==== Linéarité et anti-linéarité
@@ -319,8 +323,10 @@ représenter les observables. Par exemple, l’opérateur linéaire qui
 représente la position d’une particule est désigné par $hat(x)$. La
 formule de la valeur espérée d’une observable $O$ est donnée par
 
+#block[
 $angle.l O angle.r eq integral psi^ast.basic O psi d x$
 
+]
 où $psi$ est la fonction d’onde de la particule.
 
 === États propres et valeurs propres
@@ -351,21 +357,27 @@ potentielle est désigné par $hat(V)$.
 
 La formule de l’énergie potentielle est donnée par
 
+#block[
 $hat(V) eq minus frac(planck.reduce^2, 2 m) nabla^2$
 
+]
 où $nabla^2$ est l’opérateur Laplacien.
 
 L’opérateur d’énergie potentielle peut être utilisé pour trouver les
 valeurs propres et les états propres de l’atome d’hydrogène. Les valeurs
 propres de l’atome d’hydrogène sont données par
 
+#block[
 $E_n eq minus frac(13.6 upright(" eV"), n^2)$
 
+]
 où $n$ est un nombre entier. Les états propres de l’atome d’hydrogène
 sont donnés par les fonctions d’onde
 
+#block[
 $psi_n lr((r comma theta comma phi)) eq 1 / sqrt(4 pi a_0^3) lr((n^2 / r))^(3 / 2) e^(minus n^2 r / 2 a_0) e^(i m theta) e^(i n phi)$
 
+]
 où $a_0$ est le rayon de Bohr.
 
 Les états propres de l’atome d’hydrogène sont mutuellement orthogonaux
@@ -412,8 +424,10 @@ intérieur d’un bra et d’un ket est un nombre complexe.
 La notation bra-ket est liée au produit intérieur de la manière suivante
 :
 
+#block[
 $angle.l psi bar.v phi angle.r eq integral_(minus oo)^oo psi^ast.basic lr((x)) phi lr((x)) d x$
 
+]
 où $psi^ast.basic lr((x))$ est le conjugué complexe de $psi lr((x))$. Le
 produit intérieur est une mesure du chevauchement entre deux fonctions.
 
@@ -437,8 +451,10 @@ fonction d’onde est un moyen de calculer la probabilité qu’une particule
 se trouve à un endroit donné. L’intégrale de la fonction d’onde est
 définie comme suit :
 
+#block[
 $integral_(minus oo)^oo psi lr((x)) delta lr((x minus x_0)) d x$
 
+]
 où $psi lr((x))$ est la fonction d’onde de la particule et $x_0$ est
 l’endroit où la particule est trouvée. La fonction delta de Dirac dans
 cette intégrale nous indique que nous sommes uniquement intéressés à
@@ -451,8 +467,10 @@ mouvement est un opérateur mathématique qui représente la quantité de
 mouvement d’une particule. L’opérateur de quantité de mouvement est
 défini comme suit
 
+#block[
 $hat(p) eq minus i planck.reduce frac(d, d x)$
 
+]
 où $i$ est l’unité imaginaire et $planck.reduce$ est la constante de
 Planck réduite. La fonction delta de Dirac dans cette définition nous
 indique que nous ne nous intéressons qu’à la dérivée de la fonction
@@ -469,22 +487,28 @@ Representation de la fonction delta de Dirac
 La probabilité de trouver le système dans l’état propre
 $bar.v E_i angle.r$ est donnée par :
 
+#block[
 $P lr((E eq E_i)) eq lr(|angle.l E_i med bar.v med psi angle.r|)^2$
 
+]
 où $bar.v E_i angle.r$ est l’état propre de l’observable $E$ avec la
 valeur propre $E_i$ et $psi$ est la fonction d’onde du système.
 
 La fonction d’onde $psi$ peut être écrite comme une somme des états
 propres de l’observable $E$, comme suit :
 
+#block[
 $psi eq sum_i c_i bar.v E_i angle.r$
 
+]
 où $c_i$ sont les coefficients des états propres.
 
 En substituant ceci à la formule de la probabilité, nous obtenons :
 
+#block[
 $P lr((E eq E_i)) eq lr(|angle.l E_i lr(|sum_i c_i|) E_i angle.r|)^2 eq sum_i lr(|c_i|)^2$
 
+]
 Ceci montre que la probabilité de trouver le système dans l’état propre
 $bar.v E_i angle.r$ est égale à la somme des carrés des coefficients des
 états propres.
@@ -503,8 +527,10 @@ L’espérance mathématique d’un opérateur $hat(A)$ dans un système
 quantique décrit par une matrice densité $rho$ est donnée par la formule
 suivante :
 
+#block[
 $angle.l hat(A) angle.r eq upright(" Tr") lr((rho hat(A)))$
 
+]
 où $upright("Tr")$ est la fonction trace. La fonction trace d’une
 matrice est la somme de ses éléments diagonaux.
 
@@ -524,8 +550,10 @@ résultats de toute mesure effectuée sur un système quantique. La règle
 de Born stipule que la probabilité d’obtenir un résultat $a$ lors de la
 mesure d’une observable $hat(A)$ est donnée par la formule suivante :
 
+#block[
 $P lr((a)) eq frac(angle.l a lr(|rho|) a angle.r, sum_i angle.l i lr(|rho|) i angle.r)$
 
+]
 où $bar.v a angle.r$ est l’état propre de $hat(A)$ correspondant au
 résultat $a$.
 
@@ -661,16 +689,20 @@ particule avec une précision parfaite.
 Le principe d’incertitude peut être exprimé mathématiquement comme suit
 pour la position et la quantité de mouvement:
 
+#block[
 $sigma_x sigma_p gt.eq planck.reduce / 2$
 
+]
 où $sigma_x$ est l’incertitude sur la position et $sigma_p$ est
 l’incertitude sur la quantité de mouvement.
 
 Il existe une forme généralisée du principe d’incertitude nommé
 relations d’incertitude Robertson-Schrödinger:
 
+#block[
 $sigma_A sigma_B gt.eq lr(|frac(1, 2 i) angle.l bracket.l hat(A) comma hat(B) bracket.r angle.r|)$
 
+]
 Le principe d’incertitude est un principe fondamental de la mécanique
 quantique. Il a des implications importantes pour l’interprétation de la
 mécanique quantique et pour la compréhension du monde physique.
@@ -706,16 +738,20 @@ mécanique quantique et pour la compréhension du monde physique.
   $angle.l a bar.v psi angle.r$. La probabilité P(a) d’obtenir la valeur
   propre a est alors donnée par
 
+  #block[
   $P lr((a)) eq lr(|angle.l a|) psi angle.r bar.v^2$
 
+  ]
   .
 
 + L’évolution temporelle d’un système quantique est décrite par
   l’équation de Schrödinger. L’évolution temporelle d’un état quantique
   $bar.v psi lr((t)) angle.r$ est décrite par l’équation de Schrödinger
 
+  #block[
   $i planck.reduce frac(diff, diff t) lr(|psi lr((t)) angle.r eq hat(H)|) psi lr((t)) angle.r$
 
+  ]
   où $hat(H)$ est l’hamiltonien du système donc l’énergie totale du
   système et $planck.reduce upright(" est ") eq frac(h, 2 pi)$.
 
@@ -736,33 +772,45 @@ suivantes :
   écrite comme un produit d’un facteur dépendant du temps et d’un
   facteur dépendant de l’espace :
 
+#block[
 $Psi lr((t comma r)) eq psi lr((t)) phi lr((r))$
 
+]
 + Substituer ceci dans l’équation de Schrödinger indépendante et
   multiplier les deux côtés par $psi lr((t))^ast.basic$ :
 
+#block[
 $minus frac(i planck.reduce, 2 m) psi prime lr((t)) eq lr((minus frac(planck.reduce^2, 2 m))) Delta phi lr((r)) plus V lr((r)) phi lr((r)) paren.r psi lr((t))^ast.basic$
 
+]
 + Simplifier le côté gauche en combinant les termes :
 
+#block[
 $minus frac(i planck.reduce, 2 m) psi prime lr((t)) eq minus frac(planck.reduce^2, 2 m) Delta psi lr((t)) plus V lr((r)) psi lr((t))^ast.basic$
 
+]
 + Intégrer les deux côtés par rapport au temps :
 
+#block[
 $psi lr((t)) eq psi lr((0)) plus frac(i planck.reduce, 2 m) integral_0^t Delta psi lr((s)) d s minus frac(i planck.reduce, 2 m) integral_0^t V lr((r)) psi lr((s))^ast.basic d s$
 
+]
 + Le premier terme du côté droit est la fonction d’onde initiale, que
   l’on suppose connue. Le second terme du côté droit est une fonction de
   l’espace et du temps, et il peut être trouvé en résolvant l’équation
   de Schrödinger indépendante du temps :
 
+#block[
 $Delta psi lr((s)) plus V lr((r)) psi lr((s)) eq 0$
 
+]
 L’équation de Schrödinger dépendante du temps peut alors être écrite
 comme suit :
 
+#block[
 $i planck.reduce frac(diff psi lr((t)), diff t) eq H psi lr((t))$
 
+]
 où $H$ est l’opérateur hamiltonien.
 
 L’équation de Schrödinger dépendante du temps est une équation linéaire
@@ -786,8 +834,10 @@ temporelles.
 L’équation de Schrödinger pour une particule dans un puits de potentiel
 fini est la suivante :
 
+#block[
 $minus frac(planck.reduce^2, 2 m) nabla^2 psi lr((x)) plus V lr((x)) psi lr((x)) eq E psi lr((x))$
 
+]
 où $V lr((x))$ est l’énergie potentielle de la particule, $E$ est
 l’énergie de la particule, $psi lr((x))$ est la fonction d’onde de la
 particule, et $planck.reduce$ est la constante de Planck réduite.
@@ -796,18 +846,26 @@ Pour résoudre l’équation de Schrödinger, on peut utiliser la méthode de
 séparation des variables. Cette méthode consiste à supposer que la
 fonction d’onde peut être séparée en deux parties :
 
+#block[
 $psi lr((x)) eq X lr((x)) Y lr((y)) Z lr((z))$
 
+]
 où $X lr((x))$ est une fonction de $x$, $Y lr((y))$ est une fonction de
 $y$, et $Z lr((z))$ est une fonction de $z$. En substituant ceci à
 l’équation de Schrödinger, nous obtenons :
 
+#block[
 $minus frac(planck.reduce^2, 2 m) nabla^2 X lr((x)) plus V lr((x)) X lr((x)) eq E X lr((x))$
 
+]
+#block[
 $minus frac(planck.reduce^2, 2 m) nabla^2 Y lr((y)) plus E Y lr((y))$
 
+]
+#block[
 $minus frac(planck.reduce^2, 2 m) nabla^2 Z lr((z)) plus E Z lr((z))$
 
+]
 La première équation peut être résolue pour $X lr((x))$, la deuxième
 pour $Y lr((y))$ et la troisième pour $Z lr((z))$. Les solutions de ces
 équations sont appelées fonctions propres, et les valeurs propres
@@ -819,13 +877,17 @@ Cela signifie que les fonctions propres doivent être nulles à
 l’extérieur du puits. Les solutions de l’équation de Schrödinger dans ce
 cas sont appelées ondes stationnaires et sont données par :
 
+#block[
 $psi_n lr((x)) eq sqrt(2 / a sin lr((frac(n pi x, a))))$
 
+]
 où $a$ est la largeur du puits et $n$ est un entier. Les niveaux
 d’énergie de la particule sont donnés par :
 
+#block[
 $E_n eq frac(n^2 pi^2 planck.reduce^2, 2 m a^2)$
 
+]
 Les ondes stationnaires représentent les états possibles de la particule
 dans le puits. La particule ne peut exister que dans ces états, et elle
 ne peut avoir d’autre énergie que les niveaux d’énergie donnés par
@@ -836,8 +898,10 @@ l’équation de Schrödinger.
 L’équation de Schrödinger pour l’oscillateur harmonique est la suivante
 :
 
+#block[
 $minus frac(planck.reduce^2, 2 m) nabla^2 psi lr((x)) plus 1 / 2 m omega^2 x^2 psi lr((x)) eq E psi lr((x))$
 
+]
 où $m$ est la masse de l’oscillateur, $omega$ est la fréquence
 angulaire, et $E$ est l’énergie de l’oscillateur.
 
@@ -845,18 +909,26 @@ Pour résoudre cette équation, on peut utiliser la méthode de séparation
 des variables. Cette méthode consiste à supposer que la fonction d’onde
 peut être séparée en deux parties :
 
+#block[
 $psi lr((x)) eq X lr((x)) Y lr((y)) Z lr((z))$
 
+]
 où $X lr((x))$ est une fonction de $x$, $Y lr((y))$ est une fonction de
 $y$, et $Z lr((z))$ est une fonction de $z$. En substituant ceci à
 l’équation de Schrödinger, nous obtenons :
 
+#block[
 $minus frac(planck.reduce^2, 2 m) frac(d^2 X lr((x)), d x^2) plus 1 / 2 m omega^2 x^2 X lr((x)) eq E X lr((x))$
 
+]
+#block[
 $minus frac(planck.reduce^2, 2 m) frac(d^2 Y lr((y)), d y^2)$
 
+]
+#block[
 $minus frac(planck.reduce^2, 2 m) frac(d^2 Z lr((z)), d z^2) plus 0 eq E Z lr((z))$
 
+]
 La première équation peut être résolue pour $X lr((x))$, la deuxième
 pour $Y lr((y))$ et la troisième pour $Z lr((z))$. Les solutions de ces
 équations sont appelées fonctions propres, et les valeurs propres
@@ -865,13 +937,17 @@ correspondantes sont les niveaux d’énergie de l’oscillateur.
 Les fonctions propres de l’oscillateur harmonique sont appelées
 polynômes d’Hermite et sont données par :
 
+#block[
 $psi_n lr((x)) eq 1 / sqrt(n excl) sqrt(frac(2 omega, p i)) H_n lr((sqrt(omega / 2) x))$
 
+]
 où $H_n$ est le $n$ème polynôme d’Hermite. Les niveaux d’énergie de
 l’oscillateur sont donnés par :
 
+#block[
 $E_n eq planck.reduce omega lr((n plus 1 / 2))$
 
+]
 Les polynômes d’Hermite représentent les états possibles de
 l’oscillateur. L’oscillateur ne peut exister que dans ces états, et il
 ne peut avoir d’autre énergie que les niveaux d’énergie donnés par
@@ -883,16 +959,20 @@ L’opérateur de quantité de mouvement est noté $hat(P)$, et la fonction
 d’onde d’une particule est notée $psi$. L’opérateur de quantité de
 mouvement agit sur la fonction d’onde comme suit :
 
+#block[
 $hat(P) psi lr((x)) eq minus i planck.reduce frac(d psi lr((x)), d x)$
 
+]
 où $planck.reduce$ est la constante de Planck réduite.
 
 L’opérateur de quantité de mouvement peut être utilisé pour calculer la
 quantité de mouvement d’une particule. La quantité de mouvement d’une
 particule est donnée par la formule suivante :
 
+#block[
 $p eq angle.l psi med bar.v med hat(P) psi angle.r$
 
+]
 où $angle.l psi med bar.v med hat(P) psi angle.r$ est la valeur
 d’espérance de l’opérateur de quantité de mouvement.
 
@@ -947,8 +1027,10 @@ par son spin, qui détermine l’intensité et la direction de son moment
 magnétique. Le moment magnétique μ d’une particule est proportionnel à
 son moment angulaire de spin :
 
+#block[
 $mu eq g ast.basic lr((e / 2 m)) ast.basic S$
 
+]
 où g est le facteur g, e est la charge élémentaire et m est la masse de
 la particule.
 
@@ -957,16 +1039,20 @@ spin, qui est une quantité vectorielle pointant dans la direction du
 moment angulaire de spin de la particule. L’ampleur du moment angulaire
 de spin peut être calculée à l’aide de la formule suivante :
 
+#block[
 $lr(|S|) eq sqrt(s lr((s plus 1))) ast.basic ħ$
 
+]
 où ħ (h-bar) est la constante de Planck réduite.
 
 Le moment angulaire du spin a des composantes quantifiées le long d’un
 axe donné (généralement l’axe z). La composante le long de l’axe z,
 notée Sz, peut prendre des valeurs discrètes données par :
 
+#block[
 $S z eq m_s ast.basic ħ$
 
+]
 où $m_s$ est le nombre quantique magnétique, qui varie de -s à s par pas
 entiers. Par exemple, un électron, qui est un fermion de spin 1/2, peut
 avoir deux valeurs possibles pour $S z$ : $plus ħ / 2$ et $minus ħ / 2$,
@@ -978,8 +1064,10 @@ est décrite par l’opérateur de moment angulaire de spin, noté S.
 L’algèbre de spin régit les relations de commutation entre les
 composantes du vecteur spin :
 
+#block[
 $bracket.l S x comma S y bracket.r eq i ħ S z comma bracket.l S y comma S z bracket.r eq i ħ S x comma bracket.l S z comma S x bracket.r eq i ħ S y$
 
+]
 Les valeurs propres de $S z$ sont
 $m_s eq s comma s minus 1 comma dots.h comma minus s$, ce qui signifie
 que la projection du spin est quantifiée le long de l’axe z. Cette

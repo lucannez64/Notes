@@ -7,7 +7,7 @@
   authors: (
     "Lucas",
   ),
-  date: "10 Septembre, 2023",
+  date: "11 Septembre, 2023",
 )
 
 #set heading(numbering: "1.1.")
@@ -17,7 +17,7 @@
   align: (col, row) => (auto,).at(col),
   inset: 6pt,
   [- link:
-  https://www.youtube.com/watch?v\=BjvkBLfvkqY&list\=PLMrJAkhIeNNTYaOnVI3QpH7jgULnAmvPA&index\=4],
+  https:\/\/www.youtube.com/watch?v\=BjvkBLfvkqY&list\=PLMrJAkhIeNNTYaOnVI3QpH7jgULnAmvPA&index\=4],
 )
 ]
 

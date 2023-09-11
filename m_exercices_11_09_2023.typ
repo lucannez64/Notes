@@ -7,7 +7,7 @@
   authors: (
     "Lucas",
   ),
-  date: "10 Septembre, 2023",
+  date: "11 Septembre, 2023",
 )
 
 #set heading(numbering: "1.1.")
@@ -29,7 +29,7 @@ $sum_(k eq 1)^p lr((k)) eq 1 plus 2 plus 3 plus dots.h plus p eq frac(p lr((p pl
 On va montrer que: \
 $sum_(k eq 1)^(p plus 1) lr((k)) eq 1 plus 2 plus 3 plus dots.h plus p plus lr((p plus 1)) eq frac(lr((p plus 1)) lr((p plus 1 plus 1)), 2)$
 
-$frac(lr((p plus 1)) lr((p plus 2)), 2) eq frac(p^2 plus 2 p plus p plus 3, 2)\
+$frac(lr((p plus 1)) lr((p plus 2)), 2) eq frac(p^2 plus 2 p plus p plus 2, 2)\
 eq frac(p^2 plus 3 p plus 2, 2)$ \
 ou \
 \

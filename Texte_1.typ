@@ -7,7 +7,7 @@
   authors: (
     "Lucas",
   ),
-  date: "10 Septembre, 2023",
+  date: "11 Septembre, 2023",
 )
 
 #set heading(numbering: "1.1.")
@@ -31,7 +31,7 @@ Les petites fleurs #emph[d’or], les petites fleurs #emph[bleues],
 Prennent, pour l’#emph[accueillir] #emph[agitant] leurs bouquets,
 (Séduction \
 De #emph[petits airs] penchés ou de #emph[grands airs] coquets,
-(Hypallage)(Antithèse)  Et, familièrement, car cela sied aux
+(Hypallage)(Antithèse)~ Et, familièrement, car cela sied aux
 #emph[belles] . \
 « Tiens ! c’est notre amoureux qui passe ! » #emph[disent-elles].
 (Prosopopée) ) \

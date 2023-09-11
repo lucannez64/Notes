@@ -7,7 +7,7 @@
   authors: (
     "Lucas",
   ),
-  date: "10 Septembre, 2023",
+  date: "11 Septembre, 2023",
 )
 
 #set heading(numbering: "1.1.")
@@ -55,8 +55,12 @@ $x_2 eq frac(minus 8, 4) eq minus 2$
 <section-1>
 $f_2 prime lr((x)) eq frac(minus 11, lr((4 x minus 3))^2)$
 
-Valeurs interdites : $4 p minus 3 eq 0$ \$ 4p \= 3\$ \$ p \= \$ \$ x !\=
-\$
+Valeurs interdites : \
+$4 p minus 3 eq 0$ \
+$4 p eq 3$ \
+$p eq 4 / 3$ \
+\
+$x eq.not 4 / 3$ \
 
 Ensemble de définition
 $f_2 colon bb(R) without lr({4 / 3}) arrow.r bb(R)$
@@ -136,7 +140,8 @@ print(racine(f, 10))
 
 #block[
 #set enum(numbering: "1.", start: 6)
-+ x \= -5 -\> y\=5.385164807134504 x \= 10 -\> 'non défini'
++ $x eq minus 5 arrow.r y eq 5.385164807134504$ \
+  $x eq 10 arrow.r prime n o n med d é f i n i prime$
 ]
 
 == Exercice 3

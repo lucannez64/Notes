@@ -7,7 +7,7 @@
   authors: (
     "Lucas",
   ),
-  date: "10 Septembre, 2023",
+  date: "11 Septembre, 2023",
 )
 
 #set heading(numbering: "1.1.")
@@ -30,10 +30,10 @@ Vous qui passez dans l’#emph[ombre], êtes-vous des amants ? (Défunts) \
 Les sentiers #emph[bruns] sont pleins de #emph[blanches] mousselines ;
 (Antithèse) \
 L’herbe s’éveille et parle aux sépulcres dormants. (Vivant parle aux
-morts) (autant de vie que de mort \=\> manichéisme)   \
+morts) (autant de vie que de mort \=\> manichéisme) ~ \
 \
 Que dit-il, le brin d’herbe ? et que répond la tombe ? (Discours
-Direct)(Brind d’herbe parle à la mort)   Aimez, vous qui vivez ! on a
+Direct)(Brind d’herbe parle à la mort) ~ Aimez, vous qui vivez ! on a
 froid sous les ifs. (Carpe Diem de Horace) (Mort donne un conseil à la
 vie)(Allitération v f) \
 Lèvre, cherche la bouche ! aimez-vous ! la nuit tombe ; (Injonction !)
@@ -59,7 +59,7 @@ Le #emph[ver luisant] dans l’#emph[ombre] erre avec son #emph[flambeau].
 Le vent fait tressaillir, au milieu des javelles, (Dichotomie entre la
 nature et l’homme (nature artificiel)) \
 Le brin d’herbe, et Dieu fait tressaillir le tombeau. (Réveille les
-morts)   \
+morts) ~ \
 \
 La forme d’un toit #emph[noir] dessine une #emph[chaumière] ;
 (Opposition mort noir vie dans la chaumière) \
@@ -67,7 +67,7 @@ On entend #emph[dans les prés] le pas lourd du #emph[faucheur] ;
 (allégorie de la mort) (CCL) \
 L’#emph[étoile] aux cieux, ainsi qu’une #emph[fleur] de lumière,
 (Comparaison: Beauté insaisissable) (ChampLex Lumière !\= mort noir) \
-Ouvre et fait rayonner sa splendide fraîcheur.   \
+Ouvre et fait rayonner sa splendide fraîcheur. ~ \
 \
 #emph[Aimez-vous] ! c’est #emph[le mois où les fraises sont mûres].
 (Injonction) (Synecdoque : mai) \

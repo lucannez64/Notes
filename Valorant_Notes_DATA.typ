@@ -7,7 +7,7 @@
   authors: (
     "Lucas",
   ),
-  date: "10 Septembre, 2023",
+  date: "11 Septembre, 2023",
 )
 
 #set heading(numbering: "1.1.")
@@ -45,8 +45,8 @@
 
 == SOURCES OF INFORMATION
 <sources-of-information>
-- https://youtube.com/clip/Ugkx3VyjVc\_MUORcB16ILJ72oJ18I42lr0Y3?si\=s6bvmqs60CYLIiVC
-- https://youtu.be/nm\_n2lvHbsM?si\=W-kEw34c-XMjLD5F
+- https:\/\/youtube.com/clip/Ugkx3VyjVc\_MUORcB16ILJ72oJ18I42lr0Y3?si\=s6bvmqs60CYLIiVC
+- https:\/\/youtu.be/nm\_n2lvHbsM?si\=W-kEw34c-XMjLD5F
 
 crunch off angle spots \
 

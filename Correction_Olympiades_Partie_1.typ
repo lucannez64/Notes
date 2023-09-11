@@ -7,7 +7,7 @@
   authors: (
     "Lucas",
   ),
-  date: "10 Septembre, 2023",
+  date: "11 Septembre, 2023",
 )
 
 #set heading(numbering: "1.1.")
@@ -249,7 +249,7 @@ générale)
 + Généralisation au cas de n variables :
 ]
 
-On procède par récurrence sur n. L’initialisation pour n\=2 est
+On procède par récurrence sur n.~L’initialisation pour n\=2 est
 immédiate. Supposons le résultat vrai jusqu’à l’ordre n-1, avec n ≥ 3.
 Raisonnons par l’absurde en supposant qu’il existe un n-uplet (x1, …,
 xn) solution de l’équation avec un xi ≠ 0.

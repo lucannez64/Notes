@@ -7,7 +7,7 @@
   authors: (
     "Lucas",
   ),
-  date: "10 Septembre, 2023",
+  date: "11 Septembre, 2023",
 )
 
 #set heading(numbering: "1.1.")
@@ -71,7 +71,7 @@ Conclusion : Une enfant révélée à elle-même par l’amour de sa mère et le
 contact avec la nature.
 
 #blockquote[
-https://commentairecompose.fr/colette-sido-pretresse-vents-levee-au-jour/
+https:\/\/commentairecompose.fr/colette-sido-pretresse-vents-levee-au-jour/
 ]
 
 "Comment Colette célèbre la nature à travers l’aube ?" "De quelles
@@ -111,7 +111,7 @@ Mouvement 1: Appréhension sensuelle du monde 2: Prise de conscience de
 l’homme face à la vie 3: Déclaration d’amour à la vie
 
 #blockquote[
-https://commentairecompose.fr/arrias-la-bruyere/
+https:\/\/commentairecompose.fr/arrias-la-bruyere/
 ]
 
 En quoi Arrias contredit-il le portrait de l’honnête homme ?
@@ -131,4 +131,4 @@ Il suit un comportement défini, des normes. C’est le portrait du
 conformisme de l’homme de la ville, du paraître. Il est un homme sans
 âme. Il est représentatif de cet homme politique/social (Ouverture
 Aristote, L’homme est un animal politique). \>
-https://commentairecompose.fr/les-animaux-malades-de-la-peste-commentaire/
+https:\/\/commentairecompose.fr/les-animaux-malades-de-la-peste-commentaire/

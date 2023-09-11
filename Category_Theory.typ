@@ -7,7 +7,7 @@
   authors: (
     "Lucas",
   ),
-  date: "10 Septembre, 2023",
+  date: "11 Septembre, 2023",
 )
 
 #set heading(numbering: "1.1.")
@@ -225,7 +225,7 @@ formalize a relationship between two functors.
   $G colon cal(D) arrow.r cal(C)$ between categories $cal(C)$ and
   $cal(D)$ are adjoints if there is a natural bijection:
 
-$ hom_(cal(D)) lr((F lr((c)) comma d)) tilde.eqq hom_(cal(C)) lr((c comma G lr((d)))) $
+$ hom_(cal(D)) lr((F lr((c)) comma d)) tilde.equiv hom_(cal(C)) lr((c comma G lr((d)))) $
 
 for all objects $c in cal(C) comma d in cal(D)$.
 

@@ -20,7 +20,7 @@ On va montrer que:
 \
 $\sum ^{p+1}_{k=1}\left( k\right) =1+2+3+\ldots +p+\left( p+1\right) =\dfrac{\left( p+1\right) \left( p+1+1\right) }{2}$
 
-$\begin{aligned}\dfrac{\left( p+1\right) \left( p+2\right) }{2}=\dfrac{p^{2}+2p+p+3}{2}\\
+$\begin{aligned}\dfrac{\left( p+1\right) \left( p+2\right) }{2}=\dfrac{p^{2}+2p+p+2}{2}\\
 =\dfrac{p^{2}+3p+2}{2}\end{aligned}$
 \
 ou
