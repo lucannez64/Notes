@@ -7,7 +7,7 @@
   authors: (
     "Lucas",
   ),
-  date: "6 Septembre, 2023",
+  date: "10 Septembre, 2023",
 )
 
 #set heading(numbering: "1.1.")
@@ -80,3 +80,4 @@ the surface $z eq x^2 plus y^2$ is $z eq 4 x plus 4 y minus 4$.
 == Link
 <link>
 - #link("Partial Derivative.pdf")[Partial Derivative]
+- #link("Maths.pdf")[Maths]

@@ -7,7 +7,7 @@
   authors: (
     "Lucas",
   ),
-  date: "6 Septembre, 2023",
+  date: "10 Septembre, 2023",
 )
 
 #set heading(numbering: "1.1.")
@@ -70,3 +70,5 @@ need to use initial conditions, which specify the values of $x$ and
 $dot(x)$ at a particular time $t_0$. Using these initial conditions, you
 can solve for the constants $c_1$ and $c_2$ and obtain the specific
 solution to the differential equation.
+
+#link("Maths.pdf")[Maths]

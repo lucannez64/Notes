@@ -20,3 +20,4 @@ $F(x)=ln|x|+c$
 - [Identities](http://www.lrcb.ch/litterature/integrales.pdf)
 - [Techniques](https://tutorial.math.lamar.edu/Classes/CalcII/IntTechIntro.aspx)
 - [Nice Exercices](https://tutorial.math.lamar.edu/Problems/CalcII/IntTechIntro.aspx)
+- [Maths](Maths.md)

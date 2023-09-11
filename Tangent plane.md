@@ -42,3 +42,4 @@ So the equation of the tangent plane at the point $(2,2)$ on the surface $z = x^
 
 ## Link
 - [Partial Derivative](Partial Derivative.md)
+- [Maths](Maths.md)

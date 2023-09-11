@@ -20,3 +20,4 @@ Multivariable functions can be analyzed using the tools of multivariable calculu
 - [Directional Derivative](Directional Derivative.md)
 - [Extrema Multivariable function](Extrema Multivariable function.md)
 - [Method Of Lagrange Multipliers](Method Of Lagrange Multipliers.md)
+- [Maths](Maths.md)

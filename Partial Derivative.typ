@@ -7,7 +7,7 @@
   authors: (
     "Lucas",
   ),
-  date: "6 Septembre, 2023",
+  date: "10 Septembre, 2023",
 )
 
 #set heading(numbering: "1.1.")
@@ -62,3 +62,4 @@ $ frac(diff f, diff y) eq frac(diff, diff y) lr((sin x cos y^2)) eq frac(diff, d
 == Links
 <links>
 - #link("Derivative.pdf")[Derivative]
+- #link("Maths.pdf")[Maths]

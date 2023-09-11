@@ -7,7 +7,7 @@
   authors: (
     "Lucas",
   ),
-  date: "6 Septembre, 2023",
+  date: "10 Septembre, 2023",
 )
 
 #set heading(numbering: "1.1.")
@@ -48,3 +48,4 @@ given point, and to find maximum and minimum values of the function.
 - #link("Directional Derivative.pdf")[Directional Derivative]
 - #link("Extrema Multivariable function.pdf")[Extrema Multivariable function]
 - #link("Method Of Lagrange Multipliers.pdf")[Method Of Lagrange Multipliers]
+- #link("Maths.pdf")[Maths]

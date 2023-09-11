@@ -31,3 +31,4 @@ $$\frac{\partial f}{\partial y} = \frac{\partial}{\partial y} (\sin x \cos y^2) 
 
 ## Links
 - [Derivative](Derivative.md)
+- [Maths](Maths.md)

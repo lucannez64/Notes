@@ -7,7 +7,7 @@
   authors: (
     "Lucas",
   ),
-  date: "6 Septembre, 2023",
+  date: "10 Septembre, 2023",
 )
 
 #set heading(numbering: "1.1.")
@@ -35,3 +35,4 @@ $F lr((x)) eq l n lr(|x|) plus c$
 - #link("http://www.lrcb.ch/litterature/integrales.pdf")[Identities]
 - #link("https://tutorial.math.lamar.edu/Classes/CalcII/IntTechIntro.aspx")[Techniques]
 - #link("https://tutorial.math.lamar.edu/Problems/CalcII/IntTechIntro.aspx")[Nice Exercices]
+- #link("Maths.pdf")[Maths]

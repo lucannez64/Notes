@@ -7,7 +7,7 @@
   authors: (
     "Lucas",
   ),
-  date: "6 Septembre, 2023",
+  date: "10 Septembre, 2023",
 )
 
 #set heading(numbering: "1.1.")
@@ -21,10 +21,10 @@
   that they go past my crosshair 🚧
 - hold tightly if you have angle advantage and you’re going slow ✅
 - don’t unswing if they don’t peek at you
-- improve my movement : jiggle peek 🚧 / wide peek ✅ / shoulder peek ✅
-  / deadzoning 🚧 / burst strafing ✅
-- spray at low ✅/mid range and burst at long range 🚧 (and tap at very
-  long range ✅) make some movement between bursts
+- improve my movement : jiggle peek 🚧 | wide peek ✅ | shoulder peek ✅
+  | deadzoning 🚧 | burst strafing ✅ \
+- spray at low ✅|mid range and burst at long range 🚧 (and tap at very
+  long range ✅) make some movement between bursts \
 - when i have the angle advantage shift walk and hold tightly ✅
 - peek by pre aiming the corner cleaning block by block ✅
 
@@ -48,9 +48,17 @@
 - https://youtube.com/clip/Ugkx3VyjVc\_MUORcB16ILJ72oJ18I42lr0Y3?si\=s6bvmqs60CYLIiVC
 - https://youtu.be/nm\_n2lvHbsM?si\=W-kEw34c-XMjLD5F
 
-== DATA
-<data>
-crunch off angle spots | ✅ | ❌ | |—|—| |II |II |
+crunch off angle spots \
+
+#align(center)[#table(
+  columns: 2,
+  align: (col, row) => (auto,auto,).at(col),
+  inset: 6pt,
+  [✅], [❌],
+  [IIII],
+  [II],
+)
+]
 
 #align(center)[#table(
   columns: 2,

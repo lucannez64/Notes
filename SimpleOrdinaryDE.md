@@ -33,3 +33,4 @@ $$\lambda = \frac{-\frac{k}{m} \pm \sqrt{\left(\frac{k}{m}\right)^2 - 4 \cdot \f
 
 Once you have the characteristic roots, you can find the general solution to the differential equation by writing it in the form $x(t) = c_1 e^{\lambda_1 t} + c_2 e^{\lambda_2 t}$, where $c_1$ and $c_2$ are constants and $\lambda_1$ and $\lambda_2$ are the characteristic roots. To find the specific solution to the equation, you need to use initial conditions, which specify the values of $x$ and $\dot{x}$ at a particular time $t_0$. Using these initial conditions, you can solve for the constants $c_1$ and $c_2$ and obtain the specific solution to the differential equation.
 
+[Maths](Maths.md)

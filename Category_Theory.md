@@ -263,3 +263,5 @@ Examples formalize data augmentation, effects, semantics.
 
 - **Mathematics**: Category theory clarifies foundations and connections between diverse fields.
 
+
+[Maths](Maths.md)

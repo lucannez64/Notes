@@ -7,7 +7,7 @@
   authors: (
     "Lucas",
   ),
-  date: "6 Septembre, 2023",
+  date: "10 Septembre, 2023",
 )
 
 #set heading(numbering: "1.1.")
@@ -17,3 +17,5 @@
 #link("Vector-Valued Functions.pdf")[Vector-Valued Functions]
 #link("Multiple Integrations.pdf")[Multiple Integrations]
 #link("Vectors Formula.pdf")[Vectors Formula]
+
+#link("Maths.pdf")[Maths]

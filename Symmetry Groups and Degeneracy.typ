@@ -7,7 +7,7 @@
   authors: (
     "Lucas",
   ),
-  date: "6 Septembre, 2023",
+  date: "10 Septembre, 2023",
 )
 
 #set heading(numbering: "1.1.")
@@ -101,3 +101,5 @@
   eigenstates leads to the construction
 
 of multiplets and facilitates the understanding of degeneracy.
+
+#link("Maths.pdf")[Maths]

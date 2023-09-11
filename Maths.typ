@@ -7,10 +7,15 @@
   authors: (
     "Lucas",
   ),
-  date: "6 Septembre, 2023",
+  date: "10 Septembre, 2023",
 )
 
 #set heading(numbering: "1.1.")
 
-#link("Differential.pdf")[Differential Equation]
-#link("Calculus.pdf")[Calculus]
+#link("Calculus.pdf") #link("Category_Theory.pdf") #link("Home.pdf")
+#link("Integral.pdf") #link("Maths_DM.pdf") #link("Maths_Exercices.pdf")
+#link("Multivariable Function.pdf")[Multivariable Function.md]
+#link("Partial Derivative.pdf")[Partial Derivative.md]
+#link("SimpleOrdinaryDE.pdf")
+#link("Symmetry Groups and Degeneracy.pdf")[Symmetry Groups and Degeneracy.md]
+#link("Tangent plane.pdf")[Tangent plane.md]
