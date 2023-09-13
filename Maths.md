@@ -9,4 +9,5 @@
 [SimpleOrdinaryDE.md](SimpleOrdinaryDE.md)
 [Symmetry Groups and Degeneracy.md](Symmetry Groups and Degeneracy.md)
 [Tangent plane.md](Tangent plane.md)
+[m_sup.md](m_sup.md)
 

@@ -31,6 +31,7 @@
   set par(justify: true)
   show heading: it => [
     #set text(font: "Playfair Display")
+    #v(0.5em)
     #block(it.body)
   ]
   show image: set image(width: 70%)

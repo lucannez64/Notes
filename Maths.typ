@@ -7,7 +7,7 @@
   authors: (
     "Lucas",
   ),
-  date: "11 Septembre, 2023",
+  date: "13 Septembre, 2023",
 )
 
 #set heading(numbering: "1.1.")
@@ -18,4 +18,4 @@
 #link("Partial Derivative.pdf")[Partial Derivative.md]
 #link("SimpleOrdinaryDE.pdf")
 #link("Symmetry Groups and Degeneracy.pdf")[Symmetry Groups and Degeneracy.md]
-#link("Tangent plane.pdf")[Tangent plane.md]
+#link("Tangent plane.pdf")[Tangent plane.md] #link("m_sup.pdf")
