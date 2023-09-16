@@ -7,7 +7,7 @@
   authors: (
     "Lucas",
   ),
-  date: "13 Septembre, 2023",
+  date: "16 Septembre, 2023",
 )
 
 #set heading(numbering: "1.1.")
@@ -31,23 +31,23 @@ $x_2 eq frac(minus 8, 4) eq minus 2$
   columns: 2,
   align: (col, row) => (auto,auto,).at(col),
   inset: 6pt,
-  [Variation], [Interval],
-  [positive],
-  [on x\<-2],
-  [zero],
-  [at x \= -2],
-  [negative],
-  [on -2\<x\<3/2],
-  [zero],
+  [Variation/Signe], [Interval],
+  [positif],
+  [pour x \< -2],
+  [zéro],
+  [à x \= -2],
+  [négatif],
+  [pour -2\<x\<3/2],
+  [zéro],
   [at x \= 3/2],
-  [positive],
-  [on x\>3/2],
-  [increase],
-  [from -inf to -2],
-  [decrease],
-  [from -2 to 3/2],
-  [increase],
-  [from 3/2 to +inf],
+  [positif],
+  [pour x\>3/2],
+  [croissante],
+  [de -inf à -2],
+  [décroissante],
+  [de -2 à 3/2],
+  [croissante],
+  [de 3/2 à +inf],
 )
 ]
 
@@ -62,43 +62,47 @@ $p eq 4 / 3$ \
 \
 $x eq.not 4 / 3$ \
 
-Ensemble de définition
+Ensemble de définition: \
 $f_2 colon bb(R) without lr({4 / 3}) arrow.r bb(R)$
+
+\
 
 #align(center)[#table(
   columns: 2,
   align: (col, row) => (auto,auto,).at(col),
   inset: 6pt,
-  [Variation], [Interval],
-  [negative],
-  [from -inf to 3/4],
-  [not defined],
+  [Variation/Signe], [Interval],
+  [négatif],
+  [de -inf à 3/4],
+  [indéfini],
+  [à 3/4],
+  [négatif],
+  [de 3/4 à +inf],
+  [décroissante],
+  [de -inf à 3/4],
+  [indéfini],
   [at 3/4],
-  [negative],
-  [from 3/4 to +inf],
-  [decrease],
-  [from -inf to 3/4],
-  [not defined],
-  [at 3/4],
-  [decrease],
-  [from 3/4 to +inf],
+  [décroissante],
+  [de 3/4 à +inf],
 )
 ]
 
 === 3.
 <section-2>
 $f_3 prime lr((x)) eq e^x sqrt(x) plus frac(e^x, 2 sqrt(x)) eq frac(e^x lr((2 x plus 1)), 2 sqrt(x))$
+\
+Ensemble de définition : \
 $f_3 colon bb(R)^plus arrow.r bb(R)^plus$
 
 #align(center)[#table(
   columns: 2,
   align: (col, row) => (auto,auto,).at(col),
   inset: 6pt,
-  [Variation], [Interval],
-  [positive],
-  [on 0\<x to +inf],
-  [increase],
-  [on 0\<x to +inf],
+  [Variation/Signe], [Interval],
+  [positif],
+  [on 0\<x à +inf],
+  [croissante],
+  [on 0\<x à +inf],
 )
 ]
 
@@ -170,7 +174,72 @@ eq frac(2^3 plus 9 p^2 plus 13 p plus 6, 6) $ \
 donc la propriété $lr((P_n))$ est vraie au rang p+1 \
 \
 Conclusion: \
-D’après le principe de récurrence pour tout entier naturel $n gt.eq 1$,
+D’après le principe de récurrence pour àut entier naturel $n gt.eq 1$,
 $sum_(k eq 1)^n k^2 eq frac(n lr((n plus 1)) lr((2 n plus 1)), 6)$
+
+== Exercice 4
+<exercice-4>
+\
+On commence par calculer l’aire d’un cercle en posant $x$ comme le
+périmètre du cercle: \
+\
+$A eq pi r^2$ et $P eq 2 pi r$ \
+soit $r eq frac(P, 2 pi)$ \
+donc $A_c lr((x)) eq frac(pi x^2, 4 pi^2)$ \
+On calcule l’aire du triangle équilatéral avec $lr((1 minus x))$ comme
+le périmètre du triangle \
+\
+$A_t e eq sqrt(3) / 2 a^2$ avec $a eq lr((1 minus x)) / 3$ donc comme un
+côté du triangle \
+$arrow.r.double A_t e lr((x)) eq sqrt(3) / 2 lr((frac(1 minus x, 3)))^2$
+\
+\
+On obtient l’aire totale \
+\
+$A_t lr((x)) eq frac(pi x^2, 4 pi^2) plus sqrt(3) / 2 lr((frac(1 minus x, 3)))^2$
+\
+\
+$A_t lr((x)) eq frac(x^2, 4 pi) plus 1 / 18 sqrt(3) lr((1 minus 2 x plus x^2))$
+\
+\
+Pour miniser $A_t$ on calcule sa dérivée \
+\
+$A_t prime lr((x)) eq frac(8 x pi, lr((4 pi))^2) plus 1 / 18 sqrt(3) lr((2 x minus 2))$
+\
+\
+$A_t prime lr((x)) eq frac(8 pi, lr((4 pi))^2) x plus sqrt(3) / 9 x minus sqrt(3) / 9$
+\
+\
+On calcule maitenant la racine de $A_t prime$ \
+\
+$A_t prime lr((x)) eq 0$ \
+\
+$frac(8 pi, lr((4 pi))^2) x plus sqrt(3) / 9 x minus sqrt(3) / 9 eq 0$ \
+\
+$x lr((frac(8 pi, lr((4 pi))^2) plus sqrt(3) / 9)) minus sqrt(3) / 9 eq 0$
+\
+\
+$x paren.l frac(1, 2 pi) plus sqrt(3) / 9 eq sqrt(3) / 9$ \
+\
+$x lr((frac(2 sqrt(3) pi plus 9, 18 pi))) eq sqrt(3) / 9$ \
+\
+$x eq sqrt(3) / 9 ast.basic frac(18 pi, 2 sqrt(3) pi plus 9)$ \
+\
+$x eq frac(18 sqrt(3) pi, 18 sqrt(3) pi plus 81)$ \
+\
+$x eq frac(2 sqrt(3) pi, 2 sqrt(3) pi plus 9)$ \
+\
+$x approx 0.55 m$ \
+Donc la longeur du morceaux formant le cercle est d’environ 0.55m \
+et celle formant le triangle équilatéral : ~ \
+\
+$lr((1 minus x)) eq frac(2 sqrt(3) pi plus 9 minus 2 sqrt(3) pi, 2 sqrt(3) pi plus 9)$
+\
+\
+$lr((1 minus x)) eq frac(9, 2 sqrt(3) pi plus 9)$ \
+\
+$lr((1 minus x)) approx 0.45$ \
+
+La longeur du deuxième morceaux est d’environ 0.45m
 
 #link("Maths_DM.pdf")[Maths DM]
