@@ -3,11 +3,11 @@
 // Take a look at the file `template.typ` in the file panel
 // to customize this template and discover how it works.
 #show: project.with(
-  title: "m dm 18 09 2023",
+  title: "Maths Devoir Maison 1",
   authors: (
-    "Lucas",
+    "Lucas Duchet-Annez",
   ),
-  date: "16 Septembre, 2023",
+  date: "18 Septembre, 2023",
 )
 
 #set heading(numbering: "1.1.")
@@ -100,9 +100,9 @@ $f_3 colon bb(R)^plus arrow.r bb(R)^plus$
   inset: 6pt,
   [Variation/Signe], [Interval],
   [positif],
-  [on 0\<x à +inf],
+  [de 0\<x à +inf],
   [croissante],
-  [on 0\<x à +inf],
+  [de 0\<x à +inf],
 )
 ]
 
@@ -191,6 +191,7 @@ le périmètre du triangle \
 \
 $A_t e eq sqrt(3) / 2 a^2$ avec $a eq lr((1 minus x)) / 3$ donc comme un
 côté du triangle \
+\
 $arrow.r.double A_t e lr((x)) eq sqrt(3) / 2 lr((frac(1 minus x, 3)))^2$
 \
 \

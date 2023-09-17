@@ -68,8 +68,8 @@ $f_3:\mathbb{R}^{+} \rightarrow \mathbb{R}^{+}$
 
 | Variation/Signe   | Interval    |
 |--------------- | --------------- |
-| positif |on 0<x à +inf|
-| croissante | on 0<x à +inf|
+| positif | de 0<x à +inf|
+| croissante | de 0<x à +inf|
 
 ## Exercice 2 
 
@@ -154,6 +154,7 @@ On calcule l'aire du triangle équilatéral avec $(1-x)$ comme le périmètre du
 \
 $A_te=\dfrac{\sqrt{3}}{2}a^2$ 
 avec $a=\dfrac{(1-x)}{3}$ donc comme un côté du triangle \
+\
 $\Rightarrow A_te(x)=\dfrac{\sqrt{3}}{2}(\frac{1-x}{3})^2$
 \
 \

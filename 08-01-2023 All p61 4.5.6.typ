@@ -5,9 +5,9 @@
 #show: project.with(
   title: "08-01-2023 All p61 4.5.6",
   authors: (
-    "Lucas",
+    "Lucas Duchet-Annez",
   ),
-  date: "16 Septembre, 2023",
+  date: "17 Septembre, 2023",
 )
 
 #set heading(numbering: "1.1.")
