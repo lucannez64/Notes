@@ -7,7 +7,7 @@
   authors: (
     "Lucas Duchet-Annez",
   ),
-  date: "18 Septembre, 2023",
+  date: "17 Septembre, 2023",
 )
 
 #set heading(numbering: "1.1.")
@@ -31,7 +31,7 @@ $x_2 eq frac(minus 8, 4) eq minus 2$
   columns: 2,
   align: (col, row) => (auto,auto,).at(col),
   inset: 6pt,
-  [Variation/Signe], [Interval],
+  [Variation/Signe], [Intervalle],
   [positif],
   [pour x \< -2],
   [zéro],
@@ -39,7 +39,7 @@ $x_2 eq frac(minus 8, 4) eq minus 2$
   [négatif],
   [pour -2\<x\<3/2],
   [zéro],
-  [at x \= 3/2],
+  [à x \= 3/2],
   [positif],
   [pour x\>3/2],
   [croissante],
@@ -71,7 +71,7 @@ $f_2 colon bb(R) without lr({4 / 3}) arrow.r bb(R)$
   columns: 2,
   align: (col, row) => (auto,auto,).at(col),
   inset: 6pt,
-  [Variation/Signe], [Interval],
+  [Variation/Signe], [Intervalle],
   [négatif],
   [de -inf à 3/4],
   [indéfini],
@@ -81,7 +81,7 @@ $f_2 colon bb(R) without lr({4 / 3}) arrow.r bb(R)$
   [décroissante],
   [de -inf à 3/4],
   [indéfini],
-  [at 3/4],
+  [à 3/4],
   [décroissante],
   [de 3/4 à +inf],
 )
@@ -98,7 +98,7 @@ $f_3 colon bb(R)^plus arrow.r bb(R)^plus$
   columns: 2,
   align: (col, row) => (auto,auto,).at(col),
   inset: 6pt,
-  [Variation/Signe], [Interval],
+  [Variation/Signe], [Intervalle],
   [positif],
   [de 0\<x à +inf],
   [croissante],

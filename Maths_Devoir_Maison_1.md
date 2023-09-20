@@ -21,12 +21,12 @@ $x_1 = \dfrac{6}{4} = \dfrac{3}{2}$
 \
 $x_2 = \dfrac{-8}{4} = -2$
 
-| Variation/Signe   | Interval    |
+| Variation/Signe   | Intervalle    |
 |--------------- | --------------- |
 |positif | pour x < -2|
 |zéro | à x = -2|
 |négatif | pour -2<x<3/2|
-|zéro | at x = 3/2|
+|zéro | à x = 3/2|
 |positif | pour x>3/2|
 |croissante | de -inf à -2|
 |décroissante | de -2 à 3/2|
@@ -49,13 +49,13 @@ $f_{2}:\mathbb{R} \backslash \left\{ \dfrac{4}{3}\right\} \rightarrow \mathbb{R}
 
 \
 
-| Variation/Signe   | Interval    |
+| Variation/Signe   | Intervalle    |
 |--------------- | --------------- |
 | négatif | de -inf à 3/4 |
 | indéfini | à 3/4 |
 | négatif | de 3/4 à +inf |
 | décroissante | de -inf à 3/4 |
-| indéfini | at 3/4 |
+| indéfini | à 3/4 |
 | décroissante | de 3/4 à +inf |
 
 
@@ -66,7 +66,7 @@ $f_3\prime(x)=e^{x}\sqrt{x}+\dfrac{e^x}{2\sqrt{x}} = \dfrac{e^x(2x+1)}{2\sqrt{x}
 Ensemble de définition :\
 $f_3:\mathbb{R}^{+} \rightarrow \mathbb{R}^{+}$
 
-| Variation/Signe   | Interval    |
+| Variation/Signe   | Intervalle    |
 |--------------- | --------------- |
 | positif | de 0<x à +inf|
 | croissante | de 0<x à +inf|
