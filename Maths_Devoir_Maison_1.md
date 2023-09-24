@@ -148,29 +148,27 @@ On commence par calculer l'aire d'un cercle en posant $x$ comme le périmètre d
 \
 $A=\pi r^2$ et $P = 2\pi r$ \
 soit $r = \dfrac{P}{2\pi}$ \
-donc $A_c(x) = \dfrac{\pi x^2}{4\pi^2}$
+donc $A_c(x) = \dfrac{x^2}{4\pi}$
 \
 On calcule l'aire du triangle équilatéral avec $(1-x)$ comme le périmètre du triangle \
 \
-$A_te=\dfrac{\sqrt{3}}{2}a^2$ 
+$A_te=\dfrac{\sqrt{3}}{4}a^2$ 
 avec $a=\dfrac{(1-x)}{3}$ donc comme un côté du triangle \
 \
-$\Rightarrow A_te(x)=\dfrac{\sqrt{3}}{2}(\frac{1-x}{3})^2$
+$\Rightarrow A_te(x)=\dfrac{\sqrt{3}}{36}(1-x)^2$
 \
 \
 On obtient l'aire totale
 \
 \
-$A_t(x)=\dfrac{\pi x^2}{4\pi^2}+\dfrac{\sqrt{3}}{2}(\frac{1-x}{3})^2$\
+$A_t(x)=\dfrac{x^2}{4\pi}+\dfrac{\sqrt{3}}{36}(1-x)^2$\
 \
-$A_t(x)=\dfrac{x^2}{4\pi}+\dfrac{1}{18}\sqrt{3}(1-2x+x^2)$
+$A_t(x)=\dfrac{1}{18}(9x^2+(1-x)^2+\sqrt{3}\pi)$
 \
 \
 Pour miniser $A_t$ on calcule sa dérivée \
 \
-$A_t\prime(x)=\dfrac{8x\pi}{(4\pi)^2}+\dfrac{1}{18}\sqrt{3}(2x-2)$ \
-\
-$A_t\prime(x)=\dfrac{8\pi}{(4\pi)^2}x+\dfrac{\sqrt{3}}{9}x-\dfrac{\sqrt{3}}{9}$
+$A_t\prime(x)=\dfrac{18x+\sqrt{3}\pi(2x-2)}{36\pi}$ \
 \
 \
 On calcule maitenant la racine de $A_t\prime$ 
@@ -178,33 +176,27 @@ On calcule maitenant la racine de $A_t\prime$
 \
 $A_t\prime(x)=0$\
 \
-$\dfrac{8\pi}{(4\pi)^2}x+\dfrac{\sqrt{3}}{9}x-\dfrac{\sqrt{3}}{9}=0$\
+$\dfrac{18x+\sqrt{3}\pi(2x-2)}{36\pi}=0$\
 \
-$x(\dfrac{8\pi}{(4\pi)^2}+\dfrac{\sqrt{3}}{9})-\dfrac{\sqrt{3}}{9}=0$\
+$\dfrac{1}{2\pi}x+\dfrac{\sqrt{3}}{18}x-\dfrac{\sqrt{3}}{18}=0$\
 \
-$x(\dfrac{1}{2\pi}+\dfrac{\sqrt{3}}{9}=\dfrac{\sqrt{3}}{9}$\
+$\dfrac{9x+\sqrt{3}\pi x}{18\pi}=\dfrac{\sqrt{3}}{18}$\
 \
-$x(\dfrac{2\sqrt{3}\pi+9}{18\pi})=\dfrac{\sqrt{3}}{9}$\
+$x(9+\sqrt{3}\pi)=\sqrt{3}\pi$\
 \
-$x=\dfrac{\sqrt{3}}{9}*\dfrac{18\pi}{2\sqrt{3}\pi+9}$\
+$x=\dfrac{\sqrt{3}\pi}{9+\sqrt{3}\pi}$\
 \
-$x=\dfrac{18\sqrt{3}\pi}{18\sqrt{3}\pi+81}$\
-\
-$x=\dfrac{2\sqrt{3}\pi}{2\sqrt{3}\pi+9}$\
-\
-$x\approx 0.55m$\
-Donc la longeur du morceaux formant le cercle est d'environ 0.55m \
+$x\approx 0.38m$\
+Donc la longeur du morceaux formant le cercle est d'environ 0.38m \
 et celle formant le triangle équilatéral : 
 \ 
 \
 \
-$(1-x)=\dfrac{2\sqrt{3}\pi+9-2\sqrt{3}\pi}{2\sqrt{3}\pi+9}$\
+$(1-x)=\dfrac{9}{\sqrt{3}\pi+9}$\
 \
-$(1-x)=\dfrac{9}{2\sqrt{3}\pi+9}$\
-\
-$(1-x)\approx 0.45$\
+$(1-x)\approx 0.62$\
 
-La longeur du deuxième morceaux est d'environ 0.45m
+La longeur du deuxième morceaux est d'environ 0.62m
 
 
 [Maths DM](Maths_DM.md)

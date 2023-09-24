@@ -3,11 +3,11 @@
 // Take a look at the file `template.typ` in the file panel
 // to customize this template and discover how it works.
 #show: project.with(
-  title: "Maths Devoir Maison 1",
+  title: "Maths devoir Maison 1",
   authors: (
     "Lucas Duchet-Annez",
   ),
-  date: "17 Septembre, 2023",
+  date: "24 Septembre, 2023",
 )
 
 #set heading(numbering: "1.1.")
@@ -185,62 +185,50 @@ périmètre du cercle: \
 \
 $A eq pi r^2$ et $P eq 2 pi r$ \
 soit $r eq frac(P, 2 pi)$ \
-donc $A_c lr((x)) eq frac(pi x^2, 4 pi^2)$ \
+donc $A_c lr((x)) eq frac(x^2, 4 pi)$ \
 On calcule l’aire du triangle équilatéral avec $lr((1 minus x))$ comme
 le périmètre du triangle \
 \
-$A_t e eq sqrt(3) / 2 a^2$ avec $a eq lr((1 minus x)) / 3$ donc comme un
+$A_t e eq sqrt(3) / 4 a^2$ avec $a eq lr((1 minus x)) / 3$ donc comme un
 côté du triangle \
 \
-$arrow.r.double A_t e lr((x)) eq sqrt(3) / 2 lr((frac(1 minus x, 3)))^2$
-\
+$arrow.r.double A_t e lr((x)) eq sqrt(3) / 36 lr((1 minus x))^2$ \
 \
 On obtient l’aire totale \
 \
-$A_t lr((x)) eq frac(pi x^2, 4 pi^2) plus sqrt(3) / 2 lr((frac(1 minus x, 3)))^2$
+$A_t lr((x)) eq frac(x^2, 4 pi) plus sqrt(3) / 36 lr((1 minus x))^2$ \
 \
-\
-$A_t lr((x)) eq frac(x^2, 4 pi) plus 1 / 18 sqrt(3) lr((1 minus 2 x plus x^2))$
+$A_t lr((x)) eq 1 / 18 lr((9 x^2 plus lr((1 minus x))^2 plus sqrt(3) pi))$
 \
 \
 Pour miniser $A_t$ on calcule sa dérivée \
 \
-$A_t prime lr((x)) eq frac(8 x pi, lr((4 pi))^2) plus 1 / 18 sqrt(3) lr((2 x minus 2))$
+$A_t prime lr((x)) eq frac(18 x plus sqrt(3) pi lr((2 x minus 2)), 36 pi)$
 \
-\
-$A_t prime lr((x)) eq frac(8 pi, lr((4 pi))^2) x plus sqrt(3) / 9 x minus sqrt(3) / 9$
 \
 \
 On calcule maitenant la racine de $A_t prime$ \
 \
 $A_t prime lr((x)) eq 0$ \
 \
-$frac(8 pi, lr((4 pi))^2) x plus sqrt(3) / 9 x minus sqrt(3) / 9 eq 0$ \
+$frac(18 x plus sqrt(3) pi lr((2 x minus 2)), 36 pi) eq 0$ \
 \
-$x lr((frac(8 pi, lr((4 pi))^2) plus sqrt(3) / 9)) minus sqrt(3) / 9 eq 0$
+$frac(1, 2 pi) x plus sqrt(3) / 18 x minus sqrt(3) / 18 eq 0$ \
 \
+$frac(9 x plus sqrt(3) pi x, 18 pi) eq sqrt(3) / 18$ \
 \
-$x paren.l frac(1, 2 pi) plus sqrt(3) / 9 eq sqrt(3) / 9$ \
+$x lr((9 plus sqrt(3) pi)) eq sqrt(3) pi$ \
 \
-$x lr((frac(2 sqrt(3) pi plus 9, 18 pi))) eq sqrt(3) / 9$ \
+$x eq frac(sqrt(3) pi, 9 plus sqrt(3) pi)$ \
 \
-$x eq sqrt(3) / 9 ast.basic frac(18 pi, 2 sqrt(3) pi plus 9)$ \
-\
-$x eq frac(18 sqrt(3) pi, 18 sqrt(3) pi plus 81)$ \
-\
-$x eq frac(2 sqrt(3) pi, 2 sqrt(3) pi plus 9)$ \
-\
-$x approx 0.55 m$ \
-Donc la longeur du morceaux formant le cercle est d’environ 0.55m \
+$x approx 0.38 m$ \
+Donc la longeur du morceaux formant le cercle est d’environ 0.38m \
 et celle formant le triangle équilatéral : ~ \
 \
-$lr((1 minus x)) eq frac(2 sqrt(3) pi plus 9 minus 2 sqrt(3) pi, 2 sqrt(3) pi plus 9)$
+$lr((1 minus x)) eq frac(9, sqrt(3) pi plus 9)$ \
 \
-\
-$lr((1 minus x)) eq frac(9, 2 sqrt(3) pi plus 9)$ \
-\
-$lr((1 minus x)) approx 0.45$ \
+$lr((1 minus x)) approx 0.62$ \
 
-La longeur du deuxième morceaux est d’environ 0.45m
+La longeur du deuxième morceaux est d’environ 0.62m
 
 #link("Maths_DM.pdf")[Maths DM]
