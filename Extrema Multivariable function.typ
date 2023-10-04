@@ -7,7 +7,7 @@
   authors: (
     "Lucas Duchet-Annez",
   ),
-  date: "28 Septembre, 2023",
+  date: "4 Octobre, 2023",
 )
 
 #set heading(numbering: "1.1.")
