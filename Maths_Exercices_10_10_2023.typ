@@ -3,7 +3,7 @@
 // Take a look at the file `template.typ` in the file panel
 // to customize this template and discover how it works.
 #show: project.with(
-  title: "Maths DM",
+  title: "Maths Exercices 10 10 2023",
   authors: (
     "Lucas Duchet-Annez",
   ),
@@ -12,6 +12,4 @@
 
 #set heading(numbering: "1.1.")
 
-#link("Maths.pdf") #link("Maths_Devoir_Maison_1.pdf")
-
-#link("Maths.pdf")[Maths]
+#image("Exercies_10_10_2023_1.png") #image("Exercies_10_10_2023_2.png")
