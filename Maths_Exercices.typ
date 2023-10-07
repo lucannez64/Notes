@@ -12,6 +12,7 @@
 
 #set heading(numbering: "1.1.")
 
+#link("Maths.pdf") #link("Maths_Exercices_10_10_2023.pdf")
 #link("m_exercices_11_09_2023.pdf")
 
 #link("Maths.pdf")[Maths]
