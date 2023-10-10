@@ -7,7 +7,7 @@
   authors: (
     "Lucas Duchet-Annez",
   ),
-  date: "8 Octobre, 2023",
+  date: "9 Octobre, 2023",
 )
 
 #set heading(numbering: "1.1.")
@@ -167,3 +167,6 @@ $ lr((parallel arrow(P N) parallel))^2 & eq lr((3 / 4))^2 plus lr((minus 1 / 2))
 
 $ lr((parallel arrow(T P) parallel))^2 plus lr((parallel arrow(T N) parallel))^2 & eq lr((minus 3 / 4))^2 plus 0^2 plus lr((3 / 8))^2 plus 0^2 plus lr((minus 1 / 2))^2 plus lr((minus 1 / 8))^2\
  & eq 31 / 32 $
+
+\
+Donc TPN n’est pas un triangle rectangle
