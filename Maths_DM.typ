@@ -7,11 +7,11 @@
   authors: (
     "Lucas Duchet-Annez",
   ),
-  date: "9 Octobre, 2023",
+  date: "15 Octobre, 2023",
 )
 
 #set heading(numbering: "1.1.")
 
-#link("Maths.pdf") #link("Maths_Devoir_Maison_1.pdf")
+#link("Maths_Devoir_Maison_2.pdf") #link("Maths_devoir_Maison_1.pdf")
 
 #link("Maths.pdf")[Maths]

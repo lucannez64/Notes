@@ -7,7 +7,7 @@
   authors: (
     "Lucas Duchet-Annez",
   ),
-  date: "9 Octobre, 2023",
+  date: "15 Octobre, 2023",
 )
 
 #set heading(numbering: "1.1.")
@@ -30,13 +30,17 @@
 
 == VOD NOTES
 <vod-notes>
-=== 29/08/2023
+=== 14/10/2023
 <section>
+- don’t start the fight with spray but burst more
+
+=== 29/08/2023
+<section-1>
 - don’t reload when you don’t need to
 - hold spyke until mid
 
 === 28/08/2023
-<section-1>
+<section-2>
 - be more confident in my shots
 - don’t hyperfocus and forget to check the minimap
 - always target the most dangerous enemy first

@@ -1,0 +1,250 @@
+.
+..
+.git
+.Maths_Ex_12_10_2023.autosave.xopp
+.notes-ignore
+.Physique_Ex_08_10_2023.autosave.xopp
+.typst-preview.champs_quantiques.typ
+280px-QuantumHarmonicOscillatorAnimation.gif
+a.exe
+Activité ExpérimentaleDosage limonade ch3_annoté.pdf
+Allemand_08_01_2023_p61.md
+Allemand_08_01_2023_p61.pdf
+Allemand_08_01_2023_p61.typ
+Allemand_Ex_10_10_2023.md
+Allemand_Ex_10_10_2023.pdf
+Allemand_Ex_10_10_2023.typ
+Allemand_Verbes_Irreguliers.xopp
+barrier.mp4
+Calculus.md
+Calculus.pdf
+Calculus.typ
+Capture
+Category_Theory.md
+Category_Theory.pdf
+Category_Theory.typ
+Category_Theory_dg_1.svg
+Category_Theory_dg_2.svg
+Category_Theory_dg_3.svg
+Category_Theory_dg_4.svg
+Category_Theory_dg_5.svg
+Category_Theory_dg_6.svg
+champs_quantiques.pdf
+champs_quantiques.typ
+champs_quantiques.zip
+Controlled quantum teleportation and secure direct communication [0403155].pdf
+Correction_Olympiades_Partie_1.md
+Correction_Olympiades_Partie_1.pdf
+Correction_Olympiades_Partie_1.typ
+coursMP2I-analyse.pdf
+Critical Points.md
+Critical Points.pdf
+Critical Points.typ
+Derivative.md
+Derivative.pdf
+Derivative.typ
+Differential.md
+Differential.pdf
+Differential.typ
+Dirac_distribution_PDF.svg
+Directional Derivative.md
+Directional Derivative.pdf
+Directional Derivative.typ
+Divergence.md
+Divergence.pdf
+Divergence.typ
+DM2_9_10_2023_1.png
+DM2_9_10_2023_2.png
+DM2_9_10_2023_3.png
+Exercies_10_10_2023_1.png
+Exercies_10_10_2023_2.png
+Extrema Multivariable function.md
+Extrema Multivariable function.pdf
+Extrema Multivariable function.typ
+Gradient Vector.md
+Gradient Vector.pdf
+Gradient Vector.typ
+Home.md
+Home.pdf
+Home.typ
+Integral.md
+Integral.pdf
+Integral.typ
+lagrange.pdf
+lagrange.typ
+Lecture 3 Special Relativity (2).md
+Lecture 3 Special Relativity (2).pdf
+Lecture 3 Special Relativity (2).typ
+Lecture 3 Special Relativity.md
+Lecture 3 Special Relativity.pdf
+Lecture 3 Special Relativity.typ
+ls.txt
+Maths.comp.md
+Maths.comp.pdf
+Maths.comp.typ
+Maths.md
+Maths.pdf
+Maths.typ
+Maths_devoir_Maison_1.md
+Maths_Devoir_Maison_1.pdf
+Maths_devoir_Maison_1.typ
+Maths_Devoir_Maison_1_ex4.lorien
+Maths_Devoir_Maison_2.md
+Maths_Devoir_Maison_2.pdf
+Maths_Devoir_Maison_2.typ
+Maths_DM.comp.md
+Maths_DM.comp.pdf
+Maths_DM.comp.typ
+Maths_DM.md
+Maths_DM.pdf
+Maths_DM.typ
+Maths_DM2.pdf
+Maths_DM2.xopp
+Maths_Exercices.comp.md
+Maths_Exercices.comp.pdf
+Maths_Exercices.comp.typ
+Maths_Exercices.md
+Maths_Exercices.pdf
+Maths_Exercices.typ
+Maths_Exercices_10_10_2023.md
+Maths_Exercices_10_10_2023.pdf
+Maths_Exercices_10_10_2023.typ
+Maths_Exercices_11_09_2023.md
+Maths_Exercices_11_09_2023.pdf
+Maths_Exercices_11_09_2023.typ
+Maths_Exercices_12_10_2023.pdf
+Maths_Exercices_12_10_2023.xopp
+Maths_Exercices_21_09_2023.lorien
+Maths_Exercices_21_09_2023.svg
+Maths_Exercices_25_09_2023.lorien
+Maths_Exercices_25_09_2023.svg
+Maths_Expertes_Ex_11_10_2023.pdf
+Maths_Expertes_Ex_11_10_2023.xopp
+Maths_Expertes_Ex_11_10_2023_Animation.gif
+Maths_Expertes_Ex_17_10_2023.xopp
+Maths_Expertes_Exercices_26_09_2023_32.lorien
+Maths_Expertes_Exercices_26_09_2023_32.pdf
+Maths_Expertes_Exercices_26_09_2023_32.svg
+Maths_Expertes_Exercices_26_09_2023_38.lorien
+Maths_Expertes_Exercices_26_09_2023_38.pdf
+Maths_Expertes_Exercices_26_09_2023_38.svg
+Maths_Expertes_Exercices_26_09_2023_76.lorien
+Maths_Expertes_Exercices_26_09_2023_76.pdf
+Maths_Expertes_Exercices_26_09_2023_76.svg
+Maths_Expertes_Exercices_26_09_2023_96.lorien
+Maths_Expertes_Exercices_26_09_2023_96.pdf
+Maths_Expertes_Exercices_26_09_2023_96.svg
+Maths_Sup.md
+Maths_Sup.pdf
+Maths_Sup.typ
+Maths_Sup_Course.pdf
+mecanique_quantique.pdf
+mecanique_quantique.typ
+mecanique_quantique_2.md
+mecanique_quantique_2.pdf
+mecanique_quantique_2.typ
+Method Of Lagrange Multipliers.md
+Method Of Lagrange Multipliers.pdf
+Method Of Lagrange Multipliers.typ
+Multiple Integrations.md
+Multiple Integrations.pdf
+Multiple Integrations.typ
+Multivariable Function 3D.png
+Multivariable Function Countour plot.png
+Multivariable Function.md
+Multivariable Function.pdf
+Multivariable Function.typ
+notedit.py
+olympiades.exe
+Olympiades_Correction.md
+Olympiades_Correction.pdf
+Olympiades_Correction.typ
+Olympiades_Groupes.c
+Olympiades_Groupes_Partie_2.md
+Olympiades_Groupes_Partie_2.pdf
+Olympiades_Groupes_Partie_2.typ
+Partial Derivative.md
+Partial Derivative.pdf
+Partial Derivative.typ
+Pensée_1_Liberté.md
+Pensée_1_Liberté.pdf
+Pensée_1_Liberté.typ
+Philosophie_Argument.md
+Philosophie_Argument.pdf
+Philosophie_Argument.typ
+Philosophie_Argument_2.md
+Philosophie_Argument_2.pdf
+Philosophie_Argument_2.typ
+physics.typ
+Physique_Act_16_10_2023_1.md
+Physique_Act_16_10_2023_1.pdf
+Physique_Act_16_10_2023_1.typ
+Physique_Act_16_10_2023_2.xopp
+Physique_Cours_3.pdf
+Physique_Cours_3.xopp
+Physique_Ex_08_10_2023.pdf
+Physique_Ex_08_10_2023.xopp
+Physique_Exercices_03_01_23_p73-75.md
+Physique_Exercices_03_01_23_p73-75.pdf
+Physique_Exercices_03_01_23_p73-75.typ
+Physique_Rev_12_01_2023.md
+Physique_Rev_12_01_2023.pdf
+Physique_Rev_12_01_2023.typ
+pouvoirs.png
+pouvoirs.svg
+Protocole de dilution.md
+Protocole de dilution.pdf
+Protocole de dilution.typ
+Protocole_Dissolution.md
+Protocole_Dissolution.pdf
+Protocole_Dissolution.typ
+Qubit teleportation between non-neighbouring nodes in a quantum network[s41586-022-04697-y].pdf
+README.md
+README.pdf
+README.typ
+Refaire_la_France.md
+Refaire_la_France.pdf
+Refaire_la_France.typ
+SimpleOrdinaryDE.md
+SimpleOrdinaryDE.pdf
+SimpleOrdinaryDE.typ
+ss.xournalpp
+Symmetry Groups and Degeneracy.md
+Symmetry Groups and Degeneracy.pdf
+Symmetry Groups and Degeneracy.typ
+Tangent plane.md
+Tangent plane.pdf
+Tangent plane.typ
+template.pdf
+template.typ
+test.c
+test.py
+test.rs
+test2.c
+test2.exe
+test2.pdb
+test2.rs
+texput.log
+Texte_1.md
+Texte_1.pdf
+Texte_1.typ
+Texte_2.md
+Texte_2.pdf
+Texte_2.typ
+TEXTES.md
+TEXTES.pdf
+TEXTES.typ
+tree.mmd
+tst.exe
+tunnel.html
+twosource.gif
+update.ps1
+Valorant_Notes_DATA.md
+Valorant_Notes_DATA.pdf
+Valorant_Notes_DATA.typ
+Vector-Valued Functions.md
+Vector-Valued Functions.pdf
+Vector-Valued Functions.typ
+Vectors Formula.md
+Vectors Formula.pdf
+Vectors Formula.typ

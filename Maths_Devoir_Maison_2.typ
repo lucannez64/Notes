@@ -7,7 +7,7 @@
   authors: (
     "Lucas Duchet-Annez",
   ),
-  date: "9 Octobre, 2023",
+  date: "15 Octobre, 2023",
 )
 
 #set heading(numbering: "1.1.")
@@ -170,3 +170,5 @@ $ lr((parallel arrow(T P) parallel))^2 plus lr((parallel arrow(T N) parallel))^2
 
 \
 Donc TPN n’est pas un triangle rectangle
+
+#link("Maths_DM.pdf")[Maths DM]

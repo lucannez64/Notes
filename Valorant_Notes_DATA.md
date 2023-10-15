@@ -13,6 +13,10 @@
 
 ## VOD NOTES
 
+### 14/10/2023
+
+- don't start the fight with spray but burst more 
+
 ### 29/08/2023
 - don't reload when you don't need to
 - hold spyke until mid 

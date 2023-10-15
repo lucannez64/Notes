@@ -3,11 +3,11 @@
 // Take a look at the file `template.typ` in the file panel
 // to customize this template and discover how it works.
 #show: project.with(
-  title: "03-01-23 PC p73-75 4.7.9.1",
+  title: "Physique Exercices 03 01 23 p73-75",
   authors: (
     "Lucas Duchet-Annez",
   ),
-  date: "9 Octobre, 2023",
+  date: "15 Octobre, 2023",
 )
 
 #set heading(numbering: "1.1.")

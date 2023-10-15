@@ -16,15 +16,18 @@ x(t) ?
 
 ### Method 1:
 $\frac{dx}{dt} = \lambda x$\
+\
 $\frac{dx}{x} = \lambda dt$\
+\
 $\int \frac{dx}{x} = \int \lambda dt$\
+\
 => $ln(x(t)) = \lambda t + C$\
-=> $x(t) = e^{\lambda t + C}$   $e^{a+b}=e^{a}e^{b}$\
-   $x(t) = e^{\lambda t}+K$\
+=> $x(t) = e^{\lambda t + C}$  we know that  $e^{a+b}=e^{a}e^{b}$\
+=> $x(t) = e^{\lambda t}+K$\
 K ?
 $X(0) = e^0K \Rightarrow K = x(0)$
 
-## Second Order ODE
+## Second Order ODE 
 
 ### Example
 The differential equation you've written down is a second-order linear differential equation with constant coefficients, which can be written in the standard form $\frac{d^2x}{dt^2} + \frac{k}{m} \frac{dx}{dt} + \frac{g}{m} x = 0$. To solve this type of differential equation, you can use the characteristic equation, which is given by the equation $\lambda^2 + \frac{k}{m} \lambda + \frac{g}{m} = 0$. The solutions to this equation are the so-called characteristic roots, which are the values of $\lambda$ that satisfy the equation. In this case, the characteristic roots are given by the quadratic formula:

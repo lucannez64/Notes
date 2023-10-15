@@ -7,7 +7,7 @@
   authors: (
     "Lucas Duchet-Annez",
   ),
-  date: "9 Octobre, 2023",
+  date: "15 Octobre, 2023",
 )
 
 #set heading(numbering: "1.1.")
@@ -37,11 +37,15 @@ x(t) ?
 === Method 1:
 <method-1>
 $frac(d x, d t) eq lambda x$ \
+\
 $frac(d x, x) eq lambda d t$ \
+\
 $integral frac(d x, x) eq integral lambda d t$ \
+\
 \=\> $l n lr((x lr((t)))) eq lambda t plus C$ \
-\=\> $x lr((t)) eq e^(lambda t plus C)$ $e^(a plus b) eq e^a e^b$ \
-$x lr((t)) eq e^(lambda t) plus K$ \
+\=\> $x lr((t)) eq e^(lambda t plus C)$ we know that
+$e^(a plus b) eq e^a e^b$ \
+\=\> $x lr((t)) eq e^(lambda t) plus K$ \
 K ? $X lr((0)) eq e^0 K arrow.r.double K eq x lr((0))$
 
 == Second Order ODE

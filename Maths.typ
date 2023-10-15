@@ -7,15 +7,17 @@
   authors: (
     "Lucas Duchet-Annez",
   ),
-  date: "9 Octobre, 2023",
+  date: "15 Octobre, 2023",
 )
 
 #set heading(numbering: "1.1.")
 
 #link("Calculus.pdf") #link("Category_Theory.pdf") #link("Home.pdf")
-#link("Integral.pdf") #link("Maths_DM.pdf") #link("Maths_Exercices.pdf")
+#link("Integral.pdf") #link("Maths_DM.pdf") #link("Maths_DM.pdf")
+#link("Maths_Exercices.pdf") #link("Maths_Exercices.pdf")
+#link("Maths_Sup.pdf")
 #link("Multivariable Function.pdf")[Multivariable Function.md]
 #link("Partial Derivative.pdf")[Partial Derivative.md]
 #link("SimpleOrdinaryDE.pdf")
 #link("Symmetry Groups and Degeneracy.pdf")[Symmetry Groups and Degeneracy.md]
-#link("Tangent plane.pdf")[Tangent plane.md] #link("m_sup.pdf")
+#link("Tangent plane.pdf")[Tangent plane.md]
