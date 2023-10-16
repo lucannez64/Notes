@@ -1,1 +1,1 @@
-fzf | % { start $_ }
+ls -a *.pdf | fzf | % { start $_ }

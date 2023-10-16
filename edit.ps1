@@ -1,1 +1,1 @@
-fzf | % {nvim $_ }
+ls -a *.pdf | fzf | % {nvim $_ }
