@@ -16,30 +16,27 @@
 <exercice-1>
 === Partie A
 <partie-a>
-+ Il y a 6 faces sur un cube et il y a 2 faces noires sur le dé A donc
-  la probabilité d’obtenir une fois une face noire et
-  $P eq 2 / 6 eq 1 / 3$. Comme les deux lancers sont indépendants la
-  probabilité d’avoir une face noire au second lancer et aussi de
-  $1 / 3$ donc la probabilité d’avoir deux faces noires successivement
-  est $P eq 1 / 3 times 1 / 3 eq 1 / 9$ \
++ Soit $P_n$ la probabilité d’obtenir une face de couleur $n$ au premier
+  lancer avec $n in brace.l 0 comma 1 comma 2 brace.r$ où 0 correspond à
+  la couleur verte, 1 à la couleur noire et 2 à la couleur rouge. Les
+  lancers étant indépendants, la probabilité d’obtenir deux faces de
+  couleur $n$ est $P_n^2$. On a alors : $P_0 eq 2 / 6 eq 1 / 3$
+  $P_1 eq 2 / 6 eq 1 / 3$ $P_2 eq 3 / 6 eq 1 / 2$ La probabilité
+  d’obtenir deux faces noires est donc $P_1^2 eq 1 / 9$. \
 
-+ La probabilité de l’évènement C est égale à la somme des probabilités
-  d’avoir deux faces d’une certaine même couleur, Soit :
-  $P lr((C)) eq sum_(n eq 0)^2 P_n$ avec
-  $n in brace.l 0 comma 1 comma 2 brace.r$ et 0 correspondant à la
-  couleur verte, 1 à la couleur noire, et 2 à la couleur rouge On sait
-  que $P_1 eq 1 / 9$ d’après la question précédente de manière analogue
-  on détermine que $P_0 eq 1 / 6 times 1 / 6 eq 1 / 36$ et que
-  $P_2 eq 3 / 6 times 3 / 6 eq 1 / 4$ donc
-  $P lr((C)) eq P_0 plus P_1 plus P_2 eq 1 / 36 plus 1 / 9 plus 1 / 4 eq frac(4 plus 1 plus 9, 36) eq 14 / 36 eq 7 / 18$
++ Notons $C$ l’événement "les deux faces obtenues sont de la même
+  couleur". On a alors :
+  $ P lr((C)) eq P_0^2 plus P_1^2 plus P_2^2 eq 1 / 36 plus 1 / 9 plus 1 / 4 eq 7 / 18 $
 
 + La probabilité qu’à l’issue d’un jeu, les deux faces obtenues soient
-  de couleurs différentes est
-  $P lr((overline(C))) eq 1 minus P lr((C)) eq 1 minus 7 / 18 eq 11 / 18$
+  de couleurs différentes est la probabilité de l’événement contraire
+  $overline(C)$ qui s’obtient par :
+  $ P lr((overline(C))) eq 1 minus P lr((C)) eq 1 minus 7 / 18 eq 11 / 18 $
 
-+ Soit l’évènement B : à l’issue d’un jeu, les deux faces obtenues
-  soient vertes avec $P lr((B)) eq P_0 eq 1 / 36$ la probabilité de
-  $P_C lr((B)) eq P lr((B divides C)) eq frac(P lr((B sect C)), P lr((C))) eq 1 / 36 18 / 7 eq 1 / 14$
++ Notons $B$ l’événement "les deux faces obtenues sont vertes" inclus
+  dans $C$. On sait que $P lr((B)) eq P_0^2 eq 1 / 36$. La probabilité
+  conditionnelle s’écrit alors :
+  $ P_C lr((B)) eq frac(P lr((B sect C)), P lr((C))) eq frac(P lr((B)), P lr((C))) eq frac(1 slash 36, 7 slash 18) eq 1 / 14 $
 
 === Partie B
 <partie-b>
@@ -54,9 +51,9 @@
 
 #block[
 #set enum(numbering: "a.", start: 2)
-+ Soit A l’évènement obtenir la face verte au premier lancer et B
-  l’évènement obtenir la face verte au second lancer
-  $P_A lr((B)) eq 2 / 3$ d’après l’arbre des probabilités.
++ Notons $A$ l’événement "obtenir une face verte au premier lancer" et
+  $B$ l’événement "obtenir une face verte au second lancer". On lit sur
+  l’arbre des probabilités : $P_A lr((B)) eq 2 / 3$. \
 ]
 
 #block[
@@ -65,15 +62,16 @@
   $P lr((A sect B)) eq P lr((A)) times P_A lr((B)) eq 2 / 3 times 2 / 3 eq 4 / 9$
 
 + La probabilité d’obtenir une face verte au 2ème lancer est
-  $P lr((B)) eq P_A lr((B)) plus P_(overline(A)) lr((B)) eq 4 / 9 plus 1 / 3 times 1 / 6 eq 1 / 2$
+  $P lr((B)) eq P_A lr((B)) P lr((A)) plus P_(overline(A)) lr((B)) P lr((overline(A))) eq 4 / 9 plus 1 / 3 times 1 / 6 eq 1 / 2$
 ]
 
 == Exercice 2
 <exercice-2>
 + #block[
   #set enum(numbering: "a.", start: 1)
-  + $u_1 eq frac(u_0, 1 plus u_0) eq 1 / 2$
-    $u_2 eq frac(u_1, 1 plus u_1) eq 1 / 3$
+  + Calculons les premiers termes de la suite:
+    $u_1 eq frac(u_0, 1 plus u_0) eq 1 / 2$,
+    $u_2 eq frac(u_1, 1 plus u_1) eq 1 / 3$,
     $u_3 eq frac(u_2, 1 plus u_2) eq 1 / 4$
   ]
 
@@ -96,10 +94,10 @@ def liste(k):
 #set enum(numbering: "1.", start: 2)
 + Montrons par récurrence que la suite $lr((u_n))$ est strictement
   décroissante. \
-  Initialisation: \
-  pour le rang n\=0. $u_1 eq 1 / 2$ et $u_0 eq 1$ soit $u_0 gt u_1$ donc
-  la propriété est vraie au rang n\=0. \
-  Hérédité: \
+  #emph[Initialisation:] \
+  Pour le rang n\=0, on a $u_1 eq 1 / 2$ et $u_0 eq 1$ soit $u_0 gt u_1$
+  donc la propriété est vraie au rang n\=0. \
+  #emph[Hérédité:] \
   On suppose qu’il existe un entier naturel k tel que
   $u_(k plus 1) lt u_k$. Montrons que la propriété est vraie au rang
   $n eq k plus 1$. On pose la fonction f qui à x renvoie
@@ -111,7 +109,7 @@ def liste(k):
   intervalle on peut donc composer par f.
   $f lr((u_(k plus 1))) lt f lr((u_k))$ $u_(k plus 2) lt u_(k plus 1)$
   Donc la propriété est héréditaire. \
-  Conclusion: \
+  #emph[Conclusion:] \
   $forall n in bb(N)$, $u_(n plus 1) lt u_n$, la suite $lr((u_n))$ est
   strictement décroissante.
 
@@ -138,8 +136,8 @@ monotones.
   $arrow.l.r.double$ $cases(l^2 eq 0, 1 plus l eq.not 0)$ \
   \
   $arrow.l.r.double$ $cases(l eq 0, l eq.not minus 1)$ \
-  Or $l gt 0$ d’après l’énoncé donc $l eq 0$ soit la
-  $lim_(n arrow.r plus oo) u_(n plus 1) eq lim_(n arrow.r plus oo) u_n eq 0$
+  Or $l gt 0$ d’après l’énoncé donc $l eq 0^plus$ soit la
+  $lim_(n arrow.r plus oo) u_(n plus 1) eq lim_(n arrow.r plus oo) u_n eq 0^plus$
 
 + #block[
   #set enum(numbering: "a.", start: 1)
@@ -176,15 +174,15 @@ monotones.
 \
 1. (IJ) est sécante avec (AB) en le point d’intersection J et
 (AB)\/\/(EF) car \[AB\] et \[EF\] sont des faces opposées du cube donc
-(IJ) est sécante avec (EF) en un point d’intersection P Or
-$lr((E F)) subset lr((E F G))$ donc (IJ) coupe le plan (EFG) au point
+(IJ) est sécante avec (EF) en un point d’intersection P. Or,
+$lr((E F)) subset lr((E F G))$, donc (IJ) coupe le plan (EFG) au point
 d’intersection P
 
 #block[
 #set enum(numbering: "1.", start: 2)
 + $K in lr((E F G))$ et $K in lr((I J)) subset lr((I J K))$,
   $P in lr((E F G))$ et $P in lr((I J)) subset lr((I J K))$ donc
-  l’intersection des plans (IJK) et (EFG) et la droite (PK)
+  l’intersection des plans (IJK) et (EFG) est la droite (PK)
 
 + La section $lr((I J K))$ de $lr((A B F))$ est la droite $lr((I J))$ et
   d’après le théorème des parallèles la section par un même plan de deux
@@ -199,14 +197,16 @@ d’intersection P
   plan de deux plan forment deux droites parallèles or
   $lr((E F G)) slash.double lr((A B C))$ donc $lr((S K))$ est parallèle
   à la droite $lr((J Q))$ avec $Q$ le point d’intersection entre
-  $lr((B C))$ et la parallèle de $lr((S K))$ au point $J$. Finalement
-  $S in lr((I J K)) upright("et") S in lr((H E)) subset lr((H E A))$ et
-  $I in lr((I J K)) upright("et") I in lr((E A)) subset lr((H E A))$
-  donc $lr([S I])$ est la section de la face $H E A D$ par le plan
-  $lr((I J K))$. De plus
-  $R in lr((G C)) subset lr((B C G)) upright("et") R in lr((I J K))$ et
-  $Q in lr((B C)) subset lr((B C G)) upright("et") Q in lr((I J K))$
-  donc $lr([R Q])$ est la section de la face $F G C B$ par le plan
+  $lr((B C))$ et la parallèle de $lr((S K))$ au point $J$. De plus
+  $S in lr((I J K)) upright("et") S in lr((H E)) subset lr((H E A))$ de
+  même
+  $I in lr((I J K)) upright("et") I in lr((E A)) subset lr((H E A))$ par
+  conséquent $lr([S I])$ est la section de la face $H E A D$ par le plan
+  $lr((I J K))$. Finalement
+  $R in lr((G C)) subset lr((B C G)) upright("et") R in lr((I J K))$ de
+  même
+  $Q in lr((B C)) subset lr((B C G)) upright("et") Q in lr((I J K))$ par
+  conséquent $lr([R Q])$ est la section de la face $F G C B$ par le plan
   $lr((I J K))$. Par conséquent la section du cube $A B C D E F G H$ par
   le plan $lr((I J K))$ est l’hexagone $I J Q R K S$
 ]
@@ -214,22 +214,20 @@ d’intersection P
 == Exercice 4
 <exercice-4>
 \
-Considérons la fonction f tel que
+Considérons la fonction $f$ tel que
 $f lr((x)) eq frac(x, lr((x minus 1))^2 plus x) eq frac(x, x^2 minus x plus 1)$
 définie et dérivable sur l’intervalle $lr([2 semi 2 comma 1])$ \
-Regardons la variation de la fonction f \
-La dérivée de f est
+Étudions la variation de $f$: \
+La dérivée de $f$ est
 $f prime lr((x)) eq frac(1 minus x^2, lr((x^2 minus x plus 1))^2)$ \
-pour $x in lr([2 semi 2 comma 1])$ \
-$x gt 1$ \
-$x^2 gt 1$ \
-$minus x^2 lt minus 1$ \
-$1 minus x^2 lt 0$ \
-et $lr((x^2 minus x plus 1))^2 gt 0$ donc
-$frac(1 minus x^2, lr((x^2 minus x plus 1))^2)$ \
+Pour $x in lr([2 semi 2 comma 1])$, $x gt 1 arrow.r.double x^2 gt 1$ On
+en déduit que $minus x^2 lt minus 1 arrow.r.double 1 minus x^2 lt 0$ \
+Enfin $lr((x^2 minus x plus 1))^2 gt 0$, $forall x in bb(R)$ donc
+$frac(1 minus x^2, lr((x^2 minus x plus 1))^2) lt 0$ \
 Soit $f prime lr((x)) lt 0$ sur l’intervalle $lr([2 semi 2 comma 1])$
-donc f est décroissante sur $lr([2 semi 2 comma 1])$. \
-Posons $a eq 2 comma 014014014014$ et $b eq 2 comma 014014014016$ \
-$a lt b$ \
-$f lr((a)) gt f lr((b))$ Composont par la fonction f \
-donc $A gt B$ \
+autrement dit f est décroissante sur $lr([2 semi 2 comma 1])$. \
+Soient $a eq 2 comma 014014014014$ et $b eq 2 comma 014014014016$ \
+Puisque $a lt b$, on a $f lr((a)) gt f lr((b))$ en composant par la
+fonction f \
+Or $f lr((a)) eq A$ et $f lr((b)) eq B$ donc $A gt B$ \
+En conclusion A est plus grand que B
