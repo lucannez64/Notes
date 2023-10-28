@@ -13,7 +13,8 @@ On sait que $P_1=\dfrac{1}{9}$ d'après la question précédente de manière ana
 
 ### Partie B
 
-1. b. Soit A l'évènement obtenir la face verte au premier lancer et B l'évènement obtenir la face verte au second lancer $P_A(B)=\dfrac{2}{3}$ d'après l'arbre des probabilités.
+1. a. ![Arbre des probabilités](DM3_13_11_2023.png)
+b. Soit A l'évènement obtenir la face verte au premier lancer et B l'évènement obtenir la face verte au second lancer $P_A(B)=\dfrac{2}{3}$ d'après l'arbre des probabilités.
 
 2. La probabilité d'obtenir deux faces vertes est $P(A \cap B)= P(A)\times P_A(B)=\dfrac{2}{3}\times\dfrac{2}{3}=\dfrac{4}{9}$
 
@@ -23,7 +24,8 @@ On sait que $P_1=\dfrac{1}{9}$ d'après la question précédente de manière ana
 
 1. a. $u_1=\dfrac{u_0}{1+u_0}=\dfrac{1}{2}$ $u_2=\dfrac{u_1}{1+u_1}=\dfrac{1}{3}$ $u_3=\dfrac{u_2}{1+u_2}=\dfrac{1}{4}$
 
-b. ```python
+b.
+```python
 def liste(k):
   L=[]
   u=1
@@ -86,6 +88,7 @@ pour $n=0$ on a $\dfrac{1}{n+1}={1}{1}=1$ et $u_n=u_0=1$ donc la propriété $P_
 Hérédité:
 \
 On suppose qu'il existe un entier naturel k tel que $u_k=\dfrac{1}{k+1}$
+\
 Montrons que $P_k+1$ est vraie:
 \
 $u_{k+1}=\dfrac{u_k}{u_k +1}$ \
@@ -100,3 +103,31 @@ Conclusion:
 \
 $\forall n \in \mathbb{N} \ u_n=\dfrac{1}{n+1}$ \
 La conjecture est bien démontrée
+
+## Exercice 3
+\
+1. (IJ) est sécante avec (AB) en le point d'intersection J et (AB)//(EF) car [AB] et [EF] sont des faces opposées du cube donc (IJ) est sécante avec (EF) en un point d'intersection P Or $(EF) \subset (EFG)$ donc (IJ) coupe le plan (EFG) au point d'intersection P
+
+2. $K \in (EFG)$ et $K \in (IJ) \subset (IJK)$, $P \in (EFG)$ et $P\in (IJ)\subset (IJK)$ donc l'intersection des plans (IJK) et (EFG) et la droite (PK)
+
+3. La section $(IJK)$ de $(ABF)$ est la droite $(IJ)$ et d'après le théorème des parallèles la section par un même plan de deux plan forment deux droites parallèles or $(ABF) \sslash (DCG)$ donc $(IJ)$ est parallèle à la droite $(KR)$ avec $R$ le point d'intersection entre $(GC)$ et la parallèle de $(IJ)$ au point $K$.
+La section $(IJK)$ de $(EFG)$ est la droite $(PK)$ donc la section de la face $EFGH$ par le plan $(IJK)$ est le segment $[SK]$ avec $S$ le point d'intersection entre $(PK)$ et $(EH)$ d'après le théorème des parallèles la section par un même plan de deux plan forment deux droites parallèles or $(EFG) \sslash (ABC)$ donc $(SK)$ est parallèle à la droite $(JQ)$ avec $Q$ le point d'intersection entre $(BC)$ et la parallèle de $(SK)$ au point $J$. Finalement $S \in (IJK) \text{et} S\in (HE) \subset (HEA)$ et $I\in (IJK) \text{et} I\in (EA) \subset (HEA)$ donc $[SI]$ est la section de la face $HEAD$ par le plan $(IJK)$. De plus $R \in (GC) \subset (BCG) \text{et} R \in (IJK)$ et $Q \in (BC) \subset (BCG) \text{et} Q \in (IJK)$ donc $[RQ]$ est la section de la face $FGCB$ par le plan $(IJK)$. Par conséquent la section du cube $ABCDEFGH$ par le plan $(IJK)$ est l'hexagone $IJQRKS$
+
+
+## Exercice 4
+\
+Considérons la fonction f tel que $f(x)=\dfrac{x}{(x-1)^2+x}=\dfrac{x}{x^2-x+1}$ définie et dérivable sur l'intervalle $[2;2,1]$ \
+Regardons la variation de la fonction f \
+La dérivée de f est $f'(x)=\dfrac{1-x^2}{(x^2-x+1)^2}$\
+pour $x \in [2;2,1]$\
+$x>1$\
+$x^2>1$\
+$-x^2< -1$\
+$1-x^2<0$\
+et $(x^2-x+1)^2>0$ donc $\dfrac{1-x^2}{(x^2-x+1)^2}$\
+Soit $f'(x)<0$ sur l'intervalle $[2;2,1]$ donc f est décroissante sur $[2;2,1]$.\
+Posons $a=2,014014014014$ et $b=2,014014014016$\
+$a<b$\
+$f(a)>f(b)$ Composont par la fonction f\
+donc $A>B$\
+

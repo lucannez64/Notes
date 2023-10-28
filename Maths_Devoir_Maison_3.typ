@@ -7,7 +7,7 @@
   authors: (
     "Lucas Duchet-Annez",
   ),
-  date: "27 Octobre, 2023",
+  date: "28 Octobre, 2023",
 )
 
 #set heading(numbering: "1.1.")
@@ -44,17 +44,29 @@
 === Partie B
 <partie-b>
 + #block[
-  #set enum(numbering: "a.", start: 2)
-  + Soit A l’évènement obtenir la face verte au premier lancer et B
-    l’évènement obtenir la face verte au second lancer
-    $P_A lr((B)) eq 2 / 3$ d’après l’arbre des probabilités.
+  #set enum(numbering: "a.", start: 1)
+  + #figure([#image("DM3_13_11_2023.png")],
+      caption: [
+        Arbre des probabilités
+      ]
+    )
   ]
 
+#block[
+#set enum(numbering: "a.", start: 2)
++ Soit A l’évènement obtenir la face verte au premier lancer et B
+  l’évènement obtenir la face verte au second lancer
+  $P_A lr((B)) eq 2 / 3$ d’après l’arbre des probabilités.
+]
+
+#block[
+#set enum(numbering: "1.", start: 2)
 + La probabilité d’obtenir deux faces vertes est
   $P lr((A sect B)) eq P lr((A)) times P_A lr((B)) eq 2 / 3 times 2 / 3 eq 4 / 9$
 
 + La probabilité d’obtenir une face verte au 2ème lancer est
   $P lr((B)) eq P_A lr((B)) plus P_(overline(A)) lr((B)) eq 4 / 9 plus 1 / 3 times 1 / 6 eq 1 / 2$
+]
 
 == Exercice 2
 <exercice-2>
@@ -67,16 +79,18 @@
 
 #block[
 #set enum(numbering: "a.", start: 2)
-+ ```python
-  def liste(k):
-    L=[]
-    u=1
-    for i in range(0, k+1):
-      L.append(u)
-      u=u/(1+u)
-    return L 
-  ```
++
 ]
+
+```python
+def liste(k):
+  L=[]
+  u=1
+  for i in range(0, k+1):
+    L.append(u)
+    u=u/(1+u)
+  return L 
+```
 
 #block[
 #set enum(numbering: "1.", start: 2)
@@ -144,7 +158,8 @@ monotones.
   $u_n eq u_0 eq 1$ donc la propriété $P_0$ est vraie. \
   Hérédité: \
   On suppose qu’il existe un entier naturel k tel que
-  $u_k eq frac(1, k plus 1)$ Montrons que $P_k plus 1$ est vraie: \
+  $u_k eq frac(1, k plus 1)$ \
+  Montrons que $P_k plus 1$ est vraie: \
   $u_(k plus 1) eq frac(u_k, u_k plus 1)$ \
   \
   $u_(k plus 1) eq frac(1, k plus 1) frac(k plus 1, k plus 2)$ \
@@ -155,3 +170,66 @@ monotones.
   $forall n in bb(N) med u_n eq frac(1, n plus 1)$ \
   La conjecture est bien démontrée
 ]
+
+== Exercice 3
+<exercice-3>
+\
+1. (IJ) est sécante avec (AB) en le point d’intersection J et
+(AB)\/\/(EF) car \[AB\] et \[EF\] sont des faces opposées du cube donc
+(IJ) est sécante avec (EF) en un point d’intersection P Or
+$lr((E F)) subset lr((E F G))$ donc (IJ) coupe le plan (EFG) au point
+d’intersection P
+
+#block[
+#set enum(numbering: "1.", start: 2)
++ $K in lr((E F G))$ et $K in lr((I J)) subset lr((I J K))$,
+  $P in lr((E F G))$ et $P in lr((I J)) subset lr((I J K))$ donc
+  l’intersection des plans (IJK) et (EFG) et la droite (PK)
+
++ La section $lr((I J K))$ de $lr((A B F))$ est la droite $lr((I J))$ et
+  d’après le théorème des parallèles la section par un même plan de deux
+  plan forment deux droites parallèles or
+  $lr((A B F)) slash.double lr((D C G))$ donc $lr((I J))$ est parallèle
+  à la droite $lr((K R))$ avec $R$ le point d’intersection entre
+  $lr((G C))$ et la parallèle de $lr((I J))$ au point $K$. La section
+  $lr((I J K))$ de $lr((E F G))$ est la droite $lr((P K))$ donc la
+  section de la face $E F G H$ par le plan $lr((I J K))$ est le segment
+  $lr([S K])$ avec $S$ le point d’intersection entre $lr((P K))$ et
+  $lr((E H))$ d’après le théorème des parallèles la section par un même
+  plan de deux plan forment deux droites parallèles or
+  $lr((E F G)) slash.double lr((A B C))$ donc $lr((S K))$ est parallèle
+  à la droite $lr((J Q))$ avec $Q$ le point d’intersection entre
+  $lr((B C))$ et la parallèle de $lr((S K))$ au point $J$. Finalement
+  $S in lr((I J K)) upright("et") S in lr((H E)) subset lr((H E A))$ et
+  $I in lr((I J K)) upright("et") I in lr((E A)) subset lr((H E A))$
+  donc $lr([S I])$ est la section de la face $H E A D$ par le plan
+  $lr((I J K))$. De plus
+  $R in lr((G C)) subset lr((B C G)) upright("et") R in lr((I J K))$ et
+  $Q in lr((B C)) subset lr((B C G)) upright("et") Q in lr((I J K))$
+  donc $lr([R Q])$ est la section de la face $F G C B$ par le plan
+  $lr((I J K))$. Par conséquent la section du cube $A B C D E F G H$ par
+  le plan $lr((I J K))$ est l’hexagone $I J Q R K S$
+]
+
+== Exercice 4
+<exercice-4>
+\
+Considérons la fonction f tel que
+$f lr((x)) eq frac(x, lr((x minus 1))^2 plus x) eq frac(x, x^2 minus x plus 1)$
+définie et dérivable sur l’intervalle $lr([2 semi 2 comma 1])$ \
+Regardons la variation de la fonction f \
+La dérivée de f est
+$f prime lr((x)) eq frac(1 minus x^2, lr((x^2 minus x plus 1))^2)$ \
+pour $x in lr([2 semi 2 comma 1])$ \
+$x gt 1$ \
+$x^2 gt 1$ \
+$minus x^2 lt minus 1$ \
+$1 minus x^2 lt 0$ \
+et $lr((x^2 minus x plus 1))^2 gt 0$ donc
+$frac(1 minus x^2, lr((x^2 minus x plus 1))^2)$ \
+Soit $f prime lr((x)) lt 0$ sur l’intervalle $lr([2 semi 2 comma 1])$
+donc f est décroissante sur $lr([2 semi 2 comma 1])$. \
+Posons $a eq 2 comma 014014014014$ et $b eq 2 comma 014014014016$ \
+$a lt b$ \
+$f lr((a)) gt f lr((b))$ Composont par la fonction f \
+donc $A gt B$ \
