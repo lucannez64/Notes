@@ -20,14 +20,15 @@ b. Notons $A$ l'événement "obtenir une face verte au premier lancer" et $B$ l'
 
 2. La probabilité d'obtenir deux faces vertes est $P(A \cap B)= P(A)\times P_A(B)=\dfrac{2}{3}\times\dfrac{2}{3}=\dfrac{4}{9}$
 
-3. La probabilité d'obtenir une face verte au 2ème lancer est $P(B)=P_A(B)P(A)+P_{\overline{A}}(B)P(\overline{A})=\dfrac{4}{9}+\dfrac{1}{3}\times\dfrac{1}{6}=\dfrac{1}{2}$
+3. La probabilité d'obtenir une face verte au 2ème lancer est $$P(B)=P_A(B)P(A)+P_{\overline{A}}(B)P(\overline{A})=\dfrac{4}{9}+\dfrac{1}{3}\times\dfrac{1}{6}=\dfrac{1}{2}$$
 
 ## Exercice 2 
 
 1. a. Calculons les premiers termes de la suite: $u_1=\dfrac{u_0}{1+u_0}=\dfrac{1}{2}$, $u_2=\dfrac{u_1}{1+u_1}=\dfrac{1}{3}$, $u_3=\dfrac{u_2}{1+u_2}=\dfrac{1}{4}$
 
+\
 b.
-```python
+```python 
 def liste(k):
   L=[]
   u=1
@@ -37,7 +38,8 @@ def liste(k):
   return L 
 ```
 
-2. Montrons par récurrence que la suite $(u_n)$ est strictement décroissante.
+2. Montrons par récurrence que la suite $(u_n)$ est strictement décroissante. \
+Soit à démontrer : $P_n: u_{n+1}<u_n$
 \
 *Initialisation:*
 \
@@ -62,13 +64,15 @@ La suite $(u_n)$ est strictement décroissante d'après la question précédente
 
 Or, toute suite strictement décroissante et minorée converge vers un réel l d'après le théorème 4.2 du cours sur la convergence des suites monotones.
 
-4. $\lim_{n \to +\infty} u_{n+1} = \lim_{n \to +\infty} u_n = l$ d'après la convergence de la suite. Donc $l = \dfrac{l}{1+l}$ 
-$l-\dfrac{l}{1+l}=0$
+4. $\lim_{n \to +\infty} u_{n+1} = \lim_{n \to +\infty} u_n = l$ d'après la convergence de la suite. Donc $l = \dfrac{l}{1+l}$
 \
-$\dfrac{l+l^2-l}{1+l}=0$
+$\Leftrightarrow l-\dfrac{l}{1+l}=0$
 \
 \
-$\dfrac{l^2}{1+l}=0$ \
+$\Leftrightarrow \dfrac{l+l^2-l}{1+l}=0$
+\
+\
+$\Leftrightarrow \dfrac{l^2}{1+l}=0$ \
 \
 $\Leftrightarrow$
 systemequation $l^2=0$ $1+l\neq 0$ \
@@ -83,11 +87,11 @@ b. Soit la proposition $P_n : u_n=\dfrac{1}{n+1}$
 \
 Montrons que $P_n$ est vraie pour tout entier naturel n par récurrence:
 \
-Initialisation: 
+*Initialisation:*
 \
 pour $n=0$ on a $\dfrac{1}{n+1}={1}{1}=1$ et $u_n=u_0=1$ donc la propriété $P_0$ est vraie.
 \
-Hérédité:
+*Hérédité:*
 \
 On suppose qu'il existe un entier naturel k tel que $u_k=\dfrac{1}{k+1}$
 \
@@ -101,14 +105,17 @@ $u_{k+1}=\dfrac{1}{k+1}\dfrac{k+1}{k+2}$
 $u_{k+1}=\dfrac{1}{k+2}$ \
 Donc la propriété $P_n$ est héréditaire
 \
-Conclusion:
+*Conclusion:*
 \
 $\forall n \in \mathbb{N} \ u_n=\dfrac{1}{n+1}$ \
 La conjecture est bien démontrée
 
 ## Exercice 3
 \
-1. (IJ) est sécante avec (AB) en le point d'intersection J et (AB)//(EF) car [AB] et [EF] sont des faces opposées du cube donc (IJ) est sécante avec (EF) en un point d'intersection P. Or, $(EF) \subset (EFG)$, donc (IJ) coupe le plan (EFG) au point d'intersection P
+1.
+
+$(IJ)$ est sécante avec $(AB)$ en le point d'intersection $J$ et $(AB)\sslash(EF)$ car $[AB]$ et $[EF]$ sont des faces opposées du cube donc $(IJ)$ est sécante avec $(EF)$ en un point d'intersection $P$. Or, $(EF) \subset (EFG)$, par conséquent $(IJ)$ coupe le plan $(EFG)$ au point d'intersection $P$.
+
 
 2. $K \in (EFG)$ et $K \in (IJ) \subset (IJK)$, $P \in (EFG)$ et $P\in (IJ)\subset (IJK)$ donc l'intersection des plans (IJK) et (EFG) est la droite (PK)
 
@@ -118,13 +125,16 @@ La section $(IJK)$ de $(EFG)$ est la droite $(PK)$ donc la section de la face $E
 
 ## Exercice 4
 \
-Considérons la fonction $f$ tel que $f(x)=\dfrac{x}{(x-1)^2+x}=\dfrac{x}{x^2-x+1}$ définie et dérivable sur l'intervalle $[2;2,1]$ \
+Considérons la fonction $$\begin{array}{ccccc}
+f & : & [2;2,1] & \to &\mathbb{R} \\
+ & & x & \mapsto &f(x) \\
+\end{array}$$ tel que $f(x)=\dfrac{x}{(x-1)^2+x}=\dfrac{x}{x^2-x+1}$ dérivable sur l'intervalle $[2;2,1]$ \
 Étudions la variation de $f$:\
-La dérivée de $f$ est $f'(x)=\dfrac{1-x^2}{(x^2-x+1)^2}$\
-Pour $x \in [2;2,1]$, $x>1 \Rightarrow x^2>1$ On en déduit que $-x^2< -1 \Rightarrow 1-x^2<0$\
-Enfin $(x^2-x+1)^2>0$, $\forall x \in \mathbb{R}$ donc $\dfrac{1-x^2}{(x^2-x+1)^2}<0$\
+Pour tout $x\in [2;2,1]$, la dérivée de $f$ est $f'(x)=\dfrac{1-x^2}{(x^2-x+1)^2}$\
+De plus pour tout $x \in [2;2,1]$, $x>1 \Rightarrow x^2>1$ On en déduit que $-x^2< -1 \Rightarrow 1-x^2<0$\
+Enfin $(x^2-x+1)^2>0 \Rightarrow \forall x \in \mathbb{R} \text{,} \dfrac{1-x^2}{(x^2-x+1)^2}<0$\
 Soit $f'(x)<0$ sur l'intervalle $[2;2,1]$ autrement dit f est décroissante sur $[2;2,1]$.\
-Soient $a=2,014014014014$ et $b=2,014014014016$\
+On pose $a=2,014014014014$ et $b=2,014014014016$\
 Puisque $a<b$, on a $f(a)>f(b)$ en composant par la fonction f\
 Or $f(a)=A$ et $f(b)=B$ donc $A>B$\
 En conclusion A est plus grand que B

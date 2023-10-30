@@ -7,7 +7,7 @@
   authors: (
     "Lucas Duchet-Annez",
   ),
-  date: "28 Octobre, 2023",
+  date: "30 Octobre, 2023",
 )
 
 #set heading(numbering: "1.1.")
@@ -62,7 +62,7 @@
   $P lr((A sect B)) eq P lr((A)) times P_A lr((B)) eq 2 / 3 times 2 / 3 eq 4 / 9$
 
 + La probabilité d’obtenir une face verte au 2ème lancer est
-  $P lr((B)) eq P_A lr((B)) P lr((A)) plus P_(overline(A)) lr((B)) P lr((overline(A))) eq 4 / 9 plus 1 / 3 times 1 / 6 eq 1 / 2$
+  $ P lr((B)) eq P_A lr((B)) P lr((A)) plus P_(overline(A)) lr((B)) P lr((overline(A))) eq 4 / 9 plus 1 / 3 times 1 / 6 eq 1 / 2 $
 ]
 
 == Exercice 2
@@ -75,10 +75,8 @@
     $u_3 eq frac(u_2, 1 plus u_2) eq 1 / 4$
   ]
 
-#block[
-#set enum(numbering: "a.", start: 2)
-+
-]
+\
+b.
 
 ```python
 def liste(k):
@@ -94,6 +92,7 @@ def liste(k):
 #set enum(numbering: "1.", start: 2)
 + Montrons par récurrence que la suite $lr((u_n))$ est strictement
   décroissante. \
+  Soit à démontrer : $P_n colon u_(n plus 1) lt u_n$ \
   #emph[Initialisation:] \
   Pour le rang n\=0, on a $u_1 eq 1 / 2$ et $u_0 eq 1$ soit $u_0 gt u_1$
   donc la propriété est vraie au rang n\=0. \
@@ -127,11 +126,12 @@ monotones.
 #block[
 #set enum(numbering: "1.", start: 4)
 + $lim_(n arrow.r plus oo) u_(n plus 1) eq lim_(n arrow.r plus oo) u_n eq l$
-  d’après la convergence de la suite. Donc $l eq frac(l, 1 plus l)$
-  $l minus frac(l, 1 plus l) eq 0$ \
-  $frac(l plus l^2 minus l, 1 plus l) eq 0$ \
+  d’après la convergence de la suite. Donc $l eq frac(l, 1 plus l)$ \
+  $arrow.l.r.double l minus frac(l, 1 plus l) eq 0$ \
   \
-  $frac(l^2, 1 plus l) eq 0$ \
+  $arrow.l.r.double frac(l plus l^2 minus l, 1 plus l) eq 0$ \
+  \
+  $arrow.l.r.double frac(l^2, 1 plus l) eq 0$ \
   \
   $arrow.l.r.double$ $cases(l^2 eq 0, 1 plus l eq.not 0)$ \
   \
@@ -151,10 +151,10 @@ monotones.
 + Soit la proposition $P_n colon u_n eq frac(1, n plus 1)$ \
   Montrons que $P_n$ est vraie pour tout entier naturel n par
   récurrence: \
-  Initialisation: \
+  #emph[Initialisation:] \
   pour $n eq 0$ on a $frac(1, n plus 1) eq 1 1 eq 1$ et
   $u_n eq u_0 eq 1$ donc la propriété $P_0$ est vraie. \
-  Hérédité: \
+  #emph[Hérédité:] \
   On suppose qu’il existe un entier naturel k tel que
   $u_k eq frac(1, k plus 1)$ \
   Montrons que $P_k plus 1$ est vraie: \
@@ -164,7 +164,7 @@ monotones.
   \
   $u_(k plus 1) eq frac(1, k plus 2)$ \
   Donc la propriété $P_n$ est héréditaire \
-  Conclusion: \
+  #emph[Conclusion:] \
   $forall n in bb(N) med u_n eq frac(1, n plus 1)$ \
   La conjecture est bien démontrée
 ]
@@ -172,11 +172,14 @@ monotones.
 == Exercice 3
 <exercice-3>
 \
-1. (IJ) est sécante avec (AB) en le point d’intersection J et
-(AB)\/\/(EF) car \[AB\] et \[EF\] sont des faces opposées du cube donc
-(IJ) est sécante avec (EF) en un point d’intersection P. Or,
-$lr((E F)) subset lr((E F G))$, donc (IJ) coupe le plan (EFG) au point
-d’intersection P
+1.
+
+$lr((I J))$ est sécante avec $lr((A B))$ en le point d’intersection $J$
+et $lr((A B)) slash.double lr((E F))$ car $lr([A B])$ et $lr([E F])$
+sont des faces opposées du cube donc $lr((I J))$ est sécante avec
+$lr((E F))$ en un point d’intersection $P$. Or,
+$lr((E F)) subset lr((E F G))$, par conséquent $lr((I J))$ coupe le plan
+$lr((E F G))$ au point d’intersection $P$.
 
 #block[
 #set enum(numbering: "1.", start: 2)
@@ -214,19 +217,24 @@ d’intersection P
 == Exercice 4
 <exercice-4>
 \
-Considérons la fonction $f$ tel que
+Considérons la fonction
+$ f & colon & lr([2 semi 2 comma 1]) & arrow.r & bb(R)\
+ &  & x & arrow.r.bar & f lr((x))\
+ $ tel que
 $f lr((x)) eq frac(x, lr((x minus 1))^2 plus x) eq frac(x, x^2 minus x plus 1)$
-définie et dérivable sur l’intervalle $lr([2 semi 2 comma 1])$ \
+dérivable sur l’intervalle $lr([2 semi 2 comma 1])$ \
 Étudions la variation de $f$: \
-La dérivée de $f$ est
+Pour tout $x in lr([2 semi 2 comma 1])$, la dérivée de $f$ est
 $f prime lr((x)) eq frac(1 minus x^2, lr((x^2 minus x plus 1))^2)$ \
-Pour $x in lr([2 semi 2 comma 1])$, $x gt 1 arrow.r.double x^2 gt 1$ On
-en déduit que $minus x^2 lt minus 1 arrow.r.double 1 minus x^2 lt 0$ \
-Enfin $lr((x^2 minus x plus 1))^2 gt 0$, $forall x in bb(R)$ donc
-$frac(1 minus x^2, lr((x^2 minus x plus 1))^2) lt 0$ \
+De plus pour tout $x in lr([2 semi 2 comma 1])$,
+$x gt 1 arrow.r.double x^2 gt 1$ On en déduit que
+$minus x^2 lt minus 1 arrow.r.double 1 minus x^2 lt 0$ \
+Enfin
+$lr((x^2 minus x plus 1))^2 gt 0 arrow.r.double forall x in bb(R) upright(",") frac(1 minus x^2, lr((x^2 minus x plus 1))^2) lt 0$
+\
 Soit $f prime lr((x)) lt 0$ sur l’intervalle $lr([2 semi 2 comma 1])$
 autrement dit f est décroissante sur $lr([2 semi 2 comma 1])$. \
-Soient $a eq 2 comma 014014014014$ et $b eq 2 comma 014014014016$ \
+On pose $a eq 2 comma 014014014014$ et $b eq 2 comma 014014014016$ \
 Puisque $a lt b$, on a $f lr((a)) gt f lr((b))$ en composant par la
 fonction f \
 Or $f lr((a)) eq A$ et $f lr((b)) eq B$ donc $A gt B$ \

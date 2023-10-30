@@ -2,18 +2,19 @@
 ..
 .git
 .Maths_Ex_12_10_2023.autosave.xopp
+.Maths_Expertes_Ex_17_10_2023.autosave.xopp
 .notes-ignore
 .Physique_Ex_08_10_2023.autosave.xopp
 .typst-preview.champs_quantiques.typ
 280px-QuantumHarmonicOscillatorAnimation.gif
 a.exe
-Activité ExpérimentaleDosage limonade ch3_annoté.pdf
 Allemand_08_01_2023_p61.md
 Allemand_08_01_2023_p61.pdf
 Allemand_08_01_2023_p61.typ
 Allemand_Ex_10_10_2023.md
 Allemand_Ex_10_10_2023.pdf
 Allemand_Ex_10_10_2023.typ
+Allemand_Verbes_Irreguliers.pdf
 Allemand_Verbes_Irreguliers.xopp
 barrier.mp4
 Calculus.md
@@ -37,6 +38,9 @@ Correction_Olympiades_Partie_1.md
 Correction_Olympiades_Partie_1.pdf
 Correction_Olympiades_Partie_1.typ
 coursMP2I-analyse.pdf
+CPGE_MPSI.md
+CPGE_MPSI.pdf
+CPGE_MPSI.typ
 Critical Points.md
 Critical Points.pdf
 Critical Points.typ
@@ -56,6 +60,8 @@ Divergence.typ
 DM2_9_10_2023_1.png
 DM2_9_10_2023_2.png
 DM2_9_10_2023_3.png
+DM3_13_11_2023.png
+edit.ps1
 Exercies_10_10_2023_1.png
 Exercies_10_10_2023_2.png
 Extrema Multivariable function.md
@@ -85,13 +91,16 @@ Maths.comp.typ
 Maths.md
 Maths.pdf
 Maths.typ
-Maths_devoir_Maison_1.md
+Maths_Devoir_Maison_1.md
 Maths_Devoir_Maison_1.pdf
-Maths_devoir_Maison_1.typ
+Maths_Devoir_Maison_1.typ
 Maths_Devoir_Maison_1_ex4.lorien
 Maths_Devoir_Maison_2.md
 Maths_Devoir_Maison_2.pdf
 Maths_Devoir_Maison_2.typ
+Maths_Devoir_Maison_3.md
+Maths_Devoir_Maison_3.pdf
+Maths_Devoir_Maison_3.typ
 Maths_DM.comp.md
 Maths_DM.comp.pdf
 Maths_DM.comp.typ
@@ -118,10 +127,15 @@ Maths_Exercices_21_09_2023.lorien
 Maths_Exercices_21_09_2023.svg
 Maths_Exercices_25_09_2023.lorien
 Maths_Exercices_25_09_2023.svg
+Maths_Expertes_Ex_07_11_2023.pdf
+Maths_Expertes_Ex_07_11_2023.xopp
 Maths_Expertes_Ex_11_10_2023.pdf
 Maths_Expertes_Ex_11_10_2023.xopp
 Maths_Expertes_Ex_11_10_2023_Animation.gif
+Maths_Expertes_Ex_17_10_2023.pdf
 Maths_Expertes_Ex_17_10_2023.xopp
+Maths_Expertes_Ex_18_10_2023.pdf
+Maths_Expertes_Ex_18_10_2023.xopp
 Maths_Expertes_Exercices_26_09_2023_32.lorien
 Maths_Expertes_Exercices_26_09_2023_32.pdf
 Maths_Expertes_Exercices_26_09_2023_32.svg
@@ -146,6 +160,7 @@ mecanique_quantique_2.typ
 Method Of Lagrange Multipliers.md
 Method Of Lagrange Multipliers.pdf
 Method Of Lagrange Multipliers.typ
+mpf.ps1
 Multiple Integrations.md
 Multiple Integrations.pdf
 Multiple Integrations.typ
@@ -166,6 +181,7 @@ Olympiades_Groupes_Partie_2.typ
 Partial Derivative.md
 Partial Derivative.pdf
 Partial Derivative.typ
+pdf.ps1
 Pensée_1_Liberté.md
 Pensée_1_Liberté.pdf
 Pensée_1_Liberté.typ
@@ -180,8 +196,13 @@ Physique_Act_16_10_2023_1.md
 Physique_Act_16_10_2023_1.pdf
 Physique_Act_16_10_2023_1.typ
 Physique_Act_16_10_2023_2.xopp
+Physique_Act_Ch3.pdf
 Physique_Cours_3.pdf
 Physique_Cours_3.xopp
+Physique_Cours_5.pdf
+Physique_Cours_5.xopp
+Physique_Ex_06_11_2023.pdf
+Physique_Ex_06_11_2023.xopp
 Physique_Ex_08_10_2023.pdf
 Physique_Ex_08_10_2023.xopp
 Physique_Exercices_03_01_23_p73-75.md
