@@ -1,0 +1,77 @@
+#import "template.typ": *
+
+// Take a look at the file `template.typ` in the file panel
+// to customize this template and discover how it works.
+#show: project.with(
+  title: "ES DM 1 07 11 2023",
+  authors: (
+    "Lucas Duchet-Annez",
+  ),
+  date: "31 Octobre, 2023",
+)
+
+#set heading(numbering: "1.1.")
+
+== Question 1: #emph[Discerner les problèmes réels des faux problèmes
+qui peuvent se poser au sujet de l’intelligence artificielle.]
+<question-1-discerner-les-problèmes-réels-des-faux-problèmes-qui-peuvent-se-poser-au-sujet-de-lintelligence-artificielle.>
+Les documents présentent plusieurs problématiques liées au développement
+de l’intelligence artificielle et des automatismes dans notre société.
+Certains soulèvent des questions éthiques et juridiques réelles, tandis
+que d’autres me semblent reposer sur de fausses hypothèses.
+
+Le document 1 pose clairement la question de la responsabilité en cas de
+dysfonctionnement d’un robot domestique. Qui est responsable dans ce cas
+? Le fabricant, l’utilisateur, le robot lui-même ? Cette question me
+semble tout à fait pertinente et réelle, le droit devant s’adapter pour
+définir les responsabilités de chacun face à ces nouvelles technologies
+autonomes.
+
+Le document 2 liste des adaptations du droit pour encadrer
+l’intelligence artificielle. Cependant, il me semble que ce ne sont pas
+là des problèmes réels posés par cette technologie, mais plutôt des
+questions que les hommes doivent régler entre eux. La protection des
+données personnelles, la redéfinition des responsabilités juridiques
+relèvent de choix humains et non de problèmes inhérents à l’IA.
+
+En revanche, le document 3 me semble reposer sur une hypothèse excessive
+et infondée. L’idée qu’une société pourrait décider "d’écarter" des
+personnes détectées comme malades grâce à l’IA me paraît très
+improbable. Rien n’indique qu’une société démocratique emprunterait
+cette voie radicale plutôt que de soigner ces personnes. Ce risque me
+semble donc largement exagéré.
+
+En conclusion, l’intelligence artificielle soulève des questions
+juridiques et éthiques bien réelles, comme celle de la responsabilité en
+cas de dysfonctionnement. Mais certains discours alarmistes reposent sur
+des hypothèses peu crédibles et exagèrent les risques. Il faut garder un
+regard mesuré et pragmatique sur ces technologies pour en tirer le
+meilleur parti tout en encadrant leur usage de façon responsable.
+
+== Question 2: #emph[Montrer que l’intelligence artificielle est issue
+de nombreuses disciplines.]
+<question-2-montrer-que-lintelligence-artificielle-est-issue-de-nombreuses-disciplines.>
+Les documents montrent que l’intelligence artificielle puise ses
+origines dans de nombreux domaines scientifiques et techniques.
+
+Le document 1 rappelle que dès le 18ème siècle, l’horlogerie a permis
+les premiers automates programmables, ancêtres des robots actuels. On
+voit donc que la mécanique a joué un rôle précurseur.
+
+Le document 2 indique que la cybernétique, science du contrôle et de la
+communication chez les êtres vivants et les machines, a révolutionné la
+robotique moderne dans les années 1950. La cybernétique s’inspire de la
+biologie et des processus nerveux pour concevoir des robots dotés de
+rétroaction.
+
+Enfin, le document 3 souligne que l’informatique moderne s’intéresse aux
+connexions neuronales et à l’interaction homme-machine. L’intelligence
+artificielle puise donc aussi dans les neurosciences et la psychologie
+cognitive.
+
+On constate au final que l’intelligence artificielle, domaine récent,
+est issue du croisement de disciplines variées comme la mécanique,
+l’électronique, l’informatique, les mathématiques, la biologie ou encore
+les sciences cognitives. C’est de cette rencontre entre différents
+champs de connaissances qu’est née et se développe l’intelligence
+artificielle.

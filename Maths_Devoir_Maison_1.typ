@@ -3,11 +3,11 @@
 // Take a look at the file `template.typ` in the file panel
 // to customize this template and discover how it works.
 #show: project.with(
-  title: "Maths devoir Maison 1",
+  title: "Maths Devoir Maison 1",
   authors: (
     "Lucas Duchet-Annez",
   ),
-  date: "24 Octobre, 2023",
+  date: "30 Octobre, 2023",
 )
 
 #set heading(numbering: "1.1.")
