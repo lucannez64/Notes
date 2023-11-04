@@ -129,7 +129,7 @@ Ex.
 - $angle.l (2+3i) u bar.v v angle.r= (2-3i)  angle.l u bar.v v angle.r$
 
 ==== Norme <BBAB>
-$accent(u,arrow) vec(x_1,x_2,..,x_n) bar.v.double accent(u,arrow) bar.v.double = sqrt(sum_(i=1)^n = bar.v x_i^2 bar.v) in RR_+$  avec |x| le module de x soit pour un nombre complexe $z = a+i b$ le module de z est  $ |z| = sqrt(a^2+b^2)$ par conséquent $ bar.v.double accent(u,arrow) bar.v.double ^2 = bar.v x_1 bar.v^2 +  bar.v x_2 bar.v^2 + .. +  bar.v x_n bar.v^2 $ puisque $bar.v z  space.thin bar.v^2 = a^2+b^2 = z^*dot.op z arrow. $ 
+$accent(u,arrow) vec(x_1,x_2,..,x_n) bar.v.double accent(u,arrow) bar.v.double = sqrt(sum_(i=1)^n bar.v x_i^2 bar.v) in RR_+$  avec |x| le module de x soit pour un nombre complexe $z = a+i b$ le module de z est  $ |z| = sqrt(a^2+b^2)$ par conséquent $ bar.v.double accent(u,arrow) bar.v.double ^2 = bar.v x_1 bar.v^2 +  bar.v x_2 bar.v^2 + .. +  bar.v x_n bar.v^2 $ puisque $bar.v z  space.thin bar.v^2 = a^2+b^2 = z^*dot.op z arrow. $ 
 $ bar.v.double u bar.v.double = sqrt(angle.l u bar.v u angle.r)$
 
 ==== Orthogonalité <BBAC>
