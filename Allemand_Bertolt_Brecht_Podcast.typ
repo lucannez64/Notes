@@ -7,19 +7,19 @@
   authors: (
     "Lucas Duchet-Annez",
   ),
-  date: "26 Novembre, 2023",
+  date: "2 Décembre, 2023",
 )
 
 #set heading(numbering: "1.1.")
 
 === Geburstag
 <geburstag>
-Ich wurde am 10. Februar 1898 geboren.
+Ich wurde am 10. Februar 1898 im Augsburg geboren.
 
 === Hintergrund
 <hintergrund>
 Nein, ich habe keinen klassischen Hintergrund als Schriftstellerin weil
-ich Medizin und Naturwissenschaften studiert habe.
+ich Medizin und Philosophie studiert habe.
 
 === Literatur
 <literatur>
@@ -29,16 +29,16 @@ und viel gelesen, insbesondere Goethe oder meine Zeitgenossen.
 === Epischen Theater
 <epischen-theater>
 Im epischen Theater wollte ich eine Distanz zwischen dem Zuschauer und
-dem Stück schaffen, um Reflexion zu ermöglichen Das epische Theater
+dem Stück schaffen, um Reflexion zu ermöglichen. Das epische Theater
 zielt auf intellektuelle Teilnahme ab, während das dramatische Theater
 oft auf emotionale Identifikation setzt.
 
 === Exil
 <exil>
 Ich bin wegen des Aufstiegs des Nazismus ins Exil gegangen und ich war
-1933 im Exil in Prag, Wien, Dänemark, 1939 in Schweden, 1940 in Finnland
-und 1941 in den USA. Meine politischen Ideen und meine offene Kritik am
-Faschismus wurden nicht gerne gesehen.
+1933 im Exil in Prag, in Wien, nach Dänemark, 1939 nach Schweden, 1940
+nach Finnland und 1941 in den USA. Meine politischen Ideen und meine
+offene Kritik am Faschismus wurden nicht gerne gesehen.
 
 === RDA und Berliner Ensemble
 <rda-und-berliner-ensemble>
@@ -71,7 +71,8 @@ kritisieren.
 
 === Familie
 <familie>
-Ich habe eine Frau Helene Weigel und zwei Kinder Stefan und Barbara.
+Ich habe eine Frau Helene Weigel und vier Kinder Hanna, Frank, Stefan
+und Barbara.
 
 === Schreiben
 <schreiben>
@@ -81,8 +82,7 @@ Ungerechtigkeiten zu hinterfragen und kritisch zu denken.
 
 === Emotionen
 <emotionen>
-Die Emotionen in meinen Stücken kommen von der Musik und den komischen
-Momenten oder der Distanz zur Bühne.
+Im epischen Theater fühlt der Zuschauer keine Emotionen
 
 === Nach dem Krieg
 <nach-dem-krieg>
