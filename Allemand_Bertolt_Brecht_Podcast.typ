@@ -7,7 +7,7 @@
   authors: (
     "Lucas Duchet-Annez",
   ),
-  date: "2 Décembre, 2023",
+  date: "3 Décembre, 2023",
 )
 
 #set heading(numbering: "1.1.")
@@ -18,13 +18,13 @@ Ich wurde am 10. Februar 1898 im Augsburg geboren.
 
 === Hintergrund
 <hintergrund>
-Nein, ich habe keinen klassischen Hintergrund als Schriftstellerin weil
+Nein, ich habe keinen klassischen Hintergrund als Schriftsteller weil
 ich Medizin und Philosophie studiert habe.
 
-=== Literatur
-<literatur>
-Ich habe aus Leidenschaft für die Literatur mit dem Schreiben begonnen
-und viel gelesen, insbesondere Goethe oder meine Zeitgenossen.
+=== Bedeutung
+<bedeutung>
+Diese Werke sind politisch und kulturell wichtig, da sie den Faschismus
+und den Kapitalismus anprangern und sie leicht verständlich war.
 
 === Epischen Theater
 <epischen-theater>
@@ -42,10 +42,12 @@ offene Kritik am Faschismus wurden nicht gerne gesehen.
 
 === RDA und Berliner Ensemble
 <rda-und-berliner-ensemble>
-Ich wohne in der DDR in Ost-Berlin und habe vor, mit meiner Frau Das
-Berliner Ensemble im Theater am Schiffbauerdamm ein Theater zu gründen.
-Ich gründete 1949 das Berliner Ensemble in das Theater am
+Ich wohne in der DDR in Ost-Berlin und ich habe vor, mit meiner Frau
+Helene ein Theater namens Berliner Ensemble im Theater am Schiffbauerdam
+zu gründen. Ich gründete 1949 das Berliner Ensemble in das Theater am
 schiffbauerdamm
+
+Meine Leben sieht gut aus
 
 === Die Dreigroschenoper und der aufhaltsame Aufstieg des Arturo Ui
 <die-dreigroschenoper-und-der-aufhaltsame-aufstieg-des-arturo-ui>
@@ -55,7 +57,8 @@ Weill. Während Der aufhaltsame Aufstieg des Arturo Ui eine tragische
 Fabel über den Aufstieg des Nazis durch eine Metapher aus Chicago ist.
 
 Ich denke, dass das leichte Verständnis der Werke sie bekannt gemacht
-hat
+hat. Ich wurde der aufhaltsame Aufstieg des Arturo Ui mit Margarete
+Steffin geschaffen.
 
 === Musik Dreigroschenoper
 <musik-dreigroschenoper>
@@ -64,9 +67,9 @@ unterstreichen
 
 === Kommunismus
 <kommunismus>
-Ich bin politisch auf den Kommunismus orientiert. Für mich ist der
-Kommunismus eine gerechtere Perspektive der Gesellschaft und ich benutze
-den Klassenkampf oft, um die Ungerechtigkeit des Kapitalismus zu
+Ich bin ein Sympathisant der Kommunisten. Für mich ist der Kommunismus
+eine gerechtere Perspektive der Gesellschaft und ich benutze den
+Klassenkampf oft, um die Ungerechtigkeit des Kapitalismus zu
 kritisieren.
 
 === Familie
@@ -76,9 +79,10 @@ und Barbara.
 
 === Schreiben
 <schreiben>
-Für mich ist Schreiben dafür da, zum Nachdenken anzuregen Ich möchte,
+Für mich ist Schreiben dafür da, zum Nachdenken anzuregen. Ich möchte,
 dass meine Werke die Zuschauer inspirieren, soziale und politische
-Ungerechtigkeiten zu hinterfragen und kritisch zu denken.
+Ungerechtigkeiten zu hinterfragen und kritisch zu denken. Ich prangere
+die Ungerechtigkeiten des Kapitalismus an.
 
 === Emotionen
 <emotionen>
