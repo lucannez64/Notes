@@ -223,5 +223,92 @@ $x^2 lt 1$ car $x^2$ est croissante sur $bb(R)^plus$ $x^2 minus 1 lt 0$
   ]
 )
 
+= Brouillon
+<brouillon>
+== Exercice 2
+<exercice-2>
++ #figure([#image("DM4_3.png")],
+    caption: [
+      Arbre de probabilités
+    ]
+  )
+
++ #block[
+  #set enum(numbering: "a.", start: 1)
+  + $a_2 eq P lr((A_2 sect B_1)) plus P lr((A_2 sect A_1)) eq P_(B_1) lr((A_2)) P lr((B_1)) plus P_(A_2) lr((A_1)) P lr((A_2))$
+    donc $a_2 eq 0.5 times 0.24 plus 0.5 times 0.84 eq 0.54$
+
+  + $P_(A_2) lr((B_1)) eq frac(P paren.l A_2 sect B_1, P lr((A_2))) eq frac(0.24 times 0.5, 0.54) eq 2 / 9$
+  ]
+
++ ```
+  a. 
+  ```
+
+  #image("DM4_4.png") \
+  b.
+  $a_n plus 1 eq lr((0.24)) lr((1 minus a_n)) plus 0.84 a_n eq 0.24 minus 0.24 a_n plus 0.84 a_n eq 0.6 a_n plus 0.24$
+
++ Soit à démonter:
+  $P lr((n)) upright(": \"") a_n eq 0.6 minus 0.1 times 0.6^(n minus 1) upright("\"")$
+  \
+  Initialisation: au rang $n eq 1$ on a d’une part $a_1 eq 0.5$ et
+  $0.6 minus 0.1 times 0.6^0 eq 0.5$ Donc $P lr((1))$ est vraie
+  c’est-à-dire la propriété est initialisée. \
+  Hérédité: On suppose qu’il existe un entier naturel $k$ tel que
+  $P lr((k))$ soit vraie c’est-à-dire
+  $a_k eq 0.6 minus 0.1 times 0.6^(k minus 1)$ \
+  On veut démontrer que la propriété est vraie au rang $k plus 1$ \
+  $a_(k plus 1) eq 0.6 lr((a_k)) plus 0.24 eq 0.6 lr((0.6 minus 0.1 times 0.6^(k minus 1))) plus 0.24$
+  ~
+  $a_(k plus 1) eq 0.36 minus 0.1 times 0.6^(k plus 1 minus 1) plus 0.24 eq 0.6 minus 0.1 times 0.6^(k plus 1 minus 1)$
+  \
+  Donc $P lr((k plus 1))$ est vraie c’est-à-dire $P lr((n))$ est
+  héréditaire. \
+  Conclusion: La propriété est initialisée et héréditaire donc d’après
+  le principe de récurrence
+  $forall n in bb(N)^ast.basic upright(", on a :") a_n eq 0.6 minus 0.1 times 0.6^(n minus 1)$
+
++ $lim_(n arrow.r plus oo) 0.6^n eq 0$ car $minus 1 lt 0.6 lt 1$ Donc
+  $lim_(n arrow.r plus oo) a_n eq 0.6$ Ce qui veut dire qu’après un
+  grand nombre de jour la probabilité de trouver le vélo au point A au
+  matin suivant est de 0.6
+
++ On peut utiliser un programme de seuil
+
+```python
+def seuil(A):
+  u=0.5
+  n=1
+  while u < A:
+    n+=1
+    u=0.6*u+0.24
+  return n
+print(seuil(0.599))
+```
+
+On obtient n\=11 ce qui veut dire qu’après 11 matin la probabilité
+d’obtenir le vélo au point A le matin suivant sera supérieur à 0.599
+
 == Exercice 3
 <exercice-3>
+D’après le théorème de Pythagore on a $R^2 eq r^2 plus lr((h / 2))^2$
+soit $r^2 eq R^2 minus lr((h / 2))^2$ Or le volume d’un cylindre
+d’hauteur variable est $V lr((h)) eq pi r^2 h$ Donc
+$V lr((h)) eq pi lr((R^2 minus lr((h / 2))^2)) h eq pi h lr((R^2 minus h^2 / 4))$
+
+On peut maintenant étudier les variations de $V$ sur
+$bracket.r 0 semi 2 R bracket.l$
+$V prime lr((h)) eq pi lr((R^2 minus h^2 / 4)) plus frac(minus 1, 2) h lr((pi h)) eq pi R^2 minus frac(3 pi h^2, 4)$
+
+$ V prime lr((h)) eq 0 $ $ pi R^2 minus frac(3 pi h^2, 4) eq 0 $
+$ pi R^2 eq frac(3 pi h^2, 4) $ $ 4 pi R^2 eq 3 pi h^2 $
+$ frac(4 pi R^2, 3 pi) eq h^2 $ $ frac(4 R^2, 3) eq h^2 $ Donc
+$h eq frac(2 R, sqrt(3))$ \
+car $R gt 0$ et $h gt 0$ en tant que longeur.
+
+Donc $h eq frac(2 R, sqrt(3))$ quand $V lr((h))$ est maximal et
+$r^2 eq R^2 minus h^2 / 4$ \
+$ r^2 eq frac(2 R^2, 3) $
+$ r eq frac(R sqrt(2), sqrt(3)) eq sqrt(2 / 3) R $ car $R gt 0$ et
+$r gt 0$ en tant que longeur.

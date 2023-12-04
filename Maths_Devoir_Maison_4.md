@@ -100,6 +100,66 @@ $x^2-1<0$
 ### Partie D
 ![h(x) en pointillé](DM4_2.png)
 
+# Brouillon
+
+## Exercice 2
+
+1. ![Arbre de probabilités](DM4_3.png)
+
+2. 
+    a. $a_2=P(A_2\cap B_1)+P(A_2\cap A_1)=P_{B_1}(A_2)P(B_1)+P_{A_2}(A_1)P(A_2)$
+    donc $a_2=0.5\times 0.24 + 0.5\times 0.84 = 0.54$
+
+    b. $P_{A_2}(B_1) = \dfrac{P(A_2\cap B_1}{P(A_2)}=\dfrac{0.24\times 0.5}{0.54} = \dfrac{2}{9}$
+
+3.    
+    a. 
+![Arbre de probabilités 2](DM4_4.png)
+\
+    b. $a_n+1=(0.24)(1-a_n)+0.84a_n=0.24-0.24a_n+0.84a_n = 0.6a_n +0.24$
+4. Soit à démonter: $P(n) \text{: "} a_n = 0.6-0.1\times 0.6^{n-1} \text{"}$ \
+Initialisation: au rang $n=1$ on a d'une part $a_1 = 0.5$ et $0.6-0.1\times 0.6^{0}=0.5$ Donc $P(1)$ est vraie c'est-à-dire la propriété est initialisée. \
+Hérédité: On suppose qu'il existe un entier naturel $k$ tel que $P(k)$ soit vraie c'est-à-dire $a_k=0.6-0.1\times 0.6^{k-1}$ \
+On veut démontrer que la propriété est vraie au rang $k+1$ \
+$a_{k+1} = 0.6(a_k) +0.24 = 0.6(0.6-0.1\times 0.6^{k-1}) +0.24$ \ 
+$a_{k+1} = 0.36 -0.1\times 0.6^{k+1-1} + 0.24 = 0.6 -0.1\times 0.6^{k+1-1}$ \
+Donc $P(k+1)$ est vraie c'est-à-dire $P(n)$ est héréditaire. \
+Conclusion: La propriété est initialisée et héréditaire donc d'après le principe de récurrence $\forall n \in \mathbb{N}^* \text{, on a :} a_n = 0.6-0.1\times 0.6^{n-1}$
+
+5. $\lim_{n \to +\infty} 0.6^n = 0$ car $-1<0.6<1$ Donc $\lim_{n \to +\infty} a_n = 0.6$ Ce qui veut dire qu'après un grand nombre de jour la probabilité de trouver le vélo au point A au matin suivant est de 0.6 
+
+6. On peut utiliser un programme de seuil 
+```python
+def seuil(A):
+  u=0.5
+  n=1
+  while u < A:
+    n+=1
+    u=0.6*u+0.24
+  return n
+print(seuil(0.599))
+```
+On obtient n=11 ce qui veut dire qu'après 11 matin la probabilité d'obtenir le vélo au point A le matin suivant sera supérieur à 0.599
+
 ## Exercice 3
 
+D'après le théorème de Pythagore on a 
+$R^2 = r^2 + (\dfrac{h}{2})^2$
+soit $r^2 = R^2 - (\dfrac{h}{2})^2$
+Or le volume d'un cylindre d'hauteur variable est $V(h) = \pi r^2 h$ Donc $V(h)=\pi (R^2 -(\dfrac{h}{2})^2)h = \pi h(R^2 -\dfrac{h^2}{4})$
 
+On peut maintenant étudier les variations de $V$ sur $]0;2R[$
+$V'(h)= \pi(R^2-\dfrac{h^2}{4}) + \dfrac{-1}{2}h(\pi h) = \pi R^2 - \dfrac{3\pi h^2}{4}$
+
+$$V'(h)=0$$
+$$\pi R^2 - \dfrac{3\pi h^2}{4}=0$$
+$$\pi R^2 = \dfrac{3\pi h^2}{4}$$
+$$4\pi R^2 = 3\pi h^2$$
+$$\dfrac{4\pi R^2}{3\pi} = h^2$$
+$$\dfrac{4R^2}{3} = h^2$$
+Donc $h = \dfrac{2R}{\sqrt{3}}$ \
+car $R>0$ et $h>0$ en tant que longeur.
+
+Donc $h=\dfrac{2R}{\sqrt{3}}$ quand $V(h)$ est maximal et $r^2=R^2-\dfrac{h^2}{4}$ \
+$$r^2=\dfrac{2R^2}{3}$$
+$$r=\dfrac{R\sqrt{2}}{\sqrt{3}}=\sqrt{\dfrac{2}{3}}R$$ car $R>0$ et $r>0$ en tant que longeur.
