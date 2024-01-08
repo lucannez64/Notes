@@ -29,7 +29,16 @@ b.
     $$ lim_{x \to -\infty} 1+x-e^{0.5x-2}=-\infty$$
     b.  
     $$f(x)= 1+x+e^{0.5x-2}=1+0.5x(2-2e^{0.5x-2})=1+0.5x(2-\frac{e^{0.5x}}{0.5x}\times e^{-2})$$ 
-
+    \
+    \
+    \
+    \
+    \
+    \
+    \
+    \
+    \
+    \
 2. a. 
 
 $$f(x)=1+x-e^{X}$$
@@ -63,4 +72,43 @@ Selon le théorème des valeurs intermédiaires l'équation $f(x)=0$ a une uniqu
 
 ### Partie B
 
-1. a.
+1. a. 
+
+Soit à démontrer:
+P(n): "$u_n\leq u_{n+1}\leq 4$"
+
+Initialisation:
+au rang $n=0$
+$u_0=0$
+$u_1=f(0)=1+0-e^{-2}=1-e^{-2}>0$
+
+$4\geq1-e^{-2}\geq0$
+Donc la propriété est initialisée.
+
+Hérédité:
+On suppose qu'il existe un entier k naturel tel que $u_k\leq u_{k+1}\leq 4$
+On cherche à démontrer que la propriété est vraie au rang suivant.
+
+On sait que sur $[0;4]$ f est croissante.
+Donc $f(u_k)\leq f(u_{k+1})\leq f(4)$
+$u_{k+1}\leq u_{k+2}\leq 1+4-e^{0.5\times 4 -2}=4$
+
+Par conséquent la propriété est héréditaire.
+
+Conclusion: 
+La propriété est initialisée et héréditaire selon le principe de récurrence, $\forall n\in \mathbb{N}$, on a: $u_n\leq u_{n+1}\leq 4$
+
+b. On sait que f est un fonction continue sur $[0; 4]$ et que pour tout entier appartenant à $[0;4]$
+$(u_n)$ est une suite à valeurs dans $[0;4]$;
+De plus $(u_n)$ est croissante et majorée par 4 donc elle converge vers un réel l appartenant à $[0;4]$
+et l est l'une des solutions de l'équation $f(x)=x$
+
+$1+x-e^{0.5x-2}=x$
+$1+x-x=e^{0.5x-2}$
+$ln(1)=0.5x-2$
+$4+2ln(1)=x$
+$4=x$
+Donc $l=4$
+
+2. On en déduit que pour que $u_n \geq 3.99$, $n\geq 12$ 
+
