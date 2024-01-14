@@ -7,13 +7,10 @@
   authors: (
     "Lucas Duchet-Annez",
   ),
-  date: "30 Octobre, 2023",
+  date: "14 Janvier, 2024",
 )
 
 #set heading(numbering: "1.1.")
-
-Louis Le Grand 1 Pierre De Fermat 2 Stanislas 3 Saint-Louis 4 Parc 5
-Montaigne 6 chateaubriand 7 Fénelon 8 Chaptal 9 Camille Guérin 10
 
 #align(center)[#table(
   columns: 2,
@@ -38,7 +35,7 @@ Montaigne 6 chateaubriand 7 Fénelon 8 Chaptal 9 Camille Guérin 10
   [8],
   [Chaptal],
   [9],
-  [Camille Guérin],
+  [Jean Dautet],
   [10],
 )
 ]
