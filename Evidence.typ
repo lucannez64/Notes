@@ -7,7 +7,7 @@
   authors: (
     "Lucas Duchet-Annez",
   ),
-  date: "20 Décembre, 2023",
+  date: "14 Février, 2024",
 )
 
 #set heading(numbering: "1.1.")
@@ -17,6 +17,7 @@
 - Hirew
 - Δoxa
 - 荣耀归于自由
+- Akuvogo
 
 == Quotes
 <quotes>

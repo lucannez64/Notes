@@ -2,6 +2,7 @@
 - Hirew
 - Δoxa
 - 荣耀归于自由
+- Akuvogo
 
 ## Quotes
 - 정말 짜증나네
