@@ -2,6 +2,11 @@
 // It takes your content and some metadata and formats it.
 // Go ahead and customize it to your liking!
 #import "physics.typ"
+#import "@preview/physica:0.9.3"
+#import "@preview/cheq:0.1.0": checklist
+#import "@preview/whalogen:0.1.0": ce
+
+#show: checklist.with(fill: luma(95%), stroke: blue, radius: .2em)
 #let project(title: "", authors: (), date: none, body) = {
   // Set the document's basic properties.
   set document(author: authors, title: title)
