@@ -1,0 +1,2 @@
+- [] https://git-cliff.org/
+- [] https://notesnook.com/
