@@ -91,5 +91,3 @@
   let (a, b) = ("tree.0-0-1", "tree.0-1-0",)
   line((a, 1.5, b), (b, .6, a), mark: (end: ">", start: ">"))
 })
-
-
