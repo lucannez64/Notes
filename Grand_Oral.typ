@@ -14,7 +14,7 @@
 
 == Problématique
 
-Comment les mathématiques permettent-elles de sécuriser nos conversations ?
+Comment sécurisons-nous nos conversations ?
 
 == Plan
 
@@ -23,6 +23,7 @@ Comment les mathématiques permettent-elles de sécuriser nos conversations ?
 - Présentation du contexte : les communications électroniques sont de plus en plus courantes dans notre vie quotidienne, mais cela pose des risques de sécurité 
 - Présentation du sujet : les mathématiques permettent de sécuriser nos conversations en utilisant des algorithmes de cryptographie basés sur des principes mathématiques solides
 - But de l'exposé : montrer comment les mathématiques permettent de sécuriser nos conversations en utilisant des exemples concrets
+- Choix du sujet : expliquer les raisons
 
 === 2. Les clés asymétriques et symétriques
 
