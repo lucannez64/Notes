@@ -7,7 +7,7 @@
   authors: (
     "Lucas Duchet-Annez",
   ),
-  date: "14 Février, 2024",
+  date: "30 Juin, 2024",
 )
 
 #set heading(numbering: "1.1.")
@@ -18,10 +18,11 @@
 - Δoxa
 - 荣耀归于自由
 - Akuvogo
+- Kalah
 
 == Quotes
 <quotes>
 - 정말 짜증나네
-- Δψ \= 0
+- Δψ = 0
 - What one man calls God, another calls the laws of physics
 - همچنین خواهد گذشت

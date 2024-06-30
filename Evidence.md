@@ -3,6 +3,7 @@
 - Δoxa
 - 荣耀归于自由
 - Akuvogo
+- Kalah
 
 ## Quotes
 - 정말 짜증나네
