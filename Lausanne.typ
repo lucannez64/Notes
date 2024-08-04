@@ -7,7 +7,7 @@
   authors: (
     "Lucas Duchet-Annez",
   ),
-  date: "3 Août, 2024",
+  date: "4 Août, 2024",
 )
 
 #set heading(numbering: "1.1.")
@@ -67,6 +67,7 @@
     - #link("https://www.ubs.com/ch/fr/private/accounts-and-cards/bundles/generation.html")[lien]
   - neon free
     - Banque en ligne
+  - Revolut
 - Electricité
   - #link("https://www.lausanne.ch/vie-pratique/energies-et-eau/services-industriels/particuliers/je-choisis-mon-offre/electricite.html?tab=tarifs")[lien]
 - Assurance mobilier ménage
