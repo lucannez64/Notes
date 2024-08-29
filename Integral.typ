@@ -7,7 +7,7 @@
   authors: (
     "Lucas Duchet-Annez",
   ),
-  date: "30 Octobre, 2023",
+  date: "10 Août, 2024",
 )
 
 #set heading(numbering: "1.1.")
@@ -20,15 +20,15 @@ Theorem: \
 If F a antiderivative of f then F+C is the most general antiderivative
 
 Ex: \
-$f lr((x)) eq c o s lr((x))$ \
-$F lr((x)) eq s i n x plus c$ \
+$f (x) = c o s (x)$ \
+$F (x) = s i n x + c$ \
 Ex: \
-$f lr((x)) eq x^n comma n eq.not minus 1$ \
+$f (x) = x^n , n eq.not - 1$ \
 Power Chain Rule : \
-$F eq frac(x^(n plus 1), n plus 1) plus C$ \
+$F = frac(x^(n + 1), n + 1) + C$ \
 Ex: \
-n\=-1 : $f lr((x)) eq 1 / x$ \
-$F lr((x)) eq l n lr(|x|) plus c$
+n=-1 : $f (x) = 1 / x$ \
+$F (x) = l n lr(|x|) + c$
 
 == Links
 <links>

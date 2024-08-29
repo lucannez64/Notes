@@ -7,7 +7,7 @@
   authors: (
     "Lucas Duchet-Annez",
   ),
-  date: "30 Octobre, 2023",
+  date: "10 Août, 2024",
 )
 
 #set heading(numbering: "1.1.")
@@ -220,12 +220,12 @@ comprendre le comportement des systèmes quantiques.
 Voici un exemple de fonction d’onde pour une particule dans une boîte :
 
 #block[
-$psi lr((x)) eq sqrt(2 / L) sin lr((frac(pi n x, L)))$
+$psi (x) = sqrt(2 / L) sin (frac(pi n x, L))$
 
 ]
 où $n$ est un entier et $L$ la longueur de la boîte. La longueur d’onde
-de cette fonction d’onde est $lambda eq 2 L / n$, et l’amplitude est
-$A eq sqrt(2 / L)$. Le carré de cette fonction d’onde donne la
+de cette fonction d’onde est $lambda = 2 L / n$, et l’amplitude est
+$A = sqrt(2 / L)$. Le carré de cette fonction d’onde donne la
 probabilité de trouver la particule en un point particulier de la boîte.
 
 Representation de fonction d’onde
@@ -233,24 +233,23 @@ Representation de fonction d’onde
 <espaces-de-hilbert-et-vecteurs-détat>
 La mécanique quantique est une théorie mathématique qui utilise des
 #emph[espaces de Hilbert] pour représenter les #strong[états quantiques
-d’un système]. Un #emph[espace de Hilbert] est un #strong[espace
+d’un système];. Un #emph[espace de Hilbert] est un #strong[espace
 vectoriel complexe] avec une structure interne qui permet de définir une
 notion de distance et de convergence, nommé produit interne. Les
 #emph[vecteurs d’état] quantique sont des éléments de cet espace de
 Hilbert et représentent l’état quantique d’un système. Les vecteurs
 d’état sont généralement notés #strong[|ψ⟩] et peuvent être exprimés
 comme une #strong[combinaison linéaire de vecteurs de base appelés états
-propres].
+propres];.
 
 === Produit Scalaire (Produit interne)
 <produit-scalaire-produit-interne>
 Le produit scalaire correspond pour deux vecteurs de taille n
-$u^arrow.r vec(x_1, x_2, dot.basic dot.basic, x_n) x_i in bb(C)$ et
-$v^arrow.r vec(y_1, x_2, dot.basic dot.basic, y_n) y_i in bb(C) med thin$
-à
+$u^arrow.r vec(x_1, x_2, . ., x_n) x_i in bb(C)$ et
+$v^arrow.r vec(y_1, x_2, . ., y_n) y_i in bb(C) med thin$ à
 
 #block[
-$angle.l u bar.v v angle.r eq sum_(i eq 1)^n x_i^ast.basic y_i in bb(C)$
+$angle.l u \| v angle.r = sum_(i = 1)^n x_i^(\*) y_i in bb(C)$
 
 ]
 avec \* le conjugué
@@ -259,39 +258,38 @@ avec \* le conjugué
 <linéarité-et-anti-linéarité>
 Le produit scalaire est linéaire à droite et anti-linéaire à gauche
 
-- $angle.l u lr(|v_1 plus v_2 angle.r eq angle.l u|) v_1 angle.r plus angle.l u bar.v v_2 angle.r$
+- $angle.l u lr(|v_1 + v_2 angle.r = angle.l u|) v_1 angle.r + angle.l u \| v_2 angle.r$
 
-- $angle.l u_1 plus u_2 lr(|v angle.r eq angle.l u_1|) v angle.r plus angle.l u_2 bar.v v angle.r$
+- $angle.l u_1 + u_2 lr(|v angle.r = angle.l u_1|) v angle.r + angle.l u_2 \| v angle.r$
 
-- $angle.l u lr(|lambda v angle.r eq lambda angle.l u|) v angle.r$
+- $angle.l u lr(|lambda v angle.r = lambda angle.l u|) v angle.r$
 
-- $angle.l u lr(|lambda v angle.r eq lambda angle.l u|) v angle.r lambda in bb(C)$
+- $angle.l u lr(|lambda v angle.r = lambda angle.l u|) v angle.r lambda in bb(C)$
 
-- $angle.l lambda u lr(|v angle.r eq lambda^ast.basic angle.l u|) v angle.r lambda in bb(C)$
+- $angle.l lambda u lr(|v angle.r = lambda^(\*) angle.l u|) v angle.r lambda in bb(C)$
 
 Ex.
 
-- $angle.l u lr(|lr((2 plus 3 i)) v angle.r eq lr((2 plus 3 i)) angle.l u|) v angle.r$
+- $angle.l u lr(|(2 + 3 i) v angle.r = (2 + 3 i) angle.l u|) v angle.r$
 
-- $angle.l lr((2 plus 3 i)) u lr(|v angle.r eq lr((2 minus 3 i)) angle.l u|) v angle.r$
+- $angle.l (2 + 3 i) u lr(|v angle.r = (2 - 3 i) angle.l u|) v angle.r$
 
 ==== Norme
 <norme>
-$u^arrow.r vec(x_1, x_2, dot.basic dot.basic, x_n) parallel u^arrow.r parallel eq sqrt(sum_(i eq 1)^n eq lr(|x_i^2|)) in bb(R)_plus$
-avec |x| le module de x soit pour un nombre complexe $z eq a plus i b$
-le module de z est $ lr(|z|) eq sqrt(a^2 plus b^2) $ par conséquent
-$ parallel u^arrow.r parallel^2 eq lr(|x_1|)^2 plus lr(|x_2|)^2 plus dot.basic dot.basic plus lr(|x_n|)^2 $
-puisque
-$lr(|z thin|)^2 eq a^2 plus b^2 eq z^ast.basic dot.op z arrow.r dot.basic$
-$ parallel u parallel eq sqrt(angle.l u bar.v u angle.r) $
+$u^arrow.r vec(x_1, x_2, . ., x_n) parallel u^arrow.r parallel = sqrt(sum_(i = 1)^n = lr(|x_i^2|)) in bb(R)_(+)$
+avec |x| le module de x soit pour un nombre complexe $z = a + i b$ le
+module de z est $ lr(|z|) = sqrt(a^2 + b^2) $ par conséquent
+$ parallel u^arrow.r parallel^2 = lr(|x_1|)^2 + lr(|x_2|)^2 + . . + lr(|x_n|)^2 $
+puisque $lr(|z thin|)^2 = a^2 + b^2 = z^(\*) dot.op z arrow.r .$
+$ parallel u parallel = sqrt(angle.l u \| u angle.r) $
 
 ==== Orthogonalité
 <orthogonalité>
-Deux vecteurs sont orthogonaux si $angle.l u bar.v v angle.r eq 0$
+Deux vecteurs sont orthogonaux si $angle.l u \| v angle.r = 0$
 
 ==== Symétrie
 <symétrie>
-$ angle.l u bar.v v angle.r eq lr((angle.l v bar.v u angle.r))^ast.basic $
+$ angle.l u \| v angle.r = (angle.l v \| u angle.r)^(\*) $
 
 == Opérateurs et observables
 <opérateurs-et-observables>
@@ -299,10 +297,11 @@ Les #emph[opérateurs quantiques] sont des #strong[transformations
 linéaires] qui agissent sur les vecteurs d’état quantique pour produire
 de nouveaux vecteurs d’état. Les #emph[observables] sont des grandeurs
 physiques qui peuvent être mesurées expérimentalement, telles que la
-#strong[position], la #strong[quantité de mouvement] et
-l’#strong[énergie]. Les observables sont représentées par des
-#emph[opérateurs hermitiens]. Les valeurs propres de ces opérateurs sont
-les valeurs possibles pour les mesures de l’observable correspondante.
+#strong[position];, la #strong[quantité de mouvement] et
+l’#strong[énergie];. Les observables sont représentées par des
+#emph[opérateurs hermitiens];. Les valeurs propres de ces opérateurs
+sont les valeurs possibles pour les mesures de l’observable
+correspondante.
 
 === Opérateurs linéaires
 <opérateurs-linéaires>
@@ -311,8 +310,8 @@ vecteurs d’un espace vectoriel $V$ à des vecteurs d’un autre espace
 vectoriel $W$, de telle sorte que pour tout vecteur $x$ et $y$ dans $V$
 et tout scalaire $c$,
 
-$hat(L) lr((lr(|x angle.r plus|) y angle.r)) eq hat(L) lr((bar.v x angle.r)) plus hat(L) lr((bar.v y angle.r))$
-$hat(L) lr((c bar.v x angle.r)) eq c hat(L) lr((bar.v x angle.r))$
+$hat(L) (lr(|x angle.r +|) y angle.r) = hat(L) (\| x angle.r) + hat(L) (\| y angle.r)$
+$hat(L) (c \| x angle.r) = c hat(L) (\| x angle.r)$
 
 La notation d’un opérateur linéaire est généralement un chapeau,
 $hat(L)$. Par exemple, l’opérateur linéaire qui prend un vecteur $x$ à
@@ -324,7 +323,7 @@ représente la position d’une particule est désigné par $hat(x)$. La
 formule de la valeur espérée d’une observable $O$ est donnée par
 
 #block[
-$angle.l O angle.r eq integral psi^ast.basic O psi d x$
+$angle.l O angle.r = integral psi^(\*) O psi d x$
 
 ]
 où $psi$ est la fonction d’onde de la particule.
@@ -347,7 +346,7 @@ observables sont les suivantes :
 
 + Les états propres doivent être mutuellement orthogonaux.
 
-#strong[Exemple]:
+#strong[Exemple];:
 
 Énergie potentielle
 
@@ -358,7 +357,7 @@ potentielle est désigné par $hat(V)$.
 La formule de l’énergie potentielle est donnée par
 
 #block[
-$hat(V) eq minus frac(planck.reduce^2, 2 m) nabla^2$
+$hat(V) = - frac(planck.reduce^2, 2 m) nabla^2$
 
 ]
 où $nabla^2$ est l’opérateur Laplacien.
@@ -368,14 +367,14 @@ valeurs propres et les états propres de l’atome d’hydrogène. Les valeurs
 propres de l’atome d’hydrogène sont données par
 
 #block[
-$E_n eq minus frac(13.6 upright(" eV"), n^2)$
+$E_n = - frac(13.6 upright(" eV"), n^2)$
 
 ]
 où $n$ est un nombre entier. Les états propres de l’atome d’hydrogène
 sont donnés par les fonctions d’onde
 
 #block[
-$psi_n lr((r comma theta comma phi)) eq 1 / sqrt(4 pi a_0^3) lr((n^2 / r))^(3 / 2) e^(minus n^2 r / 2 a_0) e^(i m theta) e^(i n phi)$
+$psi_n (r , theta , phi) = 1 / sqrt(4 pi a_0^3) (n^2 / r)^(3 / 2) e^(- n^2 r / 2 a_0) e^(i m theta) e^(i n phi)$
 
 ]
 où $a_0$ est le rayon de Bohr.
@@ -388,17 +387,17 @@ et couvrent tout l’espace vectoriel.
 Le formalisme de Dirac est une notation mathématique pour la mécanique
 quantique qui utilise des notations spéciales pour les vecteurs d’état
 et les opérateurs. Dans cette notation, les vecteurs d’état sont
-représentés sous forme de ket #strong[$bar.v psi angle.r$] et les
-vecteurs duale, qui sont les vecteurs adjoints, sont représentés sous
-forme de bra #strong[$angle.l psi bar.v$]. Lorsque l’on prend le produit
-scalaire d’un ket avec un bra, on obtient une expression appelée le
-bra-ket, notée #strong[$angle.l psi bar.v phi angle.r$], qui représente
-la probabilité de transition entre les deux états quantiques. Le
-formalisme de Dirac permet également de représenter les opérateurs
-quantiques sous forme de notations spéciales, telles que l’opérateur
-identité, l’opérateur de projection et l’opérateur de translation. Cette
-notation simplifie considérablement les calculs en mécanique quantique
-et permet une compréhension plus intuitive de la théorie.
+représentés sous forme de ket #strong[$\| psi angle.r$] et les vecteurs
+duale, qui sont les vecteurs adjoints, sont représentés sous forme de
+bra #strong[$angle.l psi \|$];. Lorsque l’on prend le produit scalaire
+d’un ket avec un bra, on obtient une expression appelée le bra-ket,
+notée #strong[$angle.l psi \| phi angle.r$];, qui représente la
+probabilité de transition entre les deux états quantiques. Le formalisme
+de Dirac permet également de représenter les opérateurs quantiques sous
+forme de notations spéciales, telles que l’opérateur identité,
+l’opérateur de projection et l’opérateur de translation. Cette notation
+simplifie considérablement les calculs en mécanique quantique et permet
+une compréhension plus intuitive de la théorie.
 
 === Bra-Ket notation
 <bra-ket-notation>
@@ -411,11 +410,11 @@ mécanique quantique est très répandue. De nombreux phénomènes expliqués
 à l’aide de la mécanique quantique sont expliqués à l’aide de la
 notation bra-ket.
 
-Dans la notation bra-ket, un bra est désigné par $angle.l psi bar.v$ et
-un ket est désigné par $bar.v phi angle.r$. Un bra est une fonction
-linéaire, ce qui signifie qu’il prend un vecteur en entrée et renvoie un
-nombre complexe. Un ket est un vecteur, ce qui signifie qu’il prend un
-nombre complexe en entrée et renvoie un vecteur.
+Dans la notation bra-ket, un bra est désigné par $angle.l psi \|$ et un
+ket est désigné par $\| phi angle.r$. Un bra est une fonction linéaire,
+ce qui signifie qu’il prend un vecteur en entrée et renvoie un nombre
+complexe. Un ket est un vecteur, ce qui signifie qu’il prend un nombre
+complexe en entrée et renvoie un vecteur.
 
 La représentation matricielle d’un bra est un vecteur ligne et la
 représentation matricielle d’un ket est un vecteur colonne. Le produit
@@ -425,11 +424,11 @@ La notation bra-ket est liée au produit intérieur de la manière suivante
 :
 
 #block[
-$angle.l psi bar.v phi angle.r eq integral_(minus oo)^oo psi^ast.basic lr((x)) phi lr((x)) d x$
+$angle.l psi \| phi angle.r = integral_(- oo)^oo psi^(\*) (x) phi (x) d x$
 
 ]
-où $psi^ast.basic lr((x))$ est le conjugué complexe de $psi lr((x))$. Le
-produit intérieur est une mesure du chevauchement entre deux fonctions.
+où $psi^(\*) (x)$ est le conjugué complexe de $psi (x)$. Le produit
+intérieur est une mesure du chevauchement entre deux fonctions.
 
 La notation bra-ket est un outil très utile en mécanique quantique, et
 elle a de nombreuses applications dans la théorie des ondes et des
@@ -439,9 +438,9 @@ comprendre le comportement des systèmes quantiques.
 == Distribution de Dirac
 <distribution-de-dirac>
 La fonction delta de Dirac est une fonction définie comme nulle partout
-sauf au point x\=0, où elle est infinie. Elle est souvent désignée par
-la lettre grecque delta, $delta lr((x))$. La fonction delta de Dirac a
-de nombreuses applications en mécanique quantique, où elle est utilisée
+sauf au point x=0, où elle est infinie. Elle est souvent désignée par la
+lettre grecque delta, $delta (x)$. La fonction delta de Dirac a de
+nombreuses applications en mécanique quantique, où elle est utilisée
 pour représenter des particules ponctuelles et d’autres objets ayant une
 très petite étendue spatiale.
 
@@ -452,10 +451,10 @@ se trouve à un endroit donné. L’intégrale de la fonction d’onde est
 définie comme suit :
 
 #block[
-$integral_(minus oo)^oo psi lr((x)) delta lr((x minus x_0)) d x$
+$integral_(- oo)^oo psi (x) delta (x - x_0) d x$
 
 ]
-où $psi lr((x))$ est la fonction d’onde de la particule et $x_0$ est
+où $psi (x)$ est la fonction d’onde de la particule et $x_0$ est
 l’endroit où la particule est trouvée. La fonction delta de Dirac dans
 cette intégrale nous indique que nous sommes uniquement intéressés à
 trouver la particule à l’endroit $x_0$, et que la probabilité de trouver
@@ -468,13 +467,13 @@ mouvement d’une particule. L’opérateur de quantité de mouvement est
 défini comme suit
 
 #block[
-$hat(p) eq minus i planck.reduce frac(d, d x)$
+$hat(p) = - i planck.reduce frac(d, d x)$
 
 ]
 où $i$ est l’unité imaginaire et $planck.reduce$ est la constante de
 Planck réduite. La fonction delta de Dirac dans cette définition nous
 indique que nous ne nous intéressons qu’à la dérivée de la fonction
-d’onde à l’endroit $x eq 0$, et que la valeur de la dérivée partout
+d’onde à l’endroit $x = 0$, et que la valeur de la dérivée partout
 ailleurs est nulle.
 
 La fonction delta de Dirac est un outil très utile en mécanique
@@ -484,21 +483,21 @@ ondes et des particules.
 Representation de la fonction delta de Dirac
 == Probalités : La loi de Born
 <probalités-la-loi-de-born>
-La probabilité de trouver le système dans l’état propre
-$bar.v E_i angle.r$ est donnée par :
+La probabilité de trouver le système dans l’état propre $\| E_i angle.r$
+est donnée par :
 
 #block[
-$P lr((E eq E_i)) eq lr(|angle.l E_i med bar.v med psi angle.r|)^2$
+$P (E = E_i) = lr(|angle.l E_i med \| med psi angle.r|)^2$
 
 ]
-où $bar.v E_i angle.r$ est l’état propre de l’observable $E$ avec la
-valeur propre $E_i$ et $psi$ est la fonction d’onde du système.
+où $\| E_i angle.r$ est l’état propre de l’observable $E$ avec la valeur
+propre $E_i$ et $psi$ est la fonction d’onde du système.
 
 La fonction d’onde $psi$ peut être écrite comme une somme des états
 propres de l’observable $E$, comme suit :
 
 #block[
-$psi eq sum_i c_i bar.v E_i angle.r$
+$psi = sum_i c_i \| E_i angle.r$
 
 ]
 où $c_i$ sont les coefficients des états propres.
@@ -506,11 +505,11 @@ où $c_i$ sont les coefficients des états propres.
 En substituant ceci à la formule de la probabilité, nous obtenons :
 
 #block[
-$P lr((E eq E_i)) eq lr(|angle.l E_i lr(|sum_i c_i|) E_i angle.r|)^2 eq sum_i lr(|c_i|)^2$
+$P (E = E_i) = lr(|angle.l E_i lr(|sum_i c_i|) E_i angle.r|)^2 = sum_i lr(|c_i|)^2$
 
 ]
 Ceci montre que la probabilité de trouver le système dans l’état propre
-$bar.v E_i angle.r$ est égale à la somme des carrés des coefficients des
+$\| E_i angle.r$ est égale à la somme des carrés des coefficients des
 états propres.
 
 === Matrice densité et Espérance mathématique
@@ -528,7 +527,7 @@ quantique décrit par une matrice densité $rho$ est donnée par la formule
 suivante :
 
 #block[
-$angle.l hat(A) angle.r eq upright(" Tr") lr((rho hat(A)))$
+$angle.l hat(A) angle.r = upright(" Tr") (rho hat(A))$
 
 ]
 où $upright("Tr")$ est la fonction trace. La fonction trace d’une
@@ -551,10 +550,10 @@ de Born stipule que la probabilité d’obtenir un résultat $a$ lors de la
 mesure d’une observable $hat(A)$ est donnée par la formule suivante :
 
 #block[
-$P lr((a)) eq frac(angle.l a lr(|rho|) a angle.r, sum_i angle.l i lr(|rho|) i angle.r)$
+$P (a) = frac(angle.l a lr(|rho|) a angle.r, sum_i angle.l i lr(|rho|) i angle.r)$
 
 ]
-où $bar.v a angle.r$ est l’état propre de $hat(A)$ correspondant au
+où $\| a angle.r$ est l’état propre de $hat(A)$ correspondant au
 résultat $a$.
 
 La matrice densité est un outil très important en mécanique quantique.
@@ -569,7 +568,7 @@ d’onde d’un système quantique.
 L’adjoint hermitien d’un ket est un bra. Il est noté $A^dagger$.
 L’adjoint hermitien d’un ket est défini comme suit :
 
-$angle.l A^dagger psi lr(|phi angle.r eq angle.l psi|) A phi angle.r$
+$angle.l A^dagger psi lr(|phi angle.r = angle.l psi|) A phi angle.r$
 
 pour tous les vecteurs $psi$ et $phi$ dans l’espace vectoriel.
 
@@ -577,16 +576,16 @@ L’adjoint hermitien possède plusieurs propriétés. L’une d’entre elles
 est qu’il est linéaire. Cela signifie que si $A$ et $B$ sont deux
 opérateurs, alors
 
-$lr((A B))^dagger eq B^dagger A^dagger$
+$(A B)^dagger = B^dagger A^dagger$
 
 Une autre propriété est qu’elle est anti-linéaire. Cela signifie que si
 $A$ est un opérateur et $c$ un nombre complexe, alors
 
-$lr((c A))^dagger eq c_macron A^dagger$
+$(c A)^dagger = c_macron A^dagger$
 
 Enfin, l’adjoint hermitien satisfait la relation suivante :
 
-$lr((A^dagger))^dagger eq A$
+$(A^dagger)^dagger = A$
 
 L’adjoint hermitien est un outil très important en mécanique quantique.
 Il est utilisé pour définir le produit intérieur, qui est une mesure du
@@ -597,20 +596,20 @@ moyenne de l’observable sur tous les états possibles du système.
 ==== L’adjoint d’un Ket et d’un Bra
 <ladjoint-dun-ket-et-dun-bra>
 L’adjoint d’un Ket et d’un bra correspond à
-$angle.l phi lr(|psi angle.r^dagger eq angle.l phi|) psi angle.r^star.op eq angle.l psi med bar.v med phi angle.r$
+$angle.l phi lr(|psi angle.r^dagger = angle.l phi|) psi angle.r^star.op = angle.l psi med \| med phi angle.r$
 ou
-$lr((angle.l phi med bar.v med psi angle.r))^dagger eq lr(|psi angle.r^dagger angle.l phi|)^dagger$
+$(angle.l phi med \| med psi angle.r)^dagger = lr(|psi angle.r^dagger angle.l phi|)^dagger$
 
-D’où $lr(|psi angle.r^dagger eq angle.l psi|)$ et
-$angle.l phi lr(|""^dagger eq|) phi angle.r$
+D’où $lr(|psi angle.r^dagger = angle.l psi|)$ et
+$angle.l phi lr(|""^dagger =|) phi angle.r$
 
 === Opérateur Hermitien
 <opérateur-hermitien>
 Un opérateur hermitien est un opérateur qui satisfait cette condition
-$hat(E)^dagger eq hat(E)$
+$hat(E)^dagger = hat(E)$
 
 C’est le cas des observables par conséquent
-$angle.l psi lr(|hat(E) phi angle.r eq angle.l hat(E) psi|) phi angle.r$
+$angle.l psi lr(|hat(E) phi angle.r = angle.l hat(E) psi|) phi angle.r$
 
 == Opérateur Unitaire
 <opérateur-unitaire>
@@ -619,17 +618,17 @@ Hilbert $H$ qui satisfait les conditions suivantes :
 
 + $U$ est inversible.
 
-+ $U^(minus 1) eq U^dagger$, où $U^dagger$ est l’adjoint de $U$.
++ $U^(- 1) = U^dagger$, où $U^dagger$ est l’adjoint de $U$.
 
 + $U$ préserve le produit intérieur de $H$, c’est-à-dire que pour tous
   les vecteurs $x$ et $y$ dans $H$, on a
-  $angle.l U x comma U y angle.r eq angle.l x comma y angle.r$.
+  $angle.l U x , U y angle.r = angle.l x , y angle.r$.
 
 Les opérateurs unitaires sont importants en mécanique quantique, car ils
 représentent des transformations physiques qui préservent le produit
 intérieur et la probabilité. Par exemple, l’opérateur d’évolution
-temporelle $U lr((t))$ pour un système quantique est unitaire et
-représente l’évolution du système dans le temps.
+temporelle $U (t)$ pour un système quantique est unitaire et représente
+l’évolution du système dans le temps.
 
 Les propriétés des opérateurs unitaires peuvent être déduites de leur
 définition. Par exemple, les valeurs propres d’un opérateur unitaire
@@ -645,8 +644,8 @@ la probabilité.
 
 Voici quelques exemples d’opérateurs unitaires :
 
-- L’opérateur de rotation $R lr((theta))$, qui fait pivoter un vecteur
-  d’un angle $theta$ autour de l’origine.
+- L’opérateur de rotation $R (theta)$, qui fait pivoter un vecteur d’un
+  angle $theta$ autour de l’origine.
 
 - L’opérateur de réflexion $S$, qui réfléchit un vecteur à travers
   l’origine.
@@ -662,12 +661,12 @@ Voici quelques exemples d’opérateurs unitaires :
 En mécanique quantique, le commutateur de deux opérateurs est une mesure
 de la manière dont les deux opérateurs peuvent être mesurés
 simultanément. Le commutateur de deux opérateurs est défini comme
-$bracket.l hat(A) comma hat(B) bracket.r eq hat(A) hat(B) minus hat(B) hat(A)$,
-où $hat(A)$ et $hat(B)$ sont les deux opérateurs. Si le commutateur de
-deux opérateurs est nul, on dit que les opérateurs sont commutatifs. Les
-opérateurs commutatifs peuvent être mesurés simultanément, ce qui
-signifie que les résultats de la mesure d’un opérateur n’affecteront pas
-les résultats de la mesure de l’autre opérateur.
+$\[ hat(A) , hat(B) \] = hat(A) hat(B) - hat(B) hat(A)$, où $hat(A)$ et
+$hat(B)$ sont les deux opérateurs. Si le commutateur de deux opérateurs
+est nul, on dit que les opérateurs sont commutatifs. Les opérateurs
+commutatifs peuvent être mesurés simultanément, ce qui signifie que les
+résultats de la mesure d’un opérateur n’affecteront pas les résultats de
+la mesure de l’autre opérateur.
 
 Si deux observables commutent, ils ont alors une base propre simultanée.
 Une base propre est un ensemble de vecteurs qui sont des vecteurs
@@ -681,10 +680,10 @@ fois la position et la quantité de mouvement d’une particule avec une
 précision parfaite. Le principe d’incertitude peut être dérivé du
 commutateur des opérateurs de position et de quantité de mouvement. Le
 commutateur des opérateurs de position et de quantité de mouvement est
-$bracket.l x comma p bracket.r eq i planck.reduce$, où $planck.reduce$
-est la constante de Planck réduite. Cela signifie qu’il est impossible
-de mesurer simultanément la position et la quantité de mouvement d’une
-particule avec une précision parfaite.
+$\[ x , p \] = i planck.reduce$, où $planck.reduce$ est la constante de
+Planck réduite. Cela signifie qu’il est impossible de mesurer
+simultanément la position et la quantité de mouvement d’une particule
+avec une précision parfaite.
 
 Le principe d’incertitude peut être exprimé mathématiquement comme suit
 pour la position et la quantité de mouvement:
@@ -700,7 +699,7 @@ Il existe une forme généralisée du principe d’incertitude nommé
 relations d’incertitude Robertson-Schrödinger:
 
 #block[
-$sigma_A sigma_B gt.eq lr(|frac(1, 2 i) angle.l bracket.l hat(A) comma hat(B) bracket.r angle.r|)$
+$sigma_A sigma_B gt.eq lr(|frac(1, 2 i) angle.l \[ hat(A) , hat(B) \] angle.r|)$
 
 ]
 Le principe d’incertitude est un principe fondamental de la mécanique
@@ -711,49 +710,49 @@ mécanique quantique et pour la compréhension du monde physique.
 <postulats-de-la-mécanique-quantique>
 + L’état d’un système quantique est entièrement défini par un vecteur
   d’état dans un espace de Hilbert. Un vecteur d’état est généralement
-  noté $bar.v psi angle.r$ et appartient à un espace de Hilbert H. Les
+  noté $\| psi angle.r$ et appartient à un espace de Hilbert H. Les
   états quantiques sont des vecteurs unitaires dans H, c’est-à-dire que
-  $angle.l psi bar.v psi angle.r eq 1$.
+  $angle.l psi \| psi angle.r = 1$.
 
 + Les observables quantiques sont représentées par des opérateurs
   hermitiens. Un opérateur hermitien A est un opérateur qui est égal à
   sa propre adjointe $A^dagger$ (c’est-à-dire que
-  $A eq A^dagger upright(" avec ") dagger upright(" le conjugué soit ") star.op$).
+  $A = A^dagger upright(" avec ") dagger upright(" le conjugué soit ") star.op$).
   Les valeurs propres de l’opérateur hermitien A correspondent aux
   résultats possibles de la mesure de l’observable associée à A.
 
 + Les résultats de la mesure d’une observable quantique sont des valeurs
   propres de l’opérateur associé à cette observable. Si l’on mesure une
   observable quantique représentée par l’opérateur hermitien A sur un
-  état quantique $bar.v psi angle.r$, la probabilité d’obtenir une
-  valeur propre a est donnée par la formule
-  $P lr((a)) eq lr(|angle.l a|) psi angle.r lr(|""^2 upright(" où ")|) a angle.r$
+  état quantique $\| psi angle.r$, la probabilité d’obtenir une valeur
+  propre a est donnée par la formule
+  $P (a) = lr(|angle.l a|) psi angle.r lr(|""^2 upright(" où ")|) a angle.r$
   est le vecteur propre correspondant à la valeur propre a.
 
 + La probabilité de mesurer une valeur propre donnée est donnée par le
   carré du module de l’amplitude de probabilité correspondante.
   L’amplitude de probabilité pour obtenir une valeur propre a lorsqu’on
   mesure une observable quantique représentée par l’opérateur hermitien
-  A sur un état quantique $bar.v psi angle.r$ est donnée par
-  $angle.l a bar.v psi angle.r$. La probabilité P(a) d’obtenir la valeur
+  A sur un état quantique $\| psi angle.r$ est donnée par
+  $angle.l a \| psi angle.r$. La probabilité P(a) d’obtenir la valeur
   propre a est alors donnée par
 
   #block[
-  $P lr((a)) eq lr(|angle.l a|) psi angle.r bar.v^2$
+  $P (a) = lr(|angle.l a|) psi angle.r \|^2$
 
   ]
   .
 
 + L’évolution temporelle d’un système quantique est décrite par
   l’équation de Schrödinger. L’évolution temporelle d’un état quantique
-  $bar.v psi lr((t)) angle.r$ est décrite par l’équation de Schrödinger
+  $\| psi (t) angle.r$ est décrite par l’équation de Schrödinger
 
   #block[
-  $i planck.reduce frac(diff, diff t) lr(|psi lr((t)) angle.r eq hat(H)|) psi lr((t)) angle.r$
+  $i planck.reduce frac(partial, partial t) lr(|psi (t) angle.r = hat(H)|) psi (t) angle.r$
 
   ]
   où $hat(H)$ est l’hamiltonien du système donc l’énergie totale du
-  système et $planck.reduce upright(" est ") eq frac(h, 2 pi)$.
+  système et $planck.reduce upright(" est ") = frac(h, 2 pi)$.
 
 + Les états quantiques peuvent être intriqués, ce qui signifie que les
   propriétés de chaque particule ne peuvent pas être décrites
@@ -768,31 +767,31 @@ L’équation de Schrödinger dépendante du temps peut être obtenue à partir
 de l’équation de Schrödinger indépendante en suivant les étapes
 suivantes :
 
-+ Supposons que la fonction d’onde $Psi lr((t comma r))$ puisse être
-  écrite comme un produit d’un facteur dépendant du temps et d’un
-  facteur dépendant de l’espace :
++ Supposons que la fonction d’onde $Psi (t , r)$ puisse être écrite
+  comme un produit d’un facteur dépendant du temps et d’un facteur
+  dépendant de l’espace :
 
 #block[
-$Psi lr((t comma r)) eq psi lr((t)) phi lr((r))$
+$Psi (t , r) = psi (t) phi (r)$
 
 ]
 + Substituer ceci dans l’équation de Schrödinger indépendante et
-  multiplier les deux côtés par $psi lr((t))^ast.basic$ :
+  multiplier les deux côtés par $psi (t)^(\*)$ :
 
 #block[
-$minus frac(i planck.reduce, 2 m) psi prime lr((t)) eq lr((minus frac(planck.reduce^2, 2 m))) Delta phi lr((r)) plus V lr((r)) phi lr((r)) paren.r psi lr((t))^ast.basic$
+$- frac(i planck.reduce, 2 m) psi prime (t) = (- frac(planck.reduce^2, 2 m)) Delta phi (r) + V (r) phi (r) \) psi (t)^(\*)$
 
 ]
 + Simplifier le côté gauche en combinant les termes :
 
 #block[
-$minus frac(i planck.reduce, 2 m) psi prime lr((t)) eq minus frac(planck.reduce^2, 2 m) Delta psi lr((t)) plus V lr((r)) psi lr((t))^ast.basic$
+$- frac(i planck.reduce, 2 m) psi prime (t) = - frac(planck.reduce^2, 2 m) Delta psi (t) + V (r) psi (t)^(\*)$
 
 ]
 + Intégrer les deux côtés par rapport au temps :
 
 #block[
-$psi lr((t)) eq psi lr((0)) plus frac(i planck.reduce, 2 m) integral_0^t Delta psi lr((s)) d s minus frac(i planck.reduce, 2 m) integral_0^t V lr((r)) psi lr((s))^ast.basic d s$
+$psi (t) = psi (0) + frac(i planck.reduce, 2 m) integral_0^t Delta psi (s) d s - frac(i planck.reduce, 2 m) integral_0^t V (r) psi (s)^(\*) d s$
 
 ]
 + Le premier terme du côté droit est la fonction d’onde initiale, que
@@ -801,14 +800,14 @@ $psi lr((t)) eq psi lr((0)) plus frac(i planck.reduce, 2 m) integral_0^t Delta p
   de Schrödinger indépendante du temps :
 
 #block[
-$Delta psi lr((s)) plus V lr((r)) psi lr((s)) eq 0$
+$Delta psi (s) + V (r) psi (s) = 0$
 
 ]
 L’équation de Schrödinger dépendante du temps peut alors être écrite
 comme suit :
 
 #block[
-$i planck.reduce frac(diff psi lr((t)), diff t) eq H psi lr((t))$
+$i planck.reduce frac(partial psi (t), partial t) = H psi (t)$
 
 ]
 où $H$ est l’opérateur hamiltonien.
@@ -835,41 +834,41 @@ L’équation de Schrödinger pour une particule dans un puits de potentiel
 fini est la suivante :
 
 #block[
-$minus frac(planck.reduce^2, 2 m) nabla^2 psi lr((x)) plus V lr((x)) psi lr((x)) eq E psi lr((x))$
+$- frac(planck.reduce^2, 2 m) nabla^2 psi (x) + V (x) psi (x) = E psi (x)$
 
 ]
-où $V lr((x))$ est l’énergie potentielle de la particule, $E$ est
-l’énergie de la particule, $psi lr((x))$ est la fonction d’onde de la
-particule, et $planck.reduce$ est la constante de Planck réduite.
+où $V (x)$ est l’énergie potentielle de la particule, $E$ est l’énergie
+de la particule, $psi (x)$ est la fonction d’onde de la particule, et
+$planck.reduce$ est la constante de Planck réduite.
 
 Pour résoudre l’équation de Schrödinger, on peut utiliser la méthode de
 séparation des variables. Cette méthode consiste à supposer que la
 fonction d’onde peut être séparée en deux parties :
 
 #block[
-$psi lr((x)) eq X lr((x)) Y lr((y)) Z lr((z))$
+$psi (x) = X (x) Y (y) Z (z)$
 
 ]
-où $X lr((x))$ est une fonction de $x$, $Y lr((y))$ est une fonction de
-$y$, et $Z lr((z))$ est une fonction de $z$. En substituant ceci à
-l’équation de Schrödinger, nous obtenons :
+où $X (x)$ est une fonction de $x$, $Y (y)$ est une fonction de $y$, et
+$Z (z)$ est une fonction de $z$. En substituant ceci à l’équation de
+Schrödinger, nous obtenons :
 
 #block[
-$minus frac(planck.reduce^2, 2 m) nabla^2 X lr((x)) plus V lr((x)) X lr((x)) eq E X lr((x))$
-
-]
-#block[
-$minus frac(planck.reduce^2, 2 m) nabla^2 Y lr((y)) plus E Y lr((y))$
+$- frac(planck.reduce^2, 2 m) nabla^2 X (x) + V (x) X (x) = E X (x)$
 
 ]
 #block[
-$minus frac(planck.reduce^2, 2 m) nabla^2 Z lr((z)) plus E Z lr((z))$
+$- frac(planck.reduce^2, 2 m) nabla^2 Y (y) + E Y (y)$
 
 ]
-La première équation peut être résolue pour $X lr((x))$, la deuxième
-pour $Y lr((y))$ et la troisième pour $Z lr((z))$. Les solutions de ces
-équations sont appelées fonctions propres, et les valeurs propres
-correspondantes sont les niveaux d’énergie de la particule.
+#block[
+$- frac(planck.reduce^2, 2 m) nabla^2 Z (z) + E Z (z)$
+
+]
+La première équation peut être résolue pour $X (x)$, la deuxième pour
+$Y (y)$ et la troisième pour $Z (z)$. Les solutions de ces équations
+sont appelées fonctions propres, et les valeurs propres correspondantes
+sont les niveaux d’énergie de la particule.
 
 Dans le cas d’une particule dans un puits de potentiel fini, l’énergie
 potentielle est nulle à l’intérieur du puits et infinie à l’extérieur.
@@ -878,14 +877,14 @@ l’extérieur du puits. Les solutions de l’équation de Schrödinger dans ce
 cas sont appelées ondes stationnaires et sont données par :
 
 #block[
-$psi_n lr((x)) eq sqrt(2 / a sin lr((frac(n pi x, a))))$
+$psi_n (x) = sqrt(2 / a sin (frac(n pi x, a)))$
 
 ]
 où $a$ est la largeur du puits et $n$ est un entier. Les niveaux
 d’énergie de la particule sont donnés par :
 
 #block[
-$E_n eq frac(n^2 pi^2 planck.reduce^2, 2 m a^2)$
+$E_n = frac(n^2 pi^2 planck.reduce^2, 2 m a^2)$
 
 ]
 Les ondes stationnaires représentent les états possibles de la particule
@@ -899,7 +898,7 @@ L’équation de Schrödinger pour l’oscillateur harmonique est la suivante
 :
 
 #block[
-$minus frac(planck.reduce^2, 2 m) nabla^2 psi lr((x)) plus 1 / 2 m omega^2 x^2 psi lr((x)) eq E psi lr((x))$
+$- frac(planck.reduce^2, 2 m) nabla^2 psi (x) + 1 / 2 m omega^2 x^2 psi (x) = E psi (x)$
 
 ]
 où $m$ est la masse de l’oscillateur, $omega$ est la fréquence
@@ -910,42 +909,42 @@ des variables. Cette méthode consiste à supposer que la fonction d’onde
 peut être séparée en deux parties :
 
 #block[
-$psi lr((x)) eq X lr((x)) Y lr((y)) Z lr((z))$
+$psi (x) = X (x) Y (y) Z (z)$
 
 ]
-où $X lr((x))$ est une fonction de $x$, $Y lr((y))$ est une fonction de
-$y$, et $Z lr((z))$ est une fonction de $z$. En substituant ceci à
-l’équation de Schrödinger, nous obtenons :
+où $X (x)$ est une fonction de $x$, $Y (y)$ est une fonction de $y$, et
+$Z (z)$ est une fonction de $z$. En substituant ceci à l’équation de
+Schrödinger, nous obtenons :
 
 #block[
-$minus frac(planck.reduce^2, 2 m) frac(d^2 X lr((x)), d x^2) plus 1 / 2 m omega^2 x^2 X lr((x)) eq E X lr((x))$
-
-]
-#block[
-$minus frac(planck.reduce^2, 2 m) frac(d^2 Y lr((y)), d y^2)$
+$- frac(planck.reduce^2, 2 m) frac(d^2 X (x), d x^2) + 1 / 2 m omega^2 x^2 X (x) = E X (x)$
 
 ]
 #block[
-$minus frac(planck.reduce^2, 2 m) frac(d^2 Z lr((z)), d z^2) plus 0 eq E Z lr((z))$
+$- frac(planck.reduce^2, 2 m) frac(d^2 Y (y), d y^2)$
 
 ]
-La première équation peut être résolue pour $X lr((x))$, la deuxième
-pour $Y lr((y))$ et la troisième pour $Z lr((z))$. Les solutions de ces
-équations sont appelées fonctions propres, et les valeurs propres
-correspondantes sont les niveaux d’énergie de l’oscillateur.
+#block[
+$- frac(planck.reduce^2, 2 m) frac(d^2 Z (z), d z^2) + 0 = E Z (z)$
+
+]
+La première équation peut être résolue pour $X (x)$, la deuxième pour
+$Y (y)$ et la troisième pour $Z (z)$. Les solutions de ces équations
+sont appelées fonctions propres, et les valeurs propres correspondantes
+sont les niveaux d’énergie de l’oscillateur.
 
 Les fonctions propres de l’oscillateur harmonique sont appelées
 polynômes d’Hermite et sont données par :
 
 #block[
-$psi_n lr((x)) eq 1 / sqrt(n excl) sqrt(frac(2 omega, p i)) H_n lr((sqrt(omega / 2) x))$
+$psi_n (x) = 1 / sqrt(n !) sqrt(frac(2 omega, p i)) H_n (sqrt(omega / 2) x)$
 
 ]
 où $H_n$ est le $n$ème polynôme d’Hermite. Les niveaux d’énergie de
 l’oscillateur sont donnés par :
 
 #block[
-$E_n eq planck.reduce omega lr((n plus 1 / 2))$
+$E_n = planck.reduce omega (n + 1 / 2)$
 
 ]
 Les polynômes d’Hermite représentent les états possibles de
@@ -960,7 +959,7 @@ d’onde d’une particule est notée $psi$. L’opérateur de quantité de
 mouvement agit sur la fonction d’onde comme suit :
 
 #block[
-$hat(P) psi lr((x)) eq minus i planck.reduce frac(d psi lr((x)), d x)$
+$hat(P) psi (x) = - i planck.reduce frac(d psi (x), d x)$
 
 ]
 où $planck.reduce$ est la constante de Planck réduite.
@@ -970,11 +969,11 @@ quantité de mouvement d’une particule. La quantité de mouvement d’une
 particule est donnée par la formule suivante :
 
 #block[
-$p eq angle.l psi med bar.v med hat(P) psi angle.r$
+$p = angle.l psi med \| med hat(P) psi angle.r$
 
 ]
-où $angle.l psi med bar.v med hat(P) psi angle.r$ est la valeur
-d’espérance de l’opérateur de quantité de mouvement.
+où $angle.l psi med \| med hat(P) psi angle.r$ est la valeur d’espérance
+de l’opérateur de quantité de mouvement.
 
 = Effet Tunnel
 <effet-tunnel>
@@ -1028,7 +1027,7 @@ magnétique. Le moment magnétique μ d’une particule est proportionnel à
 son moment angulaire de spin :
 
 #block[
-$mu eq g ast.basic lr((e / 2 m)) ast.basic S$
+$mu = g \* (e / 2 m) \* S$
 
 ]
 où g est le facteur g, e est la charge élémentaire et m est la masse de
@@ -1040,7 +1039,7 @@ moment angulaire de spin de la particule. L’ampleur du moment angulaire
 de spin peut être calculée à l’aide de la formule suivante :
 
 #block[
-$lr(|S|) eq sqrt(s lr((s plus 1))) ast.basic ħ$
+$lr(|S|) = sqrt(s (s + 1)) \* ħ$
 
 ]
 où ħ (h-bar) est la constante de Planck réduite.
@@ -1050,14 +1049,13 @@ axe donné (généralement l’axe z). La composante le long de l’axe z,
 notée Sz, peut prendre des valeurs discrètes données par :
 
 #block[
-$S z eq m_s ast.basic ħ$
+$S z = m_s \* ħ$
 
 ]
 où $m_s$ est le nombre quantique magnétique, qui varie de -s à s par pas
 entiers. Par exemple, un électron, qui est un fermion de spin 1/2, peut
-avoir deux valeurs possibles pour $S z$ : $plus ħ / 2$ et $minus ħ / 2$,
-correspondant respectivement à $m_s eq plus 1 / 2$ et
-$m_s eq minus 1 / 2$.
+avoir deux valeurs possibles pour $S z$ : $+ ħ / 2$ et $- ħ / 2$,
+correspondant respectivement à $m_s = + 1 / 2$ et $m_s = - 1 / 2$.
 
 La rotation du vecteur spin sous l’effet des rotations de la particule
 est décrite par l’opérateur de moment angulaire de spin, noté S.
@@ -1065,17 +1063,17 @@ L’algèbre de spin régit les relations de commutation entre les
 composantes du vecteur spin :
 
 #block[
-$bracket.l S x comma S y bracket.r eq i ħ S z comma bracket.l S y comma S z bracket.r eq i ħ S x comma bracket.l S z comma S x bracket.r eq i ħ S y$
+$\[ S x , S y \] = i ħ S z , \[ S y , S z \] = i ħ S x , \[ S z , S x \] = i ħ S y$
 
 ]
-Les valeurs propres de $S z$ sont
-$m_s eq s comma s minus 1 comma dots.h comma minus s$, ce qui signifie
-que la projection du spin est quantifiée le long de l’axe z. Cette
-quantification a des implications pour le comportement des particules
-dans les champs magnétiques, ainsi que pour la distribution des
-particules dans les systèmes. Cette quantification a des implications
-sur le comportement des particules dans les champs magnétiques, ainsi
-que sur la distribution des particules dans les systèmes.
+Les valeurs propres de $S z$ sont $m_s = s , s - 1 , dots.h , - s$, ce
+qui signifie que la projection du spin est quantifiée le long de l’axe
+z. Cette quantification a des implications pour le comportement des
+particules dans les champs magnétiques, ainsi que pour la distribution
+des particules dans les systèmes. Cette quantification a des
+implications sur le comportement des particules dans les champs
+magnétiques, ainsi que sur la distribution des particules dans les
+systèmes.
 
 La force du couplage spin-orbite est proportionnelle au numéro atomique
 du noyau et au spin électronique, et joue un rôle important dans des

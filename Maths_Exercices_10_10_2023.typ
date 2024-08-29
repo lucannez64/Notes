@@ -7,11 +7,12 @@
   authors: (
     "Lucas Duchet-Annez",
   ),
-  date: "30 Octobre, 2023",
+  date: "10 Août, 2024",
 )
 
 #set heading(numbering: "1.1.")
 
-#image("Exercies_10_10_2023_1.png") #image("Exercies_10_10_2023_2.png")
+#box(image("Exercies_10_10_2023_1.png"))
+#box(image("Exercies_10_10_2023_2.png"))
 
 #link("Maths_Exercices.pdf")[Maths Exercices]

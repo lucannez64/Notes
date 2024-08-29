@@ -7,7 +7,7 @@
   authors: (
     "Lucas Duchet-Annez",
   ),
-  date: "30 Octobre, 2023",
+  date: "10 Août, 2024",
 )
 
 #set heading(numbering: "1.1.")
@@ -16,7 +16,7 @@
 <question-les-lois-politiques-empêchent-elles-la-liberté>
 \
 
-#emph[Les lois politiques n’empêchent pas la liberté]. En effet la
+#emph[Les lois politiques n’empêchent pas la liberté];. En effet la
 liberté peut-être définie comme le fait de pouvoir faire ce que l’on
 veut sans empiéter sur celle des autres. De plus les lois politiques
 établissent des règles qui garantissent des droits. Or ces droits

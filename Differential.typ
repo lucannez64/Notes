@@ -7,7 +7,7 @@
   authors: (
     "Lucas Duchet-Annez",
   ),
-  date: "30 Octobre, 2023",
+  date: "10 Août, 2024",
 )
 
 #set heading(numbering: "1.1.")
@@ -16,7 +16,7 @@
 <differential-equations>
 == Definition
 <definition>
-#link("SimpleOrdinaryDE.pdf")[Simple $dot(x) eq lambda x$]
+#link("SimpleOrdinaryDE.pdf")[Simple $dot(x) = lambda x$]
 
 == Links
 <links>

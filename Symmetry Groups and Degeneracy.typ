@@ -7,7 +7,7 @@
   authors: (
     "Lucas Duchet-Annez",
   ),
-  date: "30 Octobre, 2023",
+  date: "10 Août, 2024",
 )
 
 #set heading(numbering: "1.1.")
@@ -23,9 +23,9 @@
   quantifies the rotational motion of a system.
 - Angular momentum operators, denoted by $J$, are defined by the
   commutation relations
-  $lr([J_i comma J_j]) eq i planck.reduce epsilon.alt_(i j k) J_k$,
-  where $i$, $j$, and $k$ are the Cartesian components and
-  $epsilon.alt_(i j k)$ is the Levi-Civita symbol.
+  $[J_i , J_j] = i planck.reduce epsilon.alt_(i j k) J_k$, where $i$,
+  $j$, and $k$ are the Cartesian components and $epsilon.alt_(i j k)$ is
+  the Levi-Civita symbol.
 
 === 2. Angular Momentum:
 <angular-momentum>
@@ -41,7 +41,7 @@
 === 3. Commutator:
 <commutator>
 - The commutator between two operators $A$ and $B$, denoted by
-  $lr([A comma B])$, is defined as $lr([A comma B]) eq A B minus B A$.
+  $[A , B]$, is defined as $[A , B] = A B - B A$.
 - The commutator quantifies the non-commutativity of operators and
   determines the order in which they act.
 - In quantum mechanics, the commutator between two observables
@@ -63,7 +63,7 @@
 - Symmetry generators are operators that generate symmetry
   transformations on a quantum system.
 - For rotational symmetry, the symmetry generators are the components of
-  angular momentum operators ($J_x comma J_y comma J_z$).
+  angular momentum operators ($J_x , J_y , J_z$).
 - Symmetry generators act on quantum states to produce transformed
   states that belong to the same symmetry class.
 
@@ -75,7 +75,7 @@
 - In quantum mechanics, symmetry groups play a fundamental role in
   determining the properties and behaviors of quantum systems.
 - The symmetry group associated with rotational symmetry is the special
-  unitary group in three dimensions, denoted by $S U lr((2))$.
+  unitary group in three dimensions, denoted by $S U (2)$.
 - Symmetry groups provide a powerful framework for understanding the
   degeneracy and symmetry-related properties of quantum systems.
 
@@ -84,7 +84,7 @@
 - The Lie algebra of a symmetry group is a vector space that captures
   the algebraic properties of the group’s generators.
 - In the case of rotational symmetry, the Lie algebra associated with
-  the special unitary group in three dimensions ($S U lr((2))$) is the
+  the special unitary group in three dimensions ($S U (2)$) is the
   algebra of Pauli spin matrices.
 - The Lie algebra provides a mathematical foundation for studying the
   symmetry transformations and their algebraic relations.
@@ -94,9 +94,9 @@
 - Raising and lowering operators are operators that allow the generation
   of new states with different angular momentum quantum numbers from a
   given state.
-- In the context of angular momentum, raising operators ($J_plus$)
+- In the context of angular momentum, raising operators ($J_(+)$)
   increase the angular momentum quantum number, while lowering operators
-  ($J_minus$) decrease it.
+  ($J_(-)$) decrease it.
 - The action of raising and lowering operators on angular momentum
   eigenstates leads to the construction
 
