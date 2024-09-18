@@ -29,13 +29,17 @@
 = Chapitres
 
 == Pas commencé
-- Compléments
+- Formule de Cramer et des cofacteurs
+- Déterminant
+- Changement de bases et matrices semblables
+- Matrices de passage
+- Développement par colonne/ligne
+- Diagonalisation
+- Espace préhilbertien
+- Le procédé de Gram-Schmidt
 == En cours
-- Intégrale ( Liste des primitives et Changement de variable )
 
 == Fait
-- Calcul Differentiel
 
 
 == Révisé
-
