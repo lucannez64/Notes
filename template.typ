@@ -9,6 +9,9 @@
 #show: checklist.with(fill: luma(95%), stroke: blue, radius: .2em)
 #let project(title: "", authors: (), date: none, body) = {
   // Set the document's basic properties.
+  if sys.version < version(0, 13,1) {
+    panic("Unsupported version")
+  }
   set document(author: authors, title: title)
   set page(numbering: "1", number-align: center)
   set text(font: "Zilla Slab", lang: "fr")
